@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<simple-methods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/simple-methods.xsd">
+
+    <simple-method method-name="updateAddress" short-description="Update Address And Telephone" login-required="false">
+
+
+<!--  No validation is done we just need to transfer the values to the map -->
+		<set field="parameters.fullName" value=""/>
+		<if-not-empty field="parameters.CUSTOMER_FULL_NAME">
+    		<set field="parameters.fullName" from-field="parameters.CUSTOMER_FULL_NAME"/>
+    		<else>
+    			<if-not-empty field="parameters.CUSTOMER_FIRST_NAME">
+    				<set field="parameters.fullName" value="${parameters.CUSTOMER_FIRST_NAME}"/>
+    				<if-not-empty field="parameters.CUSTOMER_LAST_NAME">
+    					<set field="parameters.fullName" value="${parameters.CUSTOMER_FIRST_NAME} ${parameters.CUSTOMER_LAST_NAME}"/>
+    				</if-not-empty>
+    			<else>
+    				<if-not-empty field="parameters.CUSTOMER_LAST_NAME">
+    					<set field="parameters.fullName" value="${parameters.CUSTOMER_LAST_NAME}"/>
+    				</if-not-empty>
+    			</else>
+    			</if-not-empty>
+    		</else>
+    	</if-not-empty>
+         <call-map-processor in-map-name="parameters" out-map-name="shippingAddressContext">
+             <simple-map-processor name="address">
+                 <process field="fullName"><copy to-field="toName"/></process>
+                 <process field="CUSTOMER_ATTN_NAME">
+                     <copy to-field="attnName"/>
+                 </process>
+                 <process field="CUSTOMER_ADDRESS1">
+                     <copy to-field="address1"/>
+                 </process>
+                 <process field="CUSTOMER_ADDRESS2"><copy to-field="address2"/></process>
+                 <process field="CUSTOMER_ADDRESS3"><copy to-field="address3"/></process>
+                 <process field="CUSTOMER_CITY">
+                     <copy to-field="city"/>
+                 </process>
+                 <process field="CUSTOMER_STATE"><copy to-field="stateProvinceGeoId"/></process>
+                 <process field="CUSTOMER_POSTAL_CODE">
+                     <copy to-field="postalCode"/>
+                 </process>
+                 <process field="CUSTOMER_COUNTRY">
+                     <copy to-field="countryGeoId"/>
+                 </process>
+             </simple-map-processor>
+         </call-map-processor>
+         
+        <!--Set the Value for City and Postal Code if they are empty as they are required fields by the service -->
+        <if>
+                <condition>
+                    <or>
+                        <if-compare value="CAN" operator="equals" field="parameters.CUSTOMER_COUNTRY"></if-compare>
+                        <if-compare value="USA" operator="equals" field="parameters.CUSTOMER_COUNTRY"></if-compare>
+                    </or>
+                </condition>
+                <then></then>
+                <else>
+                    <if-empty field="parameters.CUSTOMER_CITY">
+                        <set field="shippingAddressContext.city" value="_NA_"/>
+                    </if-empty>
+                    <if-empty field="parameters.CUSTOMER_POSTAL_CODE">
+                        <set field="shippingAddressContext.postalCode" value="_NA_"/>
+                    </if-empty>
+                </else>
+        </if>
+         
+        <set field="shippingAddressContext.contactMechId" from-field="parameters.contactMechId" />
+        <set field="shippingAddressContext.contactMechTypeId" value="POSTAL_ADDRESS" />
+		
+		<session-to-field field="userLogin"/>
+        <if-not-empty field="parameters.contactMechId">
+	        <set field="partyProfileDefaultCtx.partyId" from-field="userLogin.partyId"/>
+            <set field="partyProfileDefaultCtx.productStoreId" from-field="parameters.productStoreId"/>
+            <set field="partyProfileDefaultCtx.defaultShipAddr" from-field="parameters.contactMechId"/>
+            <find-by-and entity-name="PartyProfileDefault" list="partyProfileDefaultList" map="partyProfileDefaultCtx"/>
+        	
+            <call-service service-name="updatePartyPostalAddress" in-map-name="shippingAddressContext">
+                <result-to-request result-name="contactMechId"  />
+                <result-to-field result-name="contactMechId" />
+            </call-service>
+            
+            <if-not-empty field="partyProfileDefaultList">
+            	<set field="parameters.contactMechId" from-field="contactMechId"/>
+        		<call-simple-method method-name="updateDefaultShipAddr" />
+        	</if-not-empty>
+            <else>
+                <call-service service-name="createPartyPostalAddress" in-map-name="shippingAddressContext">
+                    <result-to-field result-name="contactMechId" field="addressPurposeContext.contactMechId"/>
+                    <result-to-request result-name="contactMechId"  />
+                    <result-to-field result-name="contactMechId"  />
+                </call-service>
+                
+                <set from-field="userLogin.partyId" field="addressPurposeContext.partyId"/>
+                <!-- create the shipping location -->
+                <set from-field="parameters.contactMechPurposeTypeId" field="addressPurposeContext.contactMechPurposeTypeId"/>
+                <call-service service-name="createPartyContactMechPurpose" in-map-name="addressPurposeContext"/>
+            </else>
+        </if-not-empty>
+        
+        <if-not-empty field="parameters.DONE_PAGE">
+        	<if-compare operator="equals" value="eCommerceRecurrenceOrderDetail" field="parameters.DONE_PAGE">
+        		<if-not-empty field="parameters.shoppingListId">
+        			<set field="shoppingListId" from-field="parameters.shoppingListId"/>
+        			<field-to-request field="shoppingListId"/>
+        		</if-not-empty>
+        		<return response-code="eCommerceRecurrenceOrderDetail"/>
+        	</if-compare>
+        </if-not-empty>
+        <!-- If a paymentMethodId was passed to the update address method set the parameter back into the request context -->
+        <if-not-empty field="parameters.paymentMethodId">
+        		<set field="paymentMethodId" from-field="parameters.paymentMethodId"/>
+        		<field-to-request field="paymentMethodId"/>
+        </if-not-empty>
+     </simple-method>
+
+     <simple-method method-name="deleteAddress" short-description="delete Address And Telephone" login-required="false">
+     <call-map-processor in-map-name="parameters" out-map-name="shippingAddressContext">
+             <simple-map-processor name="address">
+                <make-in-string field="fullName">
+                     <in-field field="USER_FIRST_NAME"/><constant> </constant>
+                     <in-field field="USER_LAST_NAME"/>
+                </make-in-string>
+
+                 <process field="fullName"><copy to-field="toName"/></process>
+                 <process field="CUSTOMER_ATTN_NAME">
+                     <copy to-field="attnName"/>
+                 </process>
+                 <process field="CUSTOMER_ADDRESS1">
+                     <copy to-field="address1"/>
+                 </process>
+                 <process field="CUSTOMER_ADDRESS2"><copy to-field="address2"/></process>
+                 <process field="CUSTOMER_CITY">
+                     <copy to-field="city"/>
+                 </process>
+                 <process field="CUSTOMER_STATE"><copy to-field="stateProvinceGeoId"/></process>
+                 <process field="CUSTOMER_POSTAL_CODE">
+                     <copy to-field="postalCode"/>
+                 </process>
+                 <process field="CUSTOMER_COUNTRY">
+                     <copy to-field="countryGeoId"/>
+                 </process>
+             </simple-map-processor>
+         </call-map-processor>
+        <set field="shippingAddressContext.contactMechId" from-field="parameters.contactMechId" />
+        <set field="shippingAddressContext.contactMechTypeId" value="POSTAL_ADDRESS" />
+
+        <if-not-empty field="parameters.contactMechId">
+        <log level="info" message="delete address for party which have contact mech id = ${parameters.contactMechId}"></log>
+            <call-service service-name="deletePartyContactMech" in-map-name="shippingAddressContext">
+                <result-to-request result-name="contactMechId"  />
+                <result-to-field result-name="contactMechId" />
+            </call-service>
+         </if-not-empty>
+
+    </simple-method>
+    <simple-method method-name="updateDefaultShipAddr" short-description="update Default Ship Addr">
+       <call-class-method class-name="org.ofbiz.product.store.ProductStoreWorker" method-name="getProductStoreId" ret-field="productStoreId">
+           <field field="request" type="javax.servlet.ServletRequest"/>
+       </call-class-method>
+       <if-not-empty field="parameters.contactMechId">
+           <set-service-fields service-name="setPartyProfileDefaults" map="parameters" to-map="partyProfileDefaultsCtx"/>
+           <set field="partyProfileDefaultsCtx.defaultShipAddr" from-field="parameters.contactMechId"/>
+           <set field="partyProfileDefaultsCtx.partyId" from-field="userLogin.partyId"/>
+           <set field="partyProfileDefaultsCtx.productStoreId" from-field="productStoreId"/>
+           <call-service service-name="setPartyProfileDefaults" in-map-name="partyProfileDefaultsCtx"/>
+       </if-not-empty>
+    </simple-method>
+</simple-methods>

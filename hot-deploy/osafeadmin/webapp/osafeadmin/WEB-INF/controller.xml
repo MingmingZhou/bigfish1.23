@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<site-conf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://www.ofbiz.org/dtds/site-conf.xsd">
+
+    <include location="component://osafeadmin/webapp/osafeadmin/WEB-INF/controller_admin.xml"/>
+    <include location="component://osafeadmin/webapp/osafeadmin/WEB-INF/controller_admin_custom.xml"/>
+    <description>>General Site Configuration File</description>
+
+</site-conf>

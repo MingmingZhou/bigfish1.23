@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simple-methods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="http://www.ofbiz.org/dtds/simple-methods.xsd">
+
+    <simple-method method-name="importProductRatingsXml" short-description="Method to Import Product Ratings.">
+        <if-empty field="parameters._uploadedFile_fileName">
+            <property-to-field field="tempErrorMessage" resource="OSafeAdminUiLabels" property="BlankFeedFileError"/>
+            <string-to-list string="${tempErrorMessage}" message-field="_uploadedFile_fileName" list="error_list"/>
+        </if-empty>
+        <if-not-empty field="parameters._uploadedFile_fileName">
+            <call-object-method method-name="toUpperCase" obj-field="parameters._uploadedFile_fileName" ret-field="feedFileNameUpperCase"/>
+            <call-object-method method-name="endsWith" obj-field="feedFileNameUpperCase" ret-field="isXMLFile">
+                <string value=".XML"/>
+            </call-object-method>
+            <if-compare field="isXMLFile" operator="equals" value="false">
+                <property-to-field resource="OSafeAdminUiLabels" property="FeedFileNotXmlError" field="tempErrorMessage"/>
+                <string-to-list string="${tempErrorMessage}" message-field="_uploadedFile_fileName" list="error_list"/>
+            </if-compare>
+        </if-not-empty>
+        <check-errors/>
+        
+        <set-service-fields service-name="uploadFile" map="parameters" to-map="uploadFileCtx"/>
+        <if-not-empty field="parameters._uploadedFile_fileName">
+            <set field="uploadFileCtx.uploadedFile" from-field="parameters.uploadedFile"/>
+            <set field="uploadFileCtx._uploadedFile_fileName" from-field="parameters._uploadedFile_fileName"/>
+            <call-service service-name="uploadFile" in-map-name="uploadFileCtx">
+                <result-to-field result-name="uploadFileName" field="parameters.uploadFileName"/>
+                <result-to-field result-name="uploadFilePath" field="parameters.uploadFilePath"/>
+            </call-service>
+            <clear-field field="uploadFileCtx"/>
+        </if-not-empty>
+        
+        <set field="getProductRatingDataListFromFileCtx.productRatingFilePath" from-field="parameters.uploadFilePath"/>
+        <set field="getProductRatingDataListFromFileCtx.productRatingFileName" from-field="parameters.uploadFileName"/>
+        <call-service service-name="getProductRatingDataListFromFile" in-map-name="getProductRatingDataListFromFileCtx">
+            <result-to-field result-name="productRatingDataList" field="parameters.productRatingDataList"/>
+            <result-to-field result-name="errorMessageList" field="error_list"/>
+        </call-service>
+        <check-errors/>
+        
+        <set field="validateProductRatingDataCtx.productRatingDataList" from-field="parameters.productRatingDataList"/>
+        <call-service service-name="validateProductRatingData" in-map-name="validateProductRatingDataCtx">
+            <result-to-field result-name="errorMessageList" field="parameters.validateErrorMessageList"/>
+            <result-to-field result-name="validateMessageList" field="parameters.validateMessageList"/>
+            <result-to-field result-name="processedProductIdList" field="parameters.processedProductIdList"/>
+        </call-service>
+        <list-to-list to-list="error_list" list="parameters.errorMessageList"/>
+        <check-errors/>
+        
+        <if-not-empty field="parameters.processedProductIdList">
+	        <set field="xmlDataFile" value="${parameters.uploadFilePath}${parameters.uploadFileName}"/>
+	        <set field="importClientProductRatingXMLTemplateCtx.xmlDataFile" from-field="xmlDataFile"/>
+	        <set field="importClientProductRatingXMLTemplateCtx.xmlDataDir" from-field="parameters.uploadFilePath"/>
+	        <set field="importClientProductRatingXMLTemplateCtx.autoLoad" value="true" type="Boolean"/>
+	        <set field="importClientProductRatingXMLTemplateCtx.processedProductIdList" from-field="parameters.processedProductIdList" type="List"/>
+	        <call-service service-name="importClientProductRatingXMLTemplate" in-map-name="importClientProductRatingXMLTemplateCtx"/>
+        </if-not-empty>
+    </simple-method>
+    
+    <simple-method method-name="importOrderStatusChangeXml" short-description="Method to Import Order Status Change Feeds.">
+        <if-empty field="parameters._uploadedFile_fileName">
+            <property-to-field field="tempErrorMessage" resource="OSafeAdminUiLabels" property="BlankFeedFileError"/>
+            <string-to-list string="${tempErrorMessage}" message-field="uploadedFile" list="error_list"/>
+        </if-empty>
+        <if-not-empty field="parameters._uploadedFile_fileName">
+            <call-object-method method-name="toUpperCase" obj-field="parameters._uploadedFile_fileName" ret-field="feedFileNameUpperCase"/>
+            <call-object-method method-name="endsWith" obj-field="feedFileNameUpperCase" ret-field="isXMLFile">
+                <string value=".XML"/>
+            </call-object-method>
+            <if-compare field="isXMLFile" operator="equals" value="false">
+                <property-to-field resource="OSafeAdminUiLabels" property="FeedFileNotXmlError" field="tempErrorMessage"/>
+                <string-to-list string="${tempErrorMessage}" message-field="uploadedFile" list="error_list"/>
+            </if-compare>
+        </if-not-empty>
+        <check-errors/>
+        
+        <set-service-fields service-name="uploadFile" map="parameters" to-map="uploadFileCtx"/>
+        <if-not-empty field="parameters._uploadedFile_fileName">
+            <set field="uploadFileCtx.uploadedFile" from-field="parameters.uploadedFile"/>
+            <set field="uploadFileCtx._uploadedFile_fileName" from-field="parameters._uploadedFile_fileName"/>
+            <call-service service-name="uploadFile" in-map-name="uploadFileCtx">
+                <result-to-field result-name="uploadFileName" field="parameters.uploadFileName"/>
+                <result-to-field result-name="uploadFilePath" field="parameters.uploadFilePath"/>
+            </call-service>
+            <clear-field field="uploadFileCtx"/>
+        </if-not-empty>
+        
+        <set field="getOrderStatusDataListFromFileCtx.orderStatusFilePath" from-field="parameters.uploadFilePath"/>
+        <set field="getOrderStatusDataListFromFileCtx.orderStatusFileName" from-field="parameters.uploadFileName"/>
+        <call-service service-name="getOrderStatusDataListFromFile" in-map-name="getOrderStatusDataListFromFileCtx">
+            <result-to-field result-name="orderStatusDataList" field="parameters.orderStatusDataList"/>
+            <result-to-field result-name="errorMessageList" field="error_list"/>
+        </call-service>
+        <check-errors/>
+        
+        <set field="validateOrderStatusDataCtx.orderStatusDataList" from-field="parameters.orderStatusDataList"/>
+        <set field="validateOrderStatusDataCtx.productStoreId" from-field="parameters.productStoreId"/>
+        <call-service service-name="validateOrderStatusData" in-map-name="validateOrderStatusDataCtx">
+            <result-to-field result-name="errorMessageList" field="parameters.serviceErrorMessageList"/>
+            <result-to-field result-name="validateMessageList" field="parameters.validateMessageList"/>
+            <result-to-field result-name="processedOrderIdList" field="parameters.processedOrderIdList"/>
+        </call-service>
+        <list-to-list to-list="error_list" list="parameters.errorMessageList"/>
+        <check-errors/>
+        
+        <if-not-empty field="parameters.processedOrderIdList">
+	        <set field="xmlDataFile" value="${parameters.uploadFilePath}${parameters.uploadFileName}"/>
+	        <set field="importOrderStatusChangeXMLTemplateCtx.xmlDataFile" from-field="xmlDataFile"/>
+	        <set field="importOrderStatusChangeXMLTemplateCtx.xmlDataDir" from-field="parameters.uploadFilePath"/>
+	        <set field="importOrderStatusChangeXMLTemplateCtx.autoLoad" value="true" type="Boolean"/>
+	        <set field="importOrderStatusChangeXMLTemplateCtx.processedOrderIdList" from-field="parameters.processedOrderIdList" type="List"/>
+	        <call-service service-name="importClientOrderStatusXMLTemplate" in-map-name="importOrderStatusChangeXMLTemplateCtx"/>
+        </if-not-empty>
+        
+        <if-not-empty field="parameters.validateMessageList">
+            <field-to-result field="parameters.validateMessageList" result-name="warningMessageList"/>
+        </if-not-empty>
+    </simple-method>
+    
+    
+    <simple-method method-name="importStoresXml" short-description="Method to Import Stores.">
+        <if-empty field="parameters._uploadedFile_fileName">
+            <property-to-field field="tempErrorMessage" resource="OSafeAdminUiLabels" property="BlankFeedFileError"/>
+            <string-to-list string="${tempErrorMessage}" message-field="_uploadedFile_fileName" list="error_list"/>
+        </if-empty>
+        <if-not-empty field="parameters._uploadedFile_fileName">
+            <call-object-method method-name="toUpperCase" obj-field="parameters._uploadedFile_fileName" ret-field="feedFileNameUpperCase"/>
+            <call-object-method method-name="endsWith" obj-field="feedFileNameUpperCase" ret-field="isXMLFile">
+                <string value=".XML"/>
+            </call-object-method>
+            <if-compare field="isXMLFile" operator="equals" value="false">
+                <property-to-field resource="OSafeAdminUiLabels" property="FeedFileNotXmlError" field="tempErrorMessage"/>
+                <string-to-list string="${tempErrorMessage}" message-field="_uploadedFile_fileName" list="error_list"/>
+            </if-compare>
+        </if-not-empty>
+        <check-errors/>
+        
+        <set-service-fields service-name="uploadFile" map="parameters" to-map="uploadFileCtx"/>
+        <if-not-empty field="parameters._uploadedFile_fileName">
+            <set field="uploadFileCtx.uploadedFile" from-field="parameters.uploadedFile"/>
+            <set field="uploadFileCtx._uploadedFile_fileName" from-field="parameters._uploadedFile_fileName"/>
+            <call-service service-name="uploadFile" in-map-name="uploadFileCtx">
+                <result-to-field result-name="uploadFileName" field="parameters.uploadFileName"/>
+                <result-to-field result-name="uploadFilePath" field="parameters.uploadFilePath"/>
+            </call-service>
+            <clear-field field="uploadFileCtx"/>
+        </if-not-empty>
+        
+        <set field="getStoreDataListFromFileCtx.storeFilePath" from-field="parameters.uploadFilePath"/>
+        <set field="getStoreDataListFromFileCtx.storeFileName" from-field="parameters.uploadFileName"/>
+        <call-service service-name="getStoreDataListFromFile" in-map-name="getStoreDataListFromFileCtx">
+            <result-to-field result-name="storeDataList" field="parameters.storeDataList"/>
+            <result-to-field result-name="errorMessageList" field="error_list"/>
+        </call-service>
+        <check-errors/>
+        
+        <set field="validateStoreDataCtx.storeDataList" from-field="parameters.storeDataList"/>
+        <call-service service-name="validateStoreData" in-map-name="validateStoreDataCtx">
+            <result-to-field result-name="errorMessageList" field="parameters.validateErrorMessageList"/>
+            <result-to-field result-name="validateMessageList" field="parameters.validateMessageList"/>
+            <result-to-field result-name="processedStoreCodeList" field="parameters.processedStoreCodeList"/>
+        </call-service>
+        <list-to-list to-list="error_list" list="parameters.errorMessageList"/>
+        <check-errors/>
+        
+        <if-not-empty field="parameters.processedStoreCodeList">
+	        <set field="xmlDataFile" value="${parameters.uploadFilePath}${parameters.uploadFileName}"/>
+	        <set field="importClientStoreXMLTemplateCtx.xmlDataFile" from-field="xmlDataFile"/>
+	        <set field="importClientStoreXMLTemplateCtx.xmlDataDir" from-field="parameters.uploadFilePath"/>
+	        <set field="importClientStoreXMLTemplateCtx.autoLoad" value="true" type="Boolean"/>
+	        <set field="importClientStoreXMLTemplateCtx.processedStoreCodeList" from-field="parameters.processedStoreCodeList" type="List"/>
+	        <call-service service-name="importClientStoreXMLTemplate" in-map-name="importClientStoreXMLTemplateCtx" />
+	    </if-not-empty>
+    </simple-method>
+
+
+    <simple-method method-name="importCustomerXml" short-description="Method to Import Customers.">
+        <if-empty field="parameters._uploadedFile_fileName">
+            <property-to-field field="tempErrorMessage" resource="OSafeAdminUiLabels" property="BlankFeedFileError"/>
+            <string-to-list string="${tempErrorMessage}" message-field="_uploadedFile_fileName" list="error_list"/>
+        </if-empty>
+        <if-not-empty field="parameters._uploadedFile_fileName">
+            <call-object-method method-name="toUpperCase" obj-field="parameters._uploadedFile_fileName" ret-field="feedFileNameUpperCase"/>
+            <call-object-method method-name="endsWith" obj-field="feedFileNameUpperCase" ret-field="isXMLFile">
+                <string value=".XML"/>
+            </call-object-method>
+            <if-compare field="isXMLFile" operator="equals" value="false">
+                <property-to-field resource="OSafeAdminUiLabels" property="FeedFileNotXmlError" field="tempErrorMessage"/>
+                <string-to-list string="${tempErrorMessage}" message-field="_uploadedFile_fileName" list="error_list"/>
+            </if-compare>
+        </if-not-empty>
+        <check-errors/>
+        
+        <set-service-fields service-name="uploadFile" map="parameters" to-map="uploadFileCtx"/>
+        <if-not-empty field="parameters._uploadedFile_fileName">
+            <set field="uploadFileCtx.uploadedFile" from-field="parameters.uploadedFile"/>
+            <set field="uploadFileCtx._uploadedFile_fileName" from-field="parameters._uploadedFile_fileName"/>
+            <call-service service-name="uploadFile" in-map-name="uploadFileCtx">
+                <result-to-field result-name="uploadFileName" field="parameters.uploadFileName"/>
+                <result-to-field result-name="uploadFilePath" field="parameters.uploadFilePath"/>
+            </call-service>
+            <clear-field field="uploadFileCtx"/>
+        </if-not-empty>
+        
+        <set field="getCustomerDataListFromFileCtx.customerFilePath" from-field="parameters.uploadFilePath"/>
+        <set field="getCustomerDataListFromFileCtx.customerFileName" from-field="parameters.uploadFileName"/>
+        <call-service service-name="getCustomerDataListFromFile" in-map-name="getCustomerDataListFromFileCtx">
+            <result-to-field result-name="customerDataList" field="parameters.customerDataList"/>
+            <result-to-field result-name="errorMessageList" field="error_list"/>
+        </call-service>
+        <check-errors/>
+        
+        <set field="validateCustomerDataCtx.customerDataList" from-field="parameters.customerDataList"/>
+        <call-service service-name="validateCustomerData" in-map-name="validateCustomerDataCtx">
+            <result-to-field result-name="errorMessageList" field="parameters.validateErrorMessageList"/>
+        </call-service>
+        <list-to-list to-list="error_list" list="parameters.validateErrorMessageList"/>
+        <check-errors/>
+        
+        <set field="xmlDataFile" value="${parameters.uploadFilePath}${parameters.uploadFileName}"/>
+        <set field="importCustomerXMLTemplateCtx.xmlDataFile" from-field="xmlDataFile"/>
+        <set field="importCustomerXMLTemplateCtx.xmlDataDir" from-field="parameters.uploadFilePath"/>
+        <set field="importCustomerXMLTemplateCtx.autoLoad" value="true" type="Boolean"/>
+        <call-service service-name="importCustomerXMLTemplate" in-map-name="importCustomerXMLTemplateCtx" />
+    </simple-method>
+
+    <simple-method method-name="exportBigfishCustomerXml" short-description="Method to Export Customer Exports.">
+    
+        <if-not-empty field="parameters.exportFileServerPath">
+            <create-object class-name="java.io.File" field="exportedFileDest">
+                <field field="parameters.exportFileServerPath" type="String"/>
+            </create-object>
+            <call-object-method obj-field="exportedFileDest" method-name="getName" ret-field="exportedFileName"/>
+            <call-object-method method-name="toUpperCase" obj-field="exportedFileName" ret-field="exportedFileNameUpperCase"/>
+            <call-object-method method-name="endsWith" obj-field="exportedFileNameUpperCase" ret-field="isXMLFile">
+                <string value=".XML"/>
+            </call-object-method>
+            <if-compare operator="equals" value="false" field="isXMLFile">
+                <property-to-field resource="OSafeAdminUiLabels" property="ExportedFileNotXmlError" field="tempErrorMessage"/>
+                <string-to-list string="${tempErrorMessage}" message-field="exportFileServerPath" list="error_list"/>
+            </if-compare>
+        <else>
+            <property-to-field resource="OSafeAdminUiLabels" property="ExportedFileNotXmlError" field="tempErrorMessage"/>
+            <string-to-list string="${tempErrorMessage}" message-field="exportFileServerPath" list="error_list"/>
+        </else>
+        </if-not-empty>
+        <check-errors/>
+        
+        <!-- Search for Customers -->
+        <set-service-fields service-name="findParty" to-map="findPartyCtx" map="parameters"/>
+        <set field="findPartyCtx.lookupFlag" value="Y"/>
+        <set field="findPartyCtx.showAll" value="N"/>
+        <set field="findPartyCtx.extInfo" value="N"/>
+        <set field="findPartyCtx.statusId" value="ANY"/>
+        <set field="findPartyCtx.roleTypeId" value="CUSTOMER"/>
+        <set field="findPartyCtx.partyTypeId" value="PERSON"/>
+        <if-not-empty field="parameters.includeOnlyNotExportedItem">
+            <if-compare operator="equals" value="Y" field="parameters.includeOnlyNotExportedItem">
+                <set field="findPartyCtx.isDownloaded" value="N"/>
+            </if-compare>
+        </if-not-empty>
+        <call-service service-name="findParty" in-map-name="findPartyCtx">
+            <result-to-field result-name="completePartyList" field="completePartyList"/>
+        </call-service>
+        
+        <iterate entry="party" list="completePartyList">
+            <string-to-list string="${party.partyId}" list="customerList"/>
+        </iterate>
+        
+        <if-not-empty field="parameters.exportIdList">
+            <set field="customerList" from-field="parameters.exportIdList" type="List"/>
+        </if-not-empty>
+        
+        <!-- Export Customers to Xml Feeds -->
+        <if-not-empty field="customerList">
+            <set field="exportCustomerXMLCtx.customerList" from-field="customerList"/>
+            <set field="exportCustomerXMLCtx.productStoreId" from-field="parameters.productStoreId"/>
+            <call-service service-name="exportCustomerXML" in-map-name="exportCustomerXMLCtx">
+                <result-to-field result-name="feedsDirectoryPath" field="feedsDirectoryPath"/>
+                <result-to-field result-name="feedsFileName" field="feedsFileName"/>
+                <result-to-field result-name="feedsExportedIdList" field="feedsExportedIdList"/>
+            </call-service>
+        </if-not-empty>
+        <create-object class-name="java.io.File" field="exportedFileSrc">
+            <string value="${feedsDirectoryPath}${feedsFileName}"/>
+        </create-object>
+        
+        
+        <!-- Copy Exported Files to the Given Server Path and Set the Out Parameters to Download the File -->
+        <if-not-empty field="exportedFileDest">
+            <call-object-method obj-field="exportedFileSrc" method-name="exists" ret-field="isExist"/>
+            <if-compare field="isExist" operator="equals" value="true">
+	            <call-class-method method-name="copyFile" class-name="org.apache.commons.io.FileUtils">
+	                <field field="exportedFileSrc" type="java.io.File"/>
+	                <field field="exportedFileDest" type="java.io.File"/>
+	            </call-class-method>
+	            <if-not-empty field="exportedFileName">
+                    <set field="downloadedFileName" from-field="exportedFileName"/>
+                <else>
+                    <set field="downloadedFileName" from-field="feedsFileName"/>
+                </else>
+                </if-not-empty>
+		        <field-to-result field="feedsDirectoryPath" result-name="exportedFilePath"/>
+		        <field-to-result field="feedsFileName" result-name="exportedFileName"/>
+		        <field-to-result field="downloadedFileName" result-name="downloadedFileName"/>
+            </if-compare>
+        </if-not-empty>
+        
+        <!-- Set the Downloaded Status Y/N of Exported Customers -->
+        <if-compare operator="equals" value="Y" field="parameters.setFlagAfterExport">
+            <if-not-empty field="feedsExportedIdList">
+                <set field="createUpdateDownloadedArrtibuteCtx.feedsExportedIdList" from-field="feedsExportedIdList"/>
+                <set field="createUpdateDownloadedArrtibuteCtx.entityName" value="PartyAttribute"/>
+                <set field="createUpdateDownloadedArrtibuteCtx.entityPrimaryColumnName" value="partyId"/>
+                <call-service service-name="createUpdateDownloadedArrtibute" in-map-name="createUpdateDownloadedArrtibuteCtx"/>
+            </if-not-empty>
+        </if-compare>
+    </simple-method>
+    
+    <simple-method method-name="exportBigfishOrderXml" short-description="Method to Export Bigfish Customers.">
+        <if-not-empty field="parameters.exportFileServerPath">
+            <create-object class-name="java.io.File" field="exportedFileDest">
+                <field field="parameters.exportFileServerPath" type="String"/>
+            </create-object>
+            <call-object-method obj-field="exportedFileDest" method-name="getName" ret-field="exportedFileName"/>
+            <call-object-method method-name="toUpperCase" obj-field="exportedFileName" ret-field="exportedFileNameUpperCase"/>
+            <call-object-method method-name="endsWith" obj-field="exportedFileNameUpperCase" ret-field="isXMLFile">
+                <string value=".XML"/>
+            </call-object-method>
+            <if-compare operator="equals" value="false" field="isXMLFile">
+                <property-to-field resource="OSafeAdminUiLabels" property="ExportedFileNotXmlError" field="tempErrorMessage"/>
+                <string-to-list string="${tempErrorMessage}" message-field="exportFileServerPath" list="error_list"/>
+            </if-compare>
+        <else>
+            <property-to-field resource="OSafeAdminUiLabels" property="ExportedFileNotXmlError" field="tempErrorMessage"/>
+            <string-to-list string="${tempErrorMessage}" message-field="exportFileServerPath" list="error_list"/>
+        </else>
+        </if-not-empty>
+        <check-errors/>
+        
+        <!-- Search for Orders -->
+        <set field="searchOrdersCtx.showAll" value="N"/>
+        <set field="searchOrdersCtx.viewIndex" value="1" type="Integer"/>
+        <set field="searchOrdersCtx.viewSize" value="10000" type="Integer"/>
+        <set field="productStoreId" from-field="parameters.productStoreId"/>
+        <field-to-list list="lProductStoreId" field="productStoreId"/>
+        <set field="searchOrdersCtx.productStoreId" from-field="lProductStoreId"/>
+        
+        <if-not-empty field="parameters.includeOnlyNotExportedItem">
+            <if-compare operator="equals" value="Y" field="parameters.includeOnlyNotExportedItem">
+                <set field="searchOrdersCtx.isDownloaded" value="N"/>
+            </if-compare>
+        </if-not-empty>
+        
+        <set field="exportedOrderStatusList" type="List"/>
+        <call-class-method class-name="com.osafe.util.Util" method-name="getProductStoreParm" ret-field="includeExportOrderStatus">
+            <field field="parameters.productStoreId"/>
+            <string value="ORDER_STATUS_INC_EXPORT"/>
+        </call-class-method>
+        <if-not-empty field="includeExportOrderStatus">
+            <call-class-method class-name="org.ofbiz.base.util.StringUtil" method-name="split" ret-field="includeExportOrderStatusList">
+			    <field field="includeExportOrderStatus" type="String"/>
+			    <string value="," />
+			</call-class-method>
+			<if-not-empty field="includeExportOrderStatusList">
+			    <iterate entry="orderStatus" list="includeExportOrderStatusList">
+			        <call-object-method method-name="trim" obj-field="orderStatus" ret-field="orderStatusTrim"/>
+			        <field-to-list list="exportedOrderStatusList" field="orderStatusTrim"/>
+			    </iterate>
+			</if-not-empty>
+        </if-not-empty>
+        
+        <set field="orderIdToExportList" type="List"/>
+        <if-not-empty field="parameters.exportIdList">
+            <set field="orderIdToExportList" from-field="parameters.exportIdList" type="List"/>
+        <else>
+            <call-service service-name="searchOrders" in-map-name="searchOrdersCtx">
+	            <result-to-field result-name="completeOrderList" field="completeOrderList"/>
+	        </call-service>
+	        <iterate entry="order" list="completeOrderList">
+	            <string-to-list string="${order.orderId}" list="orderList"/>
+	        </iterate>
+	        <if-not-empty field="exportedOrderStatusList">
+		        <if-not-empty field="orderList">
+		            <iterate entry="orderId" list="orderList">
+		                <entity-one value-field="orderHeader" entity-name="OrderHeader">
+		                    <field-map field-name="orderId" from-field="orderId"/>
+		                </entity-one>
+		                <if-not-empty field="orderHeader">
+		                    <set field="orderStatus" from-field="orderHeader.statusId"/>
+		                    <if-not-empty field="orderStatus">
+			                    <call-object-method obj-field="exportedOrderStatusList" method-name="contains" ret-field="isStatusInList" >
+			                        <field field="orderStatus" type="java.lang.Object"/>
+			                    </call-object-method>
+			                    <if-compare operator="equals" value="true" field="isStatusInList" type="Boolean">
+			                        <field-to-list list="orderIdToExportList" field="orderId"/>
+			                    </if-compare>
+		                    </if-not-empty>
+		                </if-not-empty>
+		            </iterate>
+		        </if-not-empty>
+	        <else>
+	            <list-to-list to-list="orderIdToExportList" list="orderList"/>
+	        </else>
+	        </if-not-empty>
+        </else>
+        </if-not-empty>
+        
+        
+        <!-- Export Orders to Xml Feeds -->
+        <if-not-empty field="orderIdToExportList">
+            <set field="exportOrderXMLCtx.orderList" from-field="orderIdToExportList"/>
+            <set field="exportOrderXMLCtx.productStoreId" from-field="parameters.productStoreId"/>
+            <call-service service-name="exportOrderXML" in-map-name="exportOrderXMLCtx">
+                <result-to-field result-name="feedsDirectoryPath" field="feedsDirectoryPath"/>
+                <result-to-field result-name="feedsFileName" field="feedsFileName"/>
+                <result-to-field result-name="feedsExportedIdList" field="feedsExportedIdList"/>
+            </call-service>
+        </if-not-empty>
+        <create-object class-name="java.io.File" field="exportedFileSrc">
+            <string value="${feedsDirectoryPath}${feedsFileName}"/>
+        </create-object>
+        
+        <!-- Copy Exported Files to the Given Server Path and Set the Out Parameters to Download the File -->
+        <if-not-empty field="exportedFileDest">
+            <call-object-method obj-field="exportedFileSrc" method-name="exists" ret-field="isExist"/>
+            <if-compare field="isExist" operator="equals" value="true">
+	            <call-class-method method-name="copyFile" class-name="org.apache.commons.io.FileUtils">
+	                <field field="exportedFileSrc" type="java.io.File"/>
+	                <field field="exportedFileDest" type="java.io.File"/>
+	            </call-class-method>
+	            <if-not-empty field="exportedFileName">
+                    <set field="downloadedFileName" from-field="exportedFileName"/>
+                <else>
+                    <set field="downloadedFileName" from-field="feedsFileName"/>
+                </else>
+                </if-not-empty>
+                <field-to-result field="feedsDirectoryPath" result-name="exportedFilePath"/>
+                <field-to-result field="feedsFileName" result-name="exportedFileName"/>
+                <field-to-result field="downloadedFileName" result-name="downloadedFileName"/>
+            </if-compare>
+        </if-not-empty>
+        
+        <!-- Set the Downloaded Status Y/N of Exported Orders -->
+        <if-compare operator="equals" value="Y" field="parameters.setFlagAfterExport">
+            <if-not-empty field="feedsExportedIdList">
+                <set field="createUpdateDownloadedArrtibuteCtx.feedsExportedIdList" from-field="feedsExportedIdList"/>
+                <set field="createUpdateDownloadedArrtibuteCtx.entityName" value="OrderAttribute"/>
+                <set field="createUpdateDownloadedArrtibuteCtx.entityPrimaryColumnName" value="orderId"/>
+                <call-service service-name="createUpdateDownloadedArrtibute" in-map-name="createUpdateDownloadedArrtibuteCtx"/>
+            </if-not-empty>
+        </if-compare>
+    </simple-method>
+    
+    <simple-method method-name="exportBigfishContactUsXml" short-description="Method to Export Bigfish Contact Us Events.">
+        <if-not-empty field="parameters.exportFileServerPath">
+            <create-object class-name="java.io.File" field="exportedFileDest">
+                <field field="parameters.exportFileServerPath" type="String"/>
+            </create-object>
+            <call-object-method obj-field="exportedFileDest" method-name="getName" ret-field="exportedFileName"/>
+            <call-object-method method-name="toUpperCase" obj-field="exportedFileName" ret-field="exportedFileNameUpperCase"/>
+            <call-object-method method-name="endsWith" obj-field="exportedFileNameUpperCase" ret-field="isXMLFile">
+                <string value=".XML"/>
+            </call-object-method>
+            <if-compare operator="equals" value="false" field="isXMLFile">
+                <property-to-field resource="OSafeAdminUiLabels" property="ExportedFileNotXmlError" field="tempErrorMessage"/>
+                <string-to-list string="${tempErrorMessage}" message-field="exportFileServerPath" list="error_list"/>
+            </if-compare>
+        <else>
+            <property-to-field resource="OSafeAdminUiLabels" property="ExportedFileNotXmlError" field="tempErrorMessage"/>
+            <string-to-list string="${tempErrorMessage}" message-field="exportFileServerPath" list="error_list"/>
+        </else>
+        </if-not-empty>
+        <check-errors/>
+        
+        <!-- Search for Contact Us Events -->
+        <if-not-empty field="parameters.includeOnlyNotExportedItem">
+            <if-compare operator="equals" value="Y" field="parameters.includeOnlyNotExportedItem">
+                <entity-and list="custRequestAttrList" entity-name="CustRequestAttribute">
+                    <field-map field-name="attrName" value="IS_DOWNLOADED"/>
+                    <field-map field-name="attrValue" value="N"/>
+                </entity-and>
+            <else>
+                <entity-and list="custRequestAttrList" entity-name="CustRequestAttribute">
+                    <field-map field-name=""/>
+                </entity-and>
+            </else>
+            </if-compare>
+        </if-not-empty>
+        <if-not-empty field="custRequestAttrList">
+	        <call-bsh><![CDATA[
+	          List custRequestIds = org.ofbiz.entity.util.EntityUtil.getFieldListFromEntityList(custRequestAttrList, "custRequestId", true);
+	          parameters.put("custRequestIds",custRequestIds);
+	        ]]></call-bsh>
+	    </if-not-empty>
+	    <if-not-empty field="parameters.custRequestIds">
+		    <entity-condition entity-name="CustRequest" list="custRequestList">
+		    	<condition-list>
+		    	    <condition-expr field-name="custRequestId" operator="in" from-field="parameters.custRequestIds" ignore-if-empty="true"/>
+		            <condition-expr field-name="custRequestTypeId" operator="equals" value="RF_CONTACT_US"/>
+		            <condition-expr field-name="productStoreId" operator="equals" from-field="parameters.productStoreId"/>
+		        </condition-list>
+		    </entity-condition>
+	    </if-not-empty>
+	    <if-not-empty field="custRequestList">
+	        <call-bsh><![CDATA[
+	            List custRequestIdList = org.ofbiz.entity.util.EntityUtil.getFieldListFromEntityList(custRequestList, "custRequestId", true);
+	            parameters.put("custRequestIdList",custRequestIdList);
+	        ]]></call-bsh>
+	        <set field="custRequestIdList" value="${groovy:org.ofbiz.entity.util.EntityUtil.getFieldListFromEntityList(custRequestList, 'custRequestId', true);}" type="List"/>
+	    </if-not-empty>
+    
+        <if-not-empty field="parameters.exportIdList">
+            <set field="parameters.custRequestIdList" from-field="parameters.exportIdList"/>
+        </if-not-empty>
+    
+        <!-- Export Contact Us Events to Xml Feeds -->
+        <if-not-empty field="parameters.custRequestIdList">
+            <set field="exportCustRequestContactUsXMLCtx.custRequestIdList" from-field="parameters.custRequestIdList"/>
+            <call-service service-name="exportCustRequestContactUsXML" in-map-name="exportCustRequestContactUsXMLCtx">
+                <result-to-field result-name="feedsDirectoryPath" field="feedsDirectoryPath"/>
+                <result-to-field result-name="feedsFileName" field="feedsFileName"/>
+                <result-to-field result-name="feedsExportedIdList" field="feedsExportedIdList"/>
+            </call-service>
+        </if-not-empty>
+        <create-object class-name="java.io.File" field="exportedFileSrc">
+            <string value="${feedsDirectoryPath}${feedsFileName}"/>
+        </create-object>
+        
+        <!-- Copy Exported Files to the Given Server Path and Set the Out Parameters to Download the File -->
+        <if-not-empty field="exportedFileDest">
+            <call-object-method obj-field="exportedFileSrc" method-name="exists" ret-field="isExist"/>
+            <if-compare field="isExist" operator="equals" value="true">
+                <call-class-method method-name="copyFile" class-name="org.apache.commons.io.FileUtils">
+                    <field field="exportedFileSrc" type="java.io.File"/>
+                    <field field="exportedFileDest" type="java.io.File"/>
+                </call-class-method>
+                <if-not-empty field="exportedFileName">
+                    <set field="downloadedFileName" from-field="exportedFileName"/>
+                <else>
+                    <set field="downloadedFileName" from-field="feedsFileName"/>
+                </else>
+                </if-not-empty>
+                <field-to-result field="feedsDirectoryPath" result-name="exportedFilePath"/>
+                <field-to-result field="feedsFileName" result-name="exportedFileName"/>
+                <field-to-result field="downloadedFileName" result-name="downloadedFileName"/>
+            </if-compare>
+        </if-not-empty>
+        
+        <!-- Set the Downloaded Status Y/N of Exported Contact Us Events -->
+        <if-compare operator="equals" value="Y" field="parameters.setFlagAfterExport">
+            <if-not-empty field="feedsExportedIdList">
+                <set field="createUpdateDownloadedArrtibuteCtx.feedsExportedIdList" from-field="feedsExportedIdList"/>
+                <set field="createUpdateDownloadedArrtibuteCtx.entityName" value="CustRequestAttribute"/>
+                <set field="createUpdateDownloadedArrtibuteCtx.entityPrimaryColumnName" value="custRequestId"/>
+                <call-service service-name="createUpdateDownloadedArrtibute" in-map-name="createUpdateDownloadedArrtibuteCtx"/>
+            </if-not-empty>
+        </if-compare>
+    </simple-method>
+    
+    <simple-method method-name="exportBigfishRequestCatalogXml" short-description="Method to Export Bigfish Request Catalog Events.">
+        <if-not-empty field="parameters.exportFileServerPath">
+            <create-object class-name="java.io.File" field="exportedFileDest">
+                <field field="parameters.exportFileServerPath" type="String"/>
+            </create-object>
+            <call-object-method obj-field="exportedFileDest" method-name="getName" ret-field="exportedFileName"/>
+            <call-object-method method-name="toUpperCase" obj-field="exportedFileName" ret-field="exportedFileNameUpperCase"/>
+            <call-object-method method-name="endsWith" obj-field="exportedFileNameUpperCase" ret-field="isXMLFile">
+                <string value=".XML"/>
+            </call-object-method>
+            <if-compare operator="equals" value="false" field="isXMLFile">
+                <property-to-field resource="OSafeAdminUiLabels" property="ExportedFileNotXmlError" field="tempErrorMessage"/>
+                <string-to-list string="${tempErrorMessage}" message-field="exportFileServerPath" list="error_list"/>
+            </if-compare>
+        <else>
+            <property-to-field resource="OSafeAdminUiLabels" property="ExportedFileNotXmlError" field="tempErrorMessage"/>
+            <string-to-list string="${tempErrorMessage}" message-field="exportFileServerPath" list="error_list"/>
+        </else>
+        </if-not-empty>
+        <check-errors/>
+        
+        <!-- Search for Request Catalog Events -->
+        <if-not-empty field="parameters.includeOnlyNotExportedItem">
+            <if-compare operator="equals" value="Y" field="parameters.includeOnlyNotExportedItem">
+                <entity-and list="custRequestAttrList" entity-name="CustRequestAttribute">
+                    <field-map field-name="attrName" value="IS_DOWNLOADED"/>
+                    <field-map field-name="attrValue" value="N"/>
+                </entity-and>
+            <else>
+                <entity-and list="custRequestAttrList" entity-name="CustRequestAttribute">
+                    <field-map field-name=""/>
+                </entity-and>
+            </else>
+            </if-compare>
+        </if-not-empty>
+        <if-not-empty field="custRequestAttrList">
+	        <call-bsh><![CDATA[
+	          List custRequestIds = org.ofbiz.entity.util.EntityUtil.getFieldListFromEntityList(custRequestAttrList, "custRequestId", true);
+	          parameters.put("custRequestIds",custRequestIds);
+	        ]]></call-bsh>
+	    </if-not-empty>
+	    <if-not-empty field="parameters.custRequestIds">
+		    <entity-condition entity-name="CustRequest" list="custRequestList">
+		    	<condition-list>
+		    	    <condition-expr field-name="custRequestId" operator="in" from-field="parameters.custRequestIds" ignore-if-empty="true"/>
+		            <condition-expr field-name="custRequestTypeId" operator="equals" value="RF_CATALOG"/>
+		            <condition-expr field-name="productStoreId" operator="equals" from-field="parameters.productStoreId"/>
+		        </condition-list>
+		    </entity-condition>
+	    </if-not-empty>
+	    <if-not-empty field="custRequestList">
+	        <call-bsh><![CDATA[
+	            List custRequestIdList = org.ofbiz.entity.util.EntityUtil.getFieldListFromEntityList(custRequestList, "custRequestId", true);
+	            parameters.put("custRequestIdList",custRequestIdList);
+	        ]]></call-bsh>
+	        <set field="custRequestIdList" value="${groovy:org.ofbiz.entity.util.EntityUtil.getFieldListFromEntityList(custRequestList, 'custRequestId', true);}" type="List"/>
+	    </if-not-empty>
+    
+        <if-not-empty field="parameters.exportIdList">
+            <set field="parameters.custRequestIdList" from-field="parameters.exportIdList" type="List"/>
+        </if-not-empty>
+        
+        <!-- Export Request Catalog Events to Xml Feeds -->
+        <if-not-empty field="parameters.custRequestIdList">
+            <set field="exportCustRequestCatalogXMLCtx.custRequestIdList" from-field="parameters.custRequestIdList"/>
+            <call-service service-name="exportCustRequestCatalogXML" in-map-name="exportCustRequestCatalogXMLCtx">
+                <result-to-field result-name="feedsDirectoryPath" field="feedsDirectoryPath"/>
+                <result-to-field result-name="feedsFileName" field="feedsFileName"/>
+                <result-to-field result-name="feedsExportedIdList" field="feedsExportedIdList"/>
+            </call-service>
+        </if-not-empty>
+        <create-object class-name="java.io.File" field="exportedFileSrc">
+            <string value="${feedsDirectoryPath}${feedsFileName}"/>
+        </create-object>
+        
+        <!-- Copy Exported Files to the Given Server Path and Set the Out Parameters to Download the File -->
+        <if-not-empty field="exportedFileDest">
+            <call-object-method obj-field="exportedFileSrc" method-name="exists" ret-field="isExist"/>
+            <if-compare field="isExist" operator="equals" value="true">
+                <call-class-method method-name="copyFile" class-name="org.apache.commons.io.FileUtils">
+                    <field field="exportedFileSrc" type="java.io.File"/>
+                    <field field="exportedFileDest" type="java.io.File"/>
+                </call-class-method>
+                <if-not-empty field="exportedFileName">
+                    <set field="downloadedFileName" from-field="exportedFileName"/>
+                <else>
+                    <set field="downloadedFileName" from-field="feedsFileName"/>
+                </else>
+                </if-not-empty>
+                <field-to-result field="feedsDirectoryPath" result-name="exportedFilePath"/>
+                <field-to-result field="feedsFileName" result-name="exportedFileName"/>
+                <field-to-result field="downloadedFileName" result-name="downloadedFileName"/>
+            </if-compare>
+        </if-not-empty>
+        
+        <!-- Set the Downloaded Status Y/N of Exported Request Catalog Events -->
+        <if-compare operator="equals" value="Y" field="parameters.setFlagAfterExport">
+            <if-not-empty field="feedsExportedIdList">
+                <set field="createUpdateDownloadedArrtibuteCtx.feedsExportedIdList" from-field="feedsExportedIdList"/>
+                <set field="createUpdateDownloadedArrtibuteCtx.entityName" value="CustRequestAttribute"/>
+                <set field="createUpdateDownloadedArrtibuteCtx.entityPrimaryColumnName" value="custRequestId"/>
+                <call-service service-name="createUpdateDownloadedArrtibute" in-map-name="createUpdateDownloadedArrtibuteCtx"/>
+            </if-not-empty>
+        </if-compare>
+    </simple-method>
+
+    <simple-method method-name="exportGoogleProductFeedXml" short-description="Method to Export Google Product Feed Xml.">
+    
+        <if-not-empty field="parameters.exportFileServerPath">
+            <create-object class-name="java.io.File" field="exportedFileDest">
+                <field field="parameters.exportFileServerPath" type="String"/>
+            </create-object>
+            <call-object-method obj-field="exportedFileDest" method-name="getName" ret-field="exportedFileName"/>
+            <call-object-method method-name="toUpperCase" obj-field="exportedFileName" ret-field="exportedFileNameUpperCase"/>
+            <call-object-method method-name="endsWith" obj-field="exportedFileNameUpperCase" ret-field="isXMLFile">
+                <string value=".XML"/>
+            </call-object-method>
+            <if-compare operator="equals" value="false" field="isXMLFile">
+                <property-to-field resource="OSafeAdminUiLabels" property="ExportedFileNotXmlError" field="tempErrorMessage"/>
+                <string-to-list string="${tempErrorMessage}" message-field="exportFileServerPath" list="error_list"/>
+            </if-compare>
+        <else>
+            <property-to-field resource="OSafeAdminUiLabels" property="ExportedFileNotXmlError" field="tempErrorMessage"/>
+            <string-to-list string="${tempErrorMessage}" message-field="exportFileServerPath" list="error_list"/>
+        </else>
+        </if-not-empty>
+        <check-errors/>
+
+        <!-- Export Product in Google Xml Feeds -->
+        <set-service-fields service-name="exportGoogleProductXml" to-map="exportGoogleProductXmlCtx" map="parameters"/>
+        <call-service service-name="exportGoogleProductXml" in-map-name="exportGoogleProductXmlCtx">
+            <result-to-field result-name="feedsDirectoryPath" field="feedsDirectoryPath"/>
+            <result-to-field result-name="feedsFileName" field="feedsFileName"/>
+            <result-to-field result-name="feedsExportedIdList" field="feedsExportedIdList"/>
+        </call-service>
+        <create-object class-name="java.io.File" field="exportedFileSrc">
+            <string value="${feedsDirectoryPath}${feedsFileName}"/>
+        </create-object>
+
+        <!-- Copy Exported Files to the Given Server Path and Set the Out Parameters to Download the File -->
+        <if-not-empty field="exportedFileDest">
+            <call-object-method obj-field="exportedFileSrc" method-name="exists" ret-field="isExist"/>
+            <if-compare field="isExist" operator="equals" value="true">
+                <call-class-method method-name="copyFile" class-name="org.apache.commons.io.FileUtils">
+                    <field field="exportedFileSrc" type="java.io.File"/>
+                    <field field="exportedFileDest" type="java.io.File"/>
+                </call-class-method>
+                <if-not-empty field="exportedFileName">
+                    <set field="downloadedFileName" from-field="exportedFileName"/>
+                <else>
+                    <set field="downloadedFileName" from-field="feedsFileName"/>
+                </else>
+                </if-not-empty>
+                <field-to-result field="feedsDirectoryPath" result-name="exportedFilePath"/>
+                <field-to-result field="feedsFileName" result-name="exportedFileName"/>
+                <field-to-result field="downloadedFileName" result-name="downloadedFileName"/>
+            </if-compare>
+        </if-not-empty>
+
+    </simple-method>
+</simple-methods>

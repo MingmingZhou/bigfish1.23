@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screens xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/widget-screen.xsd">
+   
+   <screen name="adminDivSequence">
+        <section>
+            <actions>
+                <set field="excludeDivs" from-field="excludeDivs"/>
+                <script location="component://osafeadmin/webapp/osafeadmin/WEB-INF/actions/common/adminDivSequence.groovy" />
+            </actions>
+            <widgets>
+                    <platform-specific>
+                        <html>
+                            <html-template location="component://osafeadmin/webapp/osafeadmin/common/adminDivSequence.ftl" />
+                        </html>
+                    </platform-specific>
+            </widgets>
+        </section>
+    </screen>
+
+<!-- **********************************************************************  -->     
+<!-- Sequence Screen : Customer Personal Info Detail  
+     Sequencer Type  : PersonalInfo -->
+<!-- **********************************************************************  -->     
+    
+    <screen name="personalInfoDivSequence">
+        <section>
+            <actions>
+				<set field="uiSequenceScreen" value="PersonalInfo" />
+				<set field="uiSequenceScreenPrefix" value="" />
+                <set field="uiBoxListItemGridName" value=""/>
+                <set field="uiBoxListItemTabName" value=""/>
+                <set field="uiDisplayListName" value="" />
+            </actions>
+            <widgets>
+                <include-screen name="adminDivSequence"/>
+            </widgets>
+        </section>
+    </screen>
+    <screen name="personalInfoTitle">
+        <section>
+            <widgets>
+                    <platform-specific>
+                         <html>
+                             <html-template location="component://osafeadmin/webapp/osafeadmin/customer/personalInfo/personalInfoTitle.ftl" />
+                         </html>
+                     </platform-specific>
+            </widgets>
+        </section>
+    </screen>
+    <screen name="personalInfoFirstName">
+        <section>
+            <actions>
+            </actions>
+            <widgets>
+                    <platform-specific>
+                         <html>
+                             <html-template location="component://osafeadmin/webapp/osafeadmin/customer/personalInfo/personalInfoFirstName.ftl" />
+                         </html>
+                     </platform-specific>
+            </widgets>
+        </section>
+    </screen>
+    <screen name="personalInfoLastName">
+        <section>
+            <actions>
+            </actions>
+            <widgets>
+                    <platform-specific>
+                         <html>
+                             <html-template location="component://osafeadmin/webapp/osafeadmin/customer/personalInfo/personalInfoLastName.ftl" />
+                         </html>
+                     </platform-specific>
+            </widgets>
+        </section>
+    </screen>
+    <screen name="personalInfoGender">
+        <section>
+            <actions>
+            </actions>
+            <widgets>
+                    <platform-specific>
+                         <html>
+                             <html-template location="component://osafeadmin/webapp/osafeadmin/customer/personalInfo/personalInfoGender.ftl" />
+                         </html>
+                     </platform-specific>
+            </widgets>
+        </section>
+    </screen>
+    <screen name="personalInfoDateOfBirthMMDDYYYY">
+        <section>
+            <actions>
+            </actions>
+            <widgets>
+                    <platform-specific>
+                         <html>
+                             <html-template location="component://osafeadmin/webapp/osafeadmin/customer/personalInfo/personalInfoDobMMDDYYYY.ftl" />
+                         </html>
+                     </platform-specific>
+            </widgets>
+        </section>
+    </screen>
+    <screen name="personalInfoDateOfBirthMMDD">
+        <section>
+            <actions>
+            </actions>
+            <widgets>
+                    <platform-specific>
+                         <html>
+                             <html-template location="component://osafeadmin/webapp/osafeadmin/customer/personalInfo/personalInfoDobMMDD.ftl" />
+                         </html>
+                     </platform-specific>
+            </widgets>
+        </section>
+    </screen>
+    <screen name="personalInfoDateOfBirthDDMMYYYY">
+        <section>
+            <actions>
+            </actions>
+            <widgets>
+                    <platform-specific>
+                         <html>
+                             <html-template location="component://osafeadmin/webapp/osafeadmin/customer/personalInfo/personalInfoDobDDMMYYYY.ftl" />
+                         </html>
+                     </platform-specific>
+            </widgets>
+        </section>
+    </screen>
+    <screen name="personalInfoDateOfBirthDDMM">
+        <section>
+            <actions>
+            </actions>
+            <widgets>
+                    <platform-specific>
+                         <html>
+                             <html-template location="component://osafeadmin/webapp/osafeadmin/customer/personalInfo/personalInfoDobDDMM.ftl" />
+                         </html>
+                     </platform-specific>
+            </widgets>
+        </section>
+    </screen>
+    <screen name="personalInfoPhoneHome">
+        <section>
+            <actions>
+            </actions>
+            <widgets>
+                    <platform-specific>
+                         <html>
+                             <html-template location="component://osafeadmin/webapp/osafeadmin/customer/personalInfo/personalInfoPhoneHome.ftl" />
+                         </html>
+                     </platform-specific>
+            </widgets>
+        </section>
+    </screen>    
+    <screen name="personalInfoPhoneCell">
+        <section>
+            <actions>
+            </actions>
+            <widgets>
+                    <platform-specific>
+                         <html>
+                             <html-template location="component://osafeadmin/webapp/osafeadmin/customer/personalInfo/personalInfoPhoneCell.ftl" />
+                         </html>
+                     </platform-specific>
+            </widgets>
+        </section>
+    </screen>
+    <screen name="personalInfoPhoneWork">
+        <section>
+            <actions>
+            </actions>
+            <widgets>
+                    <platform-specific>
+                         <html>
+                             <html-template location="component://osafeadmin/webapp/osafeadmin/customer/personalInfo/personalInfoPhoneWork.ftl" />
+                         </html>
+                     </platform-specific>
+            </widgets>
+        </section>
+    </screen>
+    
+    <screen name="personalInfoLoyaltyPointId">
+        <section>
+            <actions>
+            </actions>
+            <widgets>
+                    <platform-specific>
+                         <html>
+                             <html-template location="component://osafeadmin/webapp/osafeadmin/customer/personalInfo/personalInfoLoyaltyPointId.ftl" />
+                         </html>
+                     </platform-specific>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="personalInfoCustomAttributes">
+		<section>
+			<actions>
+			    <script location="component://osafeadmin/webapp/osafeadmin/WEB-INF/actions/customer/personalInfo/personalInfoCustomAttributes.groovy" />
+			</actions>
+			<widgets>
+					<platform-specific>
+						<html>
+							<html-template
+								location="component://osafeadmin/webapp/osafeadmin/customer/personalInfo/personalInfoCustomAttributes.ftl" />
+						</html>
+					</platform-specific>
+			</widgets>
+		</section>
+	</screen>
+	
+	<screen name="personalInfoTxtPreference">
+		<section>
+			<widgets>
+			</widgets>
+		</section>
+	</screen>
+	
+	<screen name="personalInfoEmailPreference">
+		<section>
+			<widgets>
+			</widgets>
+		</section>
+	</screen>
+	
+	<screen name="personalInfoAllowSolicitation">
+		<section>
+			<widgets>
+			</widgets>
+		</section>
+	</screen>
+	<screen name="personalInfoCountry">
+		<section>
+			<widgets>
+			</widgets>
+		</section>
+	</screen>
+	<screen name="personalInfoCustomObject">
+		<section>
+			<widgets>
+			</widgets>
+		</section>
+	</screen>
+	<screen name="personalInfoAddressSelector">
+		<section>
+			<widgets>
+			</widgets>
+		</section>
+	</screen>
+	<screen name="personalInfoAddress1">
+		<section>
+			<widgets>
+			</widgets>
+		</section>
+	</screen>
+	<screen name="personalInfoAddress2">
+		<section>
+			<widgets>
+			</widgets>
+		</section>
+	</screen>
+	<screen name="personalInfoAddress3">
+		<section>
+			<widgets>
+			</widgets>
+		</section>
+	</screen>
+	<screen name="personalInfoCityTown">
+		<section>
+			<widgets>
+			</widgets>
+		</section>
+	</screen>
+	<screen name="personalInfoStateProvince">
+		<section>
+			<widgets>
+			</widgets>
+		</section>
+	</screen>
+	<screen name="personalInfoZipPostcode">
+		<section>
+			<widgets>
+			</widgets>
+		</section>
+	</screen>
+	<screen name="personalInfoSkipVerification">
+		<section>
+			<widgets>
+			</widgets>
+		</section>
+	</screen>
+    
+    
+ </screens>

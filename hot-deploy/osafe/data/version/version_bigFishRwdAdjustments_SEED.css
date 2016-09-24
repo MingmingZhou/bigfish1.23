@@ -1,0 +1,614 @@
+/*
+	Small Device dimensions, switch for portrait vs landscape
+
+	iPad							1024 * 768
+	iPhone3/3G, iPhone 4/4S			480 * 320
+	iPhone5s/iPhone5s				568 * 320
+	Galaxy3						640 * 360
+	Galaxy4						960 * 540
+*/
+
+/* ------------------------------------------------------------------------------------------ */
+/*    Disable Quicklook in iPad and below; Targeting specific devices and lower */
+/* ------------------------------------------------------------------------------------------ */
+@media only screen and (max-width:1024px) and (max-height:768px) {
+
+    /* Remove Quicklook Icon, Disables Quicklook */
+    .plpQuicklookIcon {
+        display: none!important;
+    }
+
+}
+
+@media only screen and (max-width:768px) and (max-height:1024px) {
+
+    /* Remove Quicklook Icon, Disables Quicklook */
+    .plpQuicklookIcon {
+        display: none!important;
+    }
+
+}
+
+/* ------------------------------------------------------------------------------------------ */
+/*    Apply to any browser 1024 or less (iPad and all smart phones) */
+/* ------------------------------------------------------------------------------------------ */
+@media only screen and (max-width:1024px) {
+
+	/* Removes left and right margins that are used throughout the site */
+	#eCommerceOuterBasicBevelWrap {
+		margin: 0;
+	}
+
+	/* Remove Scroll to Top Feature */
+	#scrollToTop {
+		display: none!important; 
+	}
+
+}
+
+/* ------------------------------------------------------------------------------------------ */
+/*    Apply to any device 768 or less (iPad Portrait and all smart phones) */
+/* ------------------------------------------------------------------------------------------ */
+@media only screen and (max-width:768px) {
+
+	/* Disables inline zoom on PDP */
+	.zoomPad {
+		display: block !important;
+		float: none;
+		position: static;
+	}
+
+	/* Disables inline zoom on PDP */
+	.zoomWindow {
+		display: none !important;
+	}
+
+	 /* Removes First and Last buttons from paging options */
+	.pagingLinks .pagingBtn.first,
+	.pagingLinks .pagingBtn.last {
+		display: none;        
+	}
+
+	/* Hides Mega Menus */
+	.ecommerceMegaMenu {
+		display: none;
+	}
+
+
+	/* Exposes Alternate Menus to Mega Menus*/
+	.ecommerceMegaMenuAlt  {
+		display: block;
+	}
+   
+}
+
+/* ------------------------------------------------------------------------------------------ */
+/*    For devices 640 pixels AND LESS -- targeting smartphones in LANDSCAPE mode */
+/* ------------------------------------------------------------------------------------------ */
+@media only screen and (max-width:640px) {
+
+	/* Hide left Facet Navigation bar for CLP and PLP, Removes light cart */
+	#eCommerceLeftPanel,
+	#lightCart_displayDialog {
+		display: none;
+	}
+
+	/* Since facet bar is hidden, allow CLP and PLP to use 100% of space available */
+	#eCommercePageBody #eCommerceMainPanel.leftPanel,
+	#eCommercePageBody #eCommerceMainPanel.mainPanel {
+		width: 100%;
+		margin: 10px 0;
+	}
+	
+	/* exposes nav bar widget to show/hide navigation */ 
+	#eCommerceNavBarWidget {
+		display: block;
+	}
+
+	/* Removes entryfield margin, not needed as error messages default beneath input fields */
+	.entryField {
+		margin: 0;
+	} 
+
+	.boxListItemTabular .displayList li div a {
+		display: inline-block;
+		text-align: left !important;
+	}
+
+	/* Gives full width to spans within a tags */
+      .boxListItemTabular .displayList li div a span {
+		width: 100%;
+	}
+
+	/* Center aligns add to cart button */
+	.boxListItemTabular .displayList li.itemAddToCartButton {
+		text-align: center;
+	}
+
+	/* gives icons a smaller fixed width in order to share a line itemQty and itemTotal */
+	.boxListItemTabular .displayList li.itemUpdateButton,
+	.boxListItemTabular .displayList li.itemRemoveButton {
+		width: 26px!important;
+	}
+
+	/* Applies to action result item; removes margin */
+	.boxListItemTabular.actionResultItem .displayList li {
+		margin: 0;
+	}
+
+	/* Applies to action result item; centers remove button/link */
+	.boxListItemTabular.actionResultItem .displayList li.remove a span {
+		text-align: center !important;
+	}
+
+	/* Applies to action result item; left aligns input */
+	.boxListItemTabular.actionResultItem .displayList li.input  {
+		text-align: left!important;
+	}
+
+	/* left aligns components that default to right or center alignment */
+	.itemCheckbox div input,
+	.itemQty div input {
+		display: inline-block;
+		text-align: left;
+	}
+
+	/* removes see Larger Image feature */
+	.pdpSeeLargerImage {
+		 visibility: hidden;
+	}
+
+ 	/* Adds space between search and logo  */
+ 	.siteHeaderSearch {
+		margin: 10px 0 0 0;
+ 	}
+
+	/* Expands Search container  */
+	.siteHeaderSearch {
+ 		width: 100%!important;
+ 	}
+
+ 	/* Expands Search  children */
+	#searchContainer,
+ 	#searchContainer input[type="text"] {
+ 		margin: 0;
+		 width: 100%!important;
+	  }
+
+	/ * Removes Cart Label */ 
+	#siteShoppingCart p {
+		display: none;
+	}
+
+	 /* makes header logo flexible */ 
+ 	.siteHeaderLogo img {
+		 height: auto;
+		max-width: 100%;
+ 	}
+
+	 /* hides primary navigation navigation list */
+	 #eCommerceNavBar #eCommerceNavBarMenu {
+		 /* display: none; */
+	 }
+
+	 /* Puts Navigation into one column */ 
+ 	#eCommerceNavBarMenu li.topLevel {
+ 		float: none!important;
+		border-bottom: 1px solid #afafaf;
+		width: 100%!important;
+ 	}
+
+	 /* Puts Navigation into one column */ 
+	 #eCommerceNavBarMenu li.topLevel:first-child {
+		border-top: 1px solid #afafaf;
+ 	}
+
+	 /* Left Aligns Navigation */ 
+	#eCommerceNavBarMenu li.topLevel a {
+		text-align: left;
+		font-size: large;
+	 }
+
+	 /* Removes Sub Menus */ 
+	 #eCommerceNavBarMenu ul {
+		 display: none;
+	 }
+	 
+	 /* hide/show navigation when using show/hide nav widget. On expanded screen, both of these classes should be display block */
+	 .showNavBarMenu{
+		display: block;
+	}
+	.hideNavBarMenu{
+		display: none;
+	}
+
+	 /* Removes Last Degree of Bread Crumb */ 
+ 	#breadcrumb li:last-child {
+		display: none;
+ 	}
+
+	 /* Positions sorting options and paging links on their own line */
+	 .sortingOptions,
+         .pagingLinks {
+		display: block;
+		width: 100%;
+ 		text-align: left;
+	}
+
+	 /* Properly aligns and centers Store Locator Items */
+ 		storeLocationList li,
+ 		storeLocationList li span,
+ 		storeLocationList li label {
+ 		text-align: left;
+ 		width: auto;
+	}
+
+	/* Cancels out Floating */
+	.StoreLocatorItems.group2 {
+               float: none;
+	}
+
+	/* Properly aligns and centers Store Locator Items */
+	.storeLocationList li.action {
+               width: auto !important;
+	}
+
+	/* Properly aligns and centers Store Locator Items */
+	.selectStoreButton {
+               clear: none !important;
+	}
+
+	/* Properly aligns and centers multi-addressshipping pages */
+	.radioOptionText,
+        .radioOptionTextAdditional {
+               width: auto !important;
+	}
+
+	/* wraps shipping method if it gets too long */
+        #shippingOptionDisplay .radioOptionText,
+	.shipOption .radioOptionText {
+               max-width: 50%;
+	}
+
+	/* adds space to add new address button */
+        .addressSelector .standardBtn.action {
+               margin: 5px 0 0 0;
+	}
+
+	/* Aligns shipping options */
+	.shipOption span {
+               display: inline;
+	}
+
+	/* Adjusts all label & span alignments left for single column */
+	 .date label,
+ 	 .date span,
+	 .number label,
+	 .number span,
+	 .displayList li.number div a,
+	 .orderDetailShippingGroupOrderItemsItemPrice span,
+	 .orderDetailShippingGroupOrderItemsItemPrice label {
+   		 text-align: left;
+	}
+ 
+	/* Adjusts all label & span alignments left for single column */
+	.boxListItemTabular.cartItem .group1 .displayList li,
+	.boxListItemTabular.cartItem .group2 .displayList li,
+ 	.boxListItemTabular.orderItem .group1 .displayList li,
+	.boxListItemTabular.orderItem .group2 .displayList li {
+               float: left;
+	}
+
+	/* Puts Lists Items in groups two in one column; must be assigned to every page */
+	.ShowCartOrderItems.group.group2 li,
+        .OrderSummaryOrderItems.group.group2 li,
+        .OrderConfirmOrderItems.group.group2 li,
+        .ShowWishlistOrderItems.group.group2 li,
+        .multiAddressItems.group.group2 li,
+        .multiShipOptionsOptions.grouping.grouping2,
+        .multiAddressItems.group.group3,
+        .shippingGroupCartItem.group.group2 li,
+        .shippingGroupShipGroupItem.grouping.grouping2,
+        .shippingGroupCartItem.grouping.grouping2,
+        .OrderHistoryOrderDetails.group.group2 li,
+        .OrderDetailShippingGroupOrderItems.group.group2 li,
+        .ReorderItems.group.group2 li {
+		float: none!important;
+                display: block;
+                width: auto!important;
+	}
+
+	.ShowCartOrderItems.group.group2 li span,
+	.ShowCartOrderItems.group.group2 li label,
+        .OrderSummaryOrderItems.group.group2 li span,
+        .OrderSummaryOrderItems.group.group2 li label,
+        .OrderConfirmOrderItems.group.group2 li span,
+        .OrderConfirmOrderItems.group.group2 li label,
+        .ShowWishlistOrderItems.group.group2 li span,
+        .ShowWishlistOrderItems.group.group2 li label {
+                text-align: left;
+	}
+
+	/* removes top margin from cart items */
+       .displayList.cartItemList > li {
+               margin: 0;
+	}
+
+}
+
+/* ------------------------------------------------------------------------------------------ */
+/*    For devices LESS THAN 480 pixels -- targeting smartphones in PORTRAIT mode */
+/* ------------------------------------------------------------------------------------------ */
+@media only screen and (max-width:480px) {
+
+	/* removes margin needed on desktop */
+	.pdpAddToCart .addToCart {
+		margin: 0;
+	}
+
+	/* Needed to make the image flexible; see below */
+	.pdpMainImage .pdpMainImage,
+	.pdpMainImage .pdpMainImage>div,
+	.writeReviewProductThumbImage .pdpMainImage,
+	.writeReviewProductThumbImage .pdpMainImage>div {
+		display: block!important;
+	}
+
+	/* Makes the PDP Main image flexible */
+	.js_productLargeImage {
+		height: auto;
+		max-width: 100%;
+	}
+
+	/* decreases paging font size */
+	.pagingLinks li,
+	.pagingLinks li a {
+		font-size: small;
+	}
+
+	/* removes margin from show all link */
+	.pagingBtn.showall {
+		margin: 0;
+	}
+
+	/* adds padding for next icon */
+	.pagingBtn.next a {
+		padding: 0 15px 0 0;
+	}
+
+	/* decreases space for pages display */
+	.pagingLinks li.pages {
+		margin: 0 6px;
+	}
+
+}
+
+/* === Instance Specific RWD CSS === */
+
+/* ------------------------------------------------------------------------------------------ */
+/*    Apply to any device 768 or less (iPad Portrait and all smart phones) */
+/* ------------------------------------------------------------------------------------------ */
+@media only screen and (max-width:768px) {
+
+	/* Floats Shopping Cart to the right */
+	.siteHeaderCart {
+		 float: right;
+		margin: 0 0 10px 0;
+	}
+
+}
+
+/* ------------------------------------------------------------------------------------------ */
+/*    Apply to any device 768 or less (iPad Portrait and all smart phones) */
+/* ------------------------------------------------------------------------------------------ */
+@media only screen and (max-width:768px) {
+
+	/* Instance specific: clears complimentary products and makes them appear in a row */
+	.PDP.group5 {
+		margin: 20px 0 0 0;
+		width: 100%;
+    }
+
+	/* Instance specific: removes right-margin needed on desktop */
+	.PDP.group3 {
+		margin: 0 0 20px 0;
+    }
+
+}
+
+/* ------------------------------------------------------------------------------------------ */
+/*    For devices 641 pixels or less (targeting all smartphones) */
+/* ------------------------------------------------------------------------------------------ */
+@media only screen and (max-width:641px) {
+
+	/* Puts Navigation into two columns */ 
+	#eCommerceNavBarMenu li.topLevel {
+		float: left;
+		width: 50%;
+	}
+
+
+	/* Left Aligns Navigation */ 
+	#eCommerceNavBarMenu li.topLevel a {
+		text-align: left;
+	}
+
+	/* Removes Sub Menus */ 
+		#eCommerceNavBarMenu ul {
+		display: none;
+	}
+   
+}
+
+/* ------------------------------------------------------------------------------------------ */
+/*    For devices 600 pixels or less (targeting all smartphones) */
+/* ------------------------------------------------------------------------------------------ */
+@media only screen and (max-width:600px) {
+
+	/* Make Header Logo container flexible relative to custom cart width */ 
+	.siteHeaderLogo {
+		width: -webkit-calc(100% - 100px);
+		width: calc(100% - 100px);
+	}
+
+   	/* exposes nav bar widget to show/hide navigation */ 
+	#eCommerceNavBarWidget a {
+		display: inline-block;
+		height: 40px;
+		position: relative;
+		text-align: left;
+		width: 40px;
+	}
+
+   	/* exposes nav bar widget to show/hide navigation */ 
+	#eCommerceNavBarWidget a.showNavWidget {
+		background: url("/osafe_theme/images/user_content/images/showNavWidget.png") 0 0 no-repeat;
+	}
+
+   	/* exposes nav bar widget to show/hide navigation */ 
+	#eCommerceNavBarWidget a.hideNavWidget {
+		background: url("/osafe_theme/images/user_content/images/hideNavWidget.png") 0 0 no-repeat;
+	}
+
+   	/* hides text in Nav Widget */ 
+	#eCommerceNavBarWidget a span {
+		display: inline-block;
+		margin: 12px 0 0 55px;	
+	}
+
+   	/* Styles menu to appear over content; not push it down */ 
+	#eCommerceNavBar #eCommerceNavBarMenu {
+                background: inherit;
+		position: absolute!important;
+		-webkit-box-shadow: 0px 4px 7px -2px rgba(50, 50, 50, 0.75);
+		-moz-box-shadow:    0px 4px 7px -2px rgba(50, 50, 50, 0.75);
+		box-shadow:         0px 4px 7px -2px rgba(50, 50, 50, 0.75);
+		width: auto!important; /* Menu is only as wide the products in the LIs */
+	}
+
+   	/* Styles Below cancel out the above styles/behaviors on the home page; They must come after to override */ 
+
+
+	.eCommerceHomePage #eCommerceNavBar {
+		border: none!important;
+	}
+
+}
+
+
+/* ------------------------------------------------------------------------------------------ */
+/*    For devices 640 pixels AND LESS -- targeting smartphones in LANDSCAPE mode */
+/* ------------------------------------------------------------------------------------------ */
+@media only screen and (max-width:640px) {
+
+	/* Make Header Logo container flexible relative to custom cart width */ 
+	.siteHeaderLogo {
+		width: -webkit-calc(100% - 100px);
+		width: calc(100% - 100px);
+	}
+
+   	/* exposes nav bar widget to show/hide navigation */ 
+	#eCommerceNavBarWidget a {
+		display: inline-block;
+		height: 40px;
+		position: relative;
+		text-align: left;
+		width: 40px;
+	}
+
+   	/* exposes nav bar widget to show/hide navigation */ 
+	#eCommerceNavBarWidget a.showNavWidget {
+		background: url("/osafe_theme/images/user_content/images/showNavWidget.png") 0 0 no-repeat;
+	}
+
+   	/* exposes nav bar widget to show/hide navigation */ 
+	#eCommerceNavBarWidget a.hideNavWidget {
+		background: url("/osafe_theme/images/user_content/images/hideNavWidget.png") 0 0 no-repeat;
+	}
+
+   	/* hides text in Nav Widget */ 
+	#eCommerceNavBarWidget a span {
+		display: inline-block;
+		margin: 12px 0 0 55px;	
+	}
+
+   	/* Styles menu to appear over content; not push it down */ 
+	#eCommerceNavBar #eCommerceNavBarMenu {
+                background: inherit;
+		position: absolute!important;
+		-webkit-box-shadow: 0px 4px 7px -2px rgba(50, 50, 50, 0.75);
+		-moz-box-shadow:    0px 4px 7px -2px rgba(50, 50, 50, 0.75);
+		box-shadow:         0px 4px 7px -2px rgba(50, 50, 50, 0.75);
+		width: auto!important; /* Menu is only as wide the products in the LIs */
+	}
+
+   	/* Styles Below cancel out the above styles/behaviors on the home page; They must come after to override */ 
+
+
+	.eCommerceHomePage #eCommerceNavBar {
+		border: none!important;
+	}
+
+
+	/* Instance Specific: cancels out width on all content divs; makes one column*/
+	.PDP.group.group4 li.string {
+		padding: 0;
+		width: 100%!important;
+	}
+
+	/* Decreases H1 font size */
+	h1 {
+		font-size: 21px!important;   
+	}
+
+}
+
+/* ------------------------------------------------------------------------------------------ */
+/*    For devices LESS THAN 640 pixels -- targeting smartphones in LANDSCAPE mode */
+/* ------------------------------------------------------------------------------------------ */
+@media only screen and (max-width:639px) {
+
+	/* Instance Specific: cancels out margin needed on desktop */
+	.pdpContent01 {
+		margin: 0;
+	}
+
+	/* removes float; allows container to fill width */
+	.PDP.group2,
+	.WriteReviewProduct.group.group2 {
+        width: 100%;
+    } 
+
+}
+
+/* ------------------------------------------------------------------------------------------ */
+/*    Apply to any device 500 pixels or less (Custom Width for Header Links; Engages before links wrap) */
+/* ------------------------------------------------------------------------------------------ */
+@media only screen and (max-width:500px) {
+
+	/* Removes Less Important Header Links */
+	#siteHeaderLinks li.mobileRemove {
+		display: none;
+	}
+
+}
+
+/* ------------------------------------------------------------------------------------------ */
+/*    For devices LESS THAN 320 pixels -- targeting smartphones in PORTRAIT mode */
+/* ------------------------------------------------------------------------------------------ */
+@media only screen and (max-width:320px) {
+
+	/* Aligns home page spots into a single full-width column */
+	.footerColumn {
+		min-height: 0;
+		text-align: center;
+		width: 100%;
+	}
+
+	/* removes float; allows container to fill width */
+	.bf-contentLeft,
+	.bf-contentRight {
+		float: none; 
+	}
+
+}

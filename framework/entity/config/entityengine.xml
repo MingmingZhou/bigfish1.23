@@ -52,7 +52,7 @@ access. For a detailed description see the core/docs/entityconfig.html file.
     <debug-xa-resources value="false" />  <!-- see https://issues.apache.org/jira/browse/OFBIZ-4282 for more -->
     
     <delegator name="default" entity-model-reader="main" entity-group-reader="main" entity-eca-reader="main" distributed-cache-clear-enabled="false">
-        <group-map group-name="org.ofbiz" datasource-name="localderby"/>
+        <group-map group-name="org.ofbiz" datasource-name="localmysql"/>
         <group-map group-name="org.ofbiz.olap" datasource-name="localderbyolap"/>
         <group-map group-name="org.ofbiz.tenant" datasource-name="localderbytenant"/>
         <!-- <group-map group-name="org.ofbiz" datasource-name="localmysql"/>
@@ -63,7 +63,7 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         <group-map group-name="org.ofbiz.tenant" datasource-name="localposttenant"/> -->
     </delegator>
     <delegator name="default-no-eca" entity-model-reader="main" entity-group-reader="main" entity-eca-reader="main" entity-eca-enabled="false" distributed-cache-clear-enabled="false">
-        <group-map group-name="org.ofbiz" datasource-name="localderby"/>
+        <group-map group-name="org.ofbiz" datasource-name="localmysql"/>
         <group-map group-name="org.ofbiz.olap" datasource-name="localderbyolap"/>
         <group-map group-name="org.ofbiz.tenant" datasource-name="localderbytenant"/>
         <!-- <group-map group-name="org.ofbiz" datasource-name="localmysql"/>
@@ -76,7 +76,7 @@ access. For a detailed description see the core/docs/entityconfig.html file.
 
     <!-- be sure that your default delegator (or the one you use) uses the same datasource for test. You must run "ant load-demo" before running "ant run-tests" -->
     <delegator name="test" entity-model-reader="main" entity-group-reader="main" entity-eca-reader="main">
-        <group-map group-name="org.ofbiz" datasource-name="localderby"/>
+        <group-map group-name="org.ofbiz" datasource-name="localmysql"/>
         <group-map group-name="org.ofbiz.olap" datasource-name="localderbyolap"/>
         <group-map group-name="org.ofbiz.tenant" datasource-name="localderbytenant"/>
         <!-- <group-map group-name="org.ofbiz" datasource-name="localmysql"/>
@@ -161,10 +161,10 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         <read-data reader-name="ext-test"/>
         <read-data reader-name="ext-demo"/>
         <inline-jdbc
-                jdbc-driver="org.hsqldb.jdbcDriver"
-                jdbc-uri="jdbc:hsqldb:data/hsqldb/ofbiz"
-                jdbc-username="sa"
-                jdbc-password=""
+                jdbc-driver="com.mysql.jdbc.Driver"
+                jdbc-uri="jdbc:hsqldb:data/hsqldb/bigfish"
+                jdbc-username="bigfish"
+                jdbc-password="bigfish"
                 isolation-level="ReadCommitted"
                 pool-minsize="2"
                 pool-maxsize="250"
@@ -194,10 +194,10 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         <read-data reader-name="ext-demo"/>
         <!-- beware use-indices-unique="false" is needed because of Derby bug with null values in a unique index -->
         <inline-jdbc
-                jdbc-driver="org.apache.derby.jdbc.EmbeddedDriver"
-                jdbc-uri="jdbc:derby:ofbiz;create=true"
-                jdbc-username="ofbiz"
-                jdbc-password-lookup="derby-ofbiz"
+                jdbc-driver="com.mysql.jdbc.Driver"
+                jdbc-uri="jdbc:derby:bigfish;create=true"
+                jdbc-username="bigfish"
+                jdbc-password="bigfish"
                 isolation-level="ReadCommitted"
                 pool-minsize="2"
                 pool-maxsize="250"
@@ -217,10 +217,10 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         offset-style="fetch">
         <!-- beware use-indices-unique="false" is needed because of Derby bug with null values in a unique index -->
         <inline-jdbc
-            jdbc-driver="org.apache.derby.jdbc.EmbeddedDriver"
+            jdbc-driver="com.mysql.jdbc.Driver"
             jdbc-uri="jdbc:derby:ofbizodbc;create=true"
-            jdbc-username="ofbiz"
-            jdbc-password-lookup="derby-ofbizodbc"
+            jdbc-username="bigfish"
+            jdbc-password="bigfish"
             isolation-level="ReadCommitted"
             pool-minsize="2"
             pool-maxsize="250"
@@ -246,10 +246,10 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         <read-data reader-name="ext-test"/>
         <read-data reader-name="ext-demo"/>
         <inline-jdbc
-                jdbc-driver="org.apache.derby.jdbc.EmbeddedDriver"
+                jdbc-driver="com.mysql.jdbc.Driver"
                 jdbc-uri="jdbc:derby:ofbizolap;create=true"
-                jdbc-username="ofbiz"
-                jdbc-password-lookup="derby-ofbizolap"
+                jdbc-username="bigfish"
+                jdbc-password="bigfish"
                 isolation-level="ReadCommitted"
                 pool-minsize="2"
                 pool-maxsize="250"
@@ -275,10 +275,10 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         <read-data reader-name="ext-demo"/>
         <!-- beware use-indices-unique="false" is needed because of Derby bug with null values in a unique index -->
         <inline-jdbc
-            jdbc-driver="org.apache.derby.jdbc.EmbeddedDriver"
+            jdbc-driver="com.mysql.jdbc.Driver"
             jdbc-uri="jdbc:derby:ofbiztenant;create=true"
-            jdbc-username="ofbiz"
-            jdbc-password-lookup="derby-ofbiztenant"
+            jdbc-username="bigfish"
+            jdbc-password="bigfish"
             isolation-level="ReadCommitted"
             pool-minsize="2"
             pool-maxsize="250"
@@ -301,10 +301,10 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         <!-- this setup is for the embedded version of Daffodil, with in.co.daffodil.db.jdbc.DaffodilDBDriver -->
         <!-- note that Daffodil can also run in a network mode with the driver class: in.co.daffodil.db.rmi.RmiDaffodilDBDriver and URI: jdbc:daffodilDB://<hostname>:<port>/ofbiz;create=true -->
         <inline-jdbc
-                jdbc-driver="in.co.daffodil.db.jdbc.DaffodilDBDriver"
-                jdbc-uri="jdbc:daffodilDB_embedded:ofbiz;create=true"
-                jdbc-username="ofbiz"
-                jdbc-password="ofbiz"
+                jdbc-driver="com.mysql.jdbc.Driver"
+                jdbc-uri="jdbc:daffodilDB_embedded:bigfish;create=true"
+                jdbc-username="bigfish"
+                jdbc-password="bigfish"
                 isolation-level="ReadCommitted"
                 pool-minsize="2"
                 pool-maxsize="250"
@@ -326,10 +326,10 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         <read-data reader-name="ext-test"/>
         <read-data reader-name="ext-demo"/>
         <inline-jdbc
-                jdbc-driver="org.axiondb.jdbc.AxionDriver"
-                jdbc-uri="jdbc:axiondb:ofbiz:data/axion/ofbiz"
-                jdbc-username="ofbiz"
-                jdbc-password="ofbiz"
+                jdbc-driver="com.mysql.jdbc.Driver"
+                jdbc-uri="jdbc:axiondb:ofbiz:data/axion/bigfish"
+                jdbc-username="bigfish"
+                jdbc-password="bigfish"
                 isolation-level="ReadCommitted"
                 pool-minsize="2"
                 pool-maxsize="250"
@@ -358,9 +358,9 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         <read-data reader-name="ext-demo"/>
         <inline-jdbc
                 jdbc-driver="com.mysql.jdbc.Driver"
-                jdbc-uri="jdbc:mysql://127.0.0.1/ofbiz?autoReconnect=true"
-                jdbc-username="ofbiz"
-                jdbc-password="ofbiz"
+                jdbc-uri="jdbc:mysql://127.0.0.1/bigfish?autoReconnect=true"
+                jdbc-username="bigfish"
+                jdbc-password="bigfish"
                 isolation-level="ReadCommitted"
                 pool-minsize="2"
                 pool-maxsize="250"
@@ -391,9 +391,9 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         <read-data reader-name="ext-demo"/>
         <inline-jdbc
                 jdbc-driver="com.mysql.jdbc.Driver"
-                jdbc-uri="jdbc:mysql://127.0.0.1/ofbizolap?autoReconnect=true"
-                jdbc-username="ofbiz"
-                jdbc-password="ofbiz"
+                jdbc-uri="jdbc:mysql://127.0.0.1/bigfish?autoReconnect=true"
+                jdbc-username="bigfish"
+                jdbc-password="bigfish"
                 isolation-level="ReadCommitted"
                 pool-minsize="2"
                 pool-maxsize="250"
@@ -424,9 +424,9 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         <read-data reader-name="ext-demo"/>
         <inline-jdbc
                 jdbc-driver="com.mysql.jdbc.Driver"
-                jdbc-uri="jdbc:mysql://127.0.0.1/ofbiztenant?autoReconnect=true"
-                jdbc-username="ofbiz"
-                jdbc-password="ofbiz"
+                jdbc-uri="jdbc:mysql://127.0.0.1/bigfish?autoReconnect=true"
+                jdbc-username="bigfish"
+                jdbc-password="bigfish"
                 isolation-level="ReadCommitted"
                 pool-minsize="2"
                 pool-maxsize="250"
@@ -452,9 +452,9 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         <read-data reader-name="seed"/>
         <inline-jdbc
                 jdbc-driver="com.mysql.jdbc.Driver"
-                jdbc-uri="jdbc:mysql://127.0.0.1/ofbiz_odbc?autoReconnect=true"
-                jdbc-username="ofbiz"
-                jdbc-password="ofbiz"
+                jdbc-uri="jdbc:mysql://127.0.0.1/bigfish?autoReconnect=true"
+                jdbc-username="bigfish"
+                jdbc-password="bigfish"
                 isolation-level="ReadCommitted"
                 pool-minsize="2"
                 pool-maxsize="250"
@@ -484,10 +484,10 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         <read-data reader-name="ext-test"/>
         <read-data reader-name="ext-demo"/>
         <inline-jdbc
-                jdbc-driver="org.postgresql.Driver"
-                jdbc-uri="jdbc:postgresql://127.0.0.1/ofbiz"
-                jdbc-username="ofbiz"
-                jdbc-password="ofbiz"
+                jdbc-driver="com.mysql.jdbc.Driver"
+                jdbc-uri="jdbc:postgresql://127.0.0.1/bigfish"
+                jdbc-username="bigfish"
+                jdbc-password="bigfish"
                 isolation-level="ReadCommitted"
                 pool-minsize="2"
                 pool-maxsize="250"
@@ -524,10 +524,10 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         <read-data reader-name="ext-test"/>
         <read-data reader-name="ext-demo"/>
         <inline-jdbc
-            jdbc-driver="org.postgresql.Driver"
-            jdbc-uri="jdbc:postgresql://127.0.0.1/ofbiz"
-            jdbc-username="ofbiz"
-            jdbc-password="ofbiz"
+            jdbc-driver="com.mysql.jdbc.Driver"
+            jdbc-uri="jdbc:postgresql://127.0.0.1/bigfish"
+            jdbc-username="bigfish"
+            jdbc-password="bigfish"
             isolation-level="ReadCommitted"
             pool-minsize="2"
             pool-maxsize="250"
@@ -560,7 +560,7 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         <read-data reader-name="ext-test"/>
         <read-data reader-name="ext-demo"/>
         <inline-jdbc
-                jdbc-driver="org.postgresql.Driver"
+                jdbc-driver="com.mysql.jdbc.Driver"
                 jdbc-uri="jdbc:postgresql://127.0.0.1/ofbizolap"
                 jdbc-username="ofbiz"
                 jdbc-password="ofbiz"
@@ -596,7 +596,7 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         <read-data reader-name="ext-test"/>
         <read-data reader-name="ext-demo"/>
         <inline-jdbc
-                jdbc-driver="org.postgresql.Driver"
+                jdbc-driver="com.mysql.jdbc.Driver"
                 jdbc-uri="jdbc:postgresql://127.0.0.1/ofbiztenant"
                 jdbc-username="ofbiz"
                 jdbc-password="ofbiz"
@@ -630,10 +630,10 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         <read-data reader-name="ext-test"/>
         <read-data reader-name="ext-demo"/>
         <inline-jdbc
-                jdbc-driver="oracle.jdbc.driver.OracleDriver"
-                jdbc-uri="jdbc:oracle:thin:@127.0.0.1:1521:ofbiz"
-                jdbc-username="ofbiz"
-                jdbc-password="ofbiz"
+                jdbc-driver="com.mysql.jdbc.Driver"
+                jdbc-uri="jdbc:oracle:thin:127.0.0.1:3306:bigfish"
+                jdbc-username="bigfish"
+                jdbc-password="bigfish"
                 pool-minsize="2"
                 pool-maxsize="250"
                 time-between-eviction-runs-millis="600000"/>
@@ -648,10 +648,10 @@ access. For a detailed description see the core/docs/entityconfig.html file.
             use-order-by-nulls="true">
         <read-data reader-name="main"/>
         <inline-jdbc
-                jdbc-driver="com.ddtek.jdbc.oracle.OracleDriver"
-                jdbc-uri="jdbc:datadirect:oracle://127.0.0.1:1521;SID=ofbiz"
-                jdbc-username="ofbiz"
-                jdbc-password="ofbiz"
+                jdbc-driver="com.mysql.jdbc.Driver"
+                jdbc-uri="jdbc:datadirect:oracle://127.0.0.1:3306;SID=bigfish"
+                jdbc-username="bigfish"
+                jdbc-password="bigfish"
                 pool-minsize="2"
                 pool-maxsize="250"
                 time-between-eviction-runs-millis="600000"/>
@@ -673,10 +673,10 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         <read-data reader-name="ext-test"/>
         <read-data reader-name="ext-demo"/>
         <inline-jdbc
-                jdbc-driver="com.sybase.jdbc2.jdbc.SybDriver"
-                jdbc-uri="jdbc:sybase:Tds:10.1.1.10:11222/ofbiz?DYNAMIC_PREPARE=true"
-                jdbc-username="ofbiz"
-                jdbc-password="ofbiz1"
+                jdbc-driver="com.mysql.jdbc.Driver"
+                jdbc-uri="jdbc:sybase:Tds:127.0.0.1:3306/bigfish?DYNAMIC_PREPARE=true"
+                jdbc-username="bigfish"
+                jdbc-password="bigfish"
                 isolation-level="ReadCommitted"
                 pool-minsize="2"
                 pool-maxsize="250"
@@ -699,10 +699,10 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         <read-data reader-name="ext-test"/>
         <read-data reader-name="ext-demo"/>
         <inline-jdbc
-                jdbc-driver="com.sap.dbtech.jdbc.DriverSapDB"
-                jdbc-uri="jdbc:sapdb://localhost/OFBIZ"
-                jdbc-username="ofbiz"
-                jdbc-password="ofbiz"
+                jdbc-driver="com.mysql.jdbc.Driver"
+                jdbc-uri="jdbc:sapdb://127.0.0.1/bigfish"
+                jdbc-username="bigfish"
+                jdbc-password="bigfish"
                 isolation-level="ReadCommitted"
                 pool-minsize="2"
                 pool-maxsize="250"
@@ -729,10 +729,10 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         <read-data reader-name="ext-test"/>
         <read-data reader-name="ext-demo"/>
         <inline-jdbc
-                jdbc-driver="org.firebirdsql.jdbc.FBDriver"
-                jdbc-uri="jdbc:firebirdsql:127.0.0.1:C:\\data\\ofbiz.gdb"
-                jdbc-username="SYSDBA"
-                jdbc-password="masterkey"
+                jdbc-driver="com.mysql.jdbc.Driver"
+                jdbc-uri="jdbc:firebirdsql:127.0.0.1:C:\\data\\bigfish.gdb"
+                jdbc-username="bigfish"
+                jdbc-password="bigfish"
                 isolation-level="ReadCommitted"
                 pool-minsize="2"
                 pool-maxsize="250"
@@ -774,10 +774,10 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         <read-data reader-name="ext-test"/>
         <read-data reader-name="ext-demo"/>
         <inline-jdbc
-                jdbc-driver="com.microsoft.sqlserver.jdbc.SQLServerDriver"
-                jdbc-uri="jdbc:sqlserver://localhost:1791;databaseName=ofbiz;SelectMethod=cursor;"
-                jdbc-username="ofbiz"
-                jdbc-password="ofbiz"
+                jdbc-driver="com.mysql.jdbc.Driver"
+                jdbc-uri="jdbc:sqlserver://127.0.0.1:3306;databaseName=bigfish;SelectMethod=cursor;"
+                jdbc-username="bigfish"
+                jdbc-password="bigfish"
                 isolation-level="ReadCommitted"
                 pool-minsize="2"
                 pool-maxsize="250"
@@ -800,10 +800,10 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         <read-data reader-name="ext-test"/>
         <read-data reader-name="ext-demo"/>
         <inline-jdbc
-                jdbc-driver="com.p6spy.engine.spy.P6SpyDriver"
-                jdbc-uri="jdbc:postgresql://127.0.0.1/ofbiz"
-                jdbc-username="ofbiz"
-                jdbc-password="ofbiz"
+                jdbc-driver="com.mysql.jdbc.Driver"
+                jdbc-uri="jdbc:postgresql://127.0.0.1/bigfish"
+                jdbc-username="bigfish"
+                jdbc-password="bigfish"
                 isolation-level="ReadCommitted"
                 pool-minsize="2"
                 pool-maxsize="250"
@@ -830,10 +830,10 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         <read-data reader-name="ext-test"/>
         <read-data reader-name="ext-demo"/>
         <inline-jdbc
-                jdbc-driver="com.extendedsystems.jdbc.advantage.ADSDriver"
-                jdbc-uri="jdbc:extendedsystems:advantage://localhost:6262;catalog=c:\\advantage\\OFBIZ.ADD;TableType=adt"
-                jdbc-username="ADSSYS"
-                jdbc-password="adssys"
+                jdbc-driver="com.mysql.jdbc.Driver"
+                jdbc-uri="jdbc:extendedsystems:advantage://127.0.0.1:3306;catalog=c:\\advantage\\OFBIZ.ADD;TableType=adt"
+                jdbc-username="bigfish"
+                jdbc-password="bigfish"
                 isolation-level="ReadCommitted"
                 pool-minsize="2"
                 pool-maxsize="250"

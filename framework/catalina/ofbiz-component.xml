@@ -91,7 +91,7 @@ under the License.
             <property name="maxSpareThreads" value="50"/>
             <property name="maxThreads" value="200"/>
             <property name="minSpareThreads" value="4"/>
-            <property name="port" value="8009"/>
+            <property name="port" value="8002"/>
             <property name="tcpNoDelay" value="true"/>
             <property name="soTimeout" value="60000"/>
             <property name="tomcatAuthentication" value="true"/>
@@ -250,7 +250,7 @@ under the License.
             <property name="maxSpareThreads" value="50"/>
             <property name="maxThreads" value="200"/>
             <property name="minSpareThreads" value="4"/>
-            <property name="port" value="8010"/>
+            <property name="port" value="8002"/>
             <property name="tcpNoDelay" value="true"/>
             <property name="soTimeout" value="60000"/>
             <property name="tomcatAuthentication" value="true"/>

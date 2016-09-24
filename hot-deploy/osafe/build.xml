@@ -625,12 +625,12 @@
         <move file="${osafe.deployemt.home}/ofbiz/framework/start/src/org/ofbiz/base/start/start.properties" todir="../../framework/start/src/org/ofbiz/base/start/" overwrite="true" failonerror="false"/>
 
         <!-- Osafe bigFishClientSkin.css -->
-        <copy file="${osafe.home}/data/version/version_bigFishClientSkin_SEED.css" tofile="${osafe.deployemt.home}/ofbiz/themes/osafe_theme/webapp/osafe_theme/css/bigFishClientSkin_SEED.css"></copy>
-        <move file="${osafe.deployemt.home}/ofbiz/themes/osafe_theme/webapp/osafe_theme/css/bigFishClientSkin_SEED.css" todir="${osafe.theme.home}/webapp/osafe_theme/css" overwrite="true" failonerror="false"/>
+        <copy file="${osafe.home}/data/version/version_bigFishClientSkin_SEED.css" tofile="${osafe.deployemt.home}/ofbiz/themes/osafe_theme/webapp/osafe_theme/css/bigFishClientSkin.css"></copy>
+        <move file="${osafe.deployemt.home}/ofbiz/themes/osafe_theme/webapp/osafe_theme/css/bigFishClientSkin.css" todir="${osafe.theme.home}/webapp/osafe_theme/css" overwrite="true" failonerror="false"/>
 
         <!-- Osafe bigFishRwdAdjustments.css -->
-        <copy file="${osafe.home}/data/version/version_bigFishRwdAdjustments_SEED.css" tofile="${osafe.deployemt.home}/ofbiz/themes/osafe_theme/webapp/osafe_theme/css/bigFishRwdAdjustments_SEED.css"></copy>
-        <move file="${osafe.deployemt.home}/ofbiz/themes/osafe_theme/webapp/osafe_theme/css/bigFishRwdAdjustments_SEED.css" todir="${osafe.theme.home}/webapp/osafe_theme/css" overwrite="true" failonerror="false"/>
+        <copy file="${osafe.home}/data/version/version_bigFishRwdAdjustments_SEED.css" tofile="${osafe.deployemt.home}/ofbiz/themes/osafe_theme/webapp/osafe_theme/css/bigFishRwdAdjustments.css"></copy>
+        <move file="${osafe.deployemt.home}/ofbiz/themes/osafe_theme/webapp/osafe_theme/css/bigFishRwdAdjustments.css" todir="${osafe.theme.home}/webapp/osafe_theme/css" overwrite="true" failonerror="false"/>
 
         <!-- Call original default target -->
         <antcall target="jar"></antcall>

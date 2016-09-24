@@ -192,7 +192,7 @@ public class ShoppingListServices {
                             // send Order Confirm Notification
                             try 
                             {
-                                Map<String, String> emailContext = UtilMisc.toMap("orderId", orderId, "userLogin", userLogin);
+                                Map<String, Object> emailContext = UtilMisc.toMap("orderId", orderId, "userLogin", userLogin);
                                 dispatcher.runAsync("sendOrderConfirmation",emailContext);
                             } catch (GenericServiceException e) 
                             {

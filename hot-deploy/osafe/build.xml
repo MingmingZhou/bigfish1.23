@@ -285,7 +285,35 @@
         </copy>
         <move file="${osafe.deployemt.home}/ofbiz/framework/base/config/ofbiz-containers.xml" todir="../../framework/base/config" overwrite="true" failonerror="false"/>
 
-        <!-- component-load.xml template-->
+        <!-- Server Ports  -->
+        <copy file="../../hot-deploy/osafe/data/version/version_base_ofbiz-component.xml" tofile="${osafe.deployemt.home}/ofbiz/framework/base/ofbiz-component.xml.template"></copy>
+        <copy file="${osafe.deployemt.home}/ofbiz/framework/base/ofbiz-component.xml.template" tofile="${osafe.deployemt.home}/ofbiz/framework/base/ofbiz-component.xml">
+            <filterset >
+              <filter token="port.jndi" value="${port.jndi}"/>
+              <filter token="port.beanshell" value="${port.beanshell}"/>
+            </filterset>
+        </copy>
+        <move file="${osafe.deployemt.home}/ofbiz/framework/base/ofbiz-component.xml" todir="../../framework/base" overwrite="true" failonerror="false"/>
+
+        <copy file="../../hot-deploy/osafe/data/version/version_service-ofbiz-component.xml" tofile="${osafe.deployemt.home}/ofbiz/framework/service/ofbiz-component.xml.template"></copy>
+        <copy file="${osafe.deployemt.home}/ofbiz/framework/service/ofbiz-component.xml.template" tofile="${osafe.deployemt.home}/ofbiz/framework/service/ofbiz-component.xml">
+            <filterset >
+              <filter token="port.jndi" value="${port.jndi}"/>
+            </filterset>
+        </copy>
+        <move file="${osafe.deployemt.home}/ofbiz/framework/service/ofbiz-component.xml" todir="../../framework/service" overwrite="true" failonerror="false"/>
+
+        <copy file="../../hot-deploy/osafe/data/version/version_catalina-ofbiz-component.xml" tofile="${osafe.deployemt.home}/ofbiz/framework/catalina/ofbiz-component.xml.template"></copy>
+        <copy file="${osafe.deployemt.home}/ofbiz/framework/catalina/ofbiz-component.xml.template" tofile="${osafe.deployemt.home}/ofbiz/framework/catalina/ofbiz-component.xml">
+            <filterset >
+              <filter token="port.https" value="${port.https}"/>
+              <filter token="port.http" value="${port.http}"/>
+              <filter token="port.ajp" value="${port.ajp}"/>
+            </filterset>
+        </copy>
+        <move file="${osafe.deployemt.home}/ofbiz/framework/catalina/ofbiz-component.xml" todir="../../framework/catalina" overwrite="true" failonerror="false"/>
+
+       <!-- component-load.xml template-->
         <copy file="../../hot-deploy/osafe/data/version/version_component-load.xml" tofile="${osafe.deployemt.home}/ofbiz/framework/base/config/component-load.xml.template"></copy>
         <copy file="${osafe.deployemt.home}/ofbiz/framework/base/config/component-load.xml.template" tofile="${osafe.deployemt.home}/ofbiz/framework/base/config/component-load.xml">
         </copy>

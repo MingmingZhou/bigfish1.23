@@ -30,10 +30,9 @@ import org.ofbiz.entity.GenericDataSourceException;
 import org.ofbiz.entity.GenericEntityException;
 import org.ofbiz.entity.GenericValue;
 import org.ofbiz.entity.condition.EntityCondition;
-import org.ofbiz.entity.condition.EntityExpr;
 import org.ofbiz.entity.condition.EntityOperator;
-import org.ofbiz.entity.config.DatasourceInfo;
 import org.ofbiz.entity.config.EntityConfigUtil;
+import org.ofbiz.entity.config.model.Datasource;
 import org.ofbiz.entity.datasource.GenericHelperInfo;
 import org.ofbiz.entity.jdbc.SQLProcessor;
 import org.ofbiz.entity.transaction.GenericTransactionException;
@@ -207,7 +206,7 @@ public class OsafeAdminServices {
                         UtilProperties.setPropertyValueInMemory("serverstats.properties", "stats.persist.REQUEST.hit", "false");
                         for(String relatedEntity : relatedEntitiesList){
                             GenericHelperInfo helperInfo = delegator.getGroupHelperInfo(delegator.getEntityGroupName(relatedEntity));
-                            DatasourceInfo datasourceInfo = EntityConfigUtil.getDatasourceInfo(helperInfo.getHelperBaseName());
+                            Datasource datasourceInfo = EntityConfigUtil.getDatasource(helperInfo.getHelperBaseName());
                             String relatedEntityName = delegator.getModelEntity(relatedEntity).getTableName(datasourceInfo);
                             //Preparing DELETE query
                             sqlP = new SQLProcessor(helperInfo);
@@ -216,7 +215,7 @@ public class OsafeAdminServices {
                             deleteRowCount = sqlP.executeUpdate();
                         }
                         GenericHelperInfo helperInfo = delegator.getGroupHelperInfo(delegator.getEntityGroupName(entityName));
-                        DatasourceInfo datasourceInfo = EntityConfigUtil.getDatasourceInfo(helperInfo.getHelperBaseName());
+                        Datasource datasourceInfo = EntityConfigUtil.getDatasource(helperInfo.getHelperBaseName());
                         String entity = delegator.getModelEntity(entityName).getTableName(datasourceInfo);
                       //Preparing DELETE query for Vist entity
                         sqlP = new SQLProcessor(helperInfo);
@@ -228,7 +227,7 @@ public class OsafeAdminServices {
                     }
                     else {
                         GenericHelperInfo helperInfo = delegator.getGroupHelperInfo(delegator.getEntityGroupName(entityName));
-                        DatasourceInfo datasourceInfo = EntityConfigUtil.getDatasourceInfo(helperInfo.getHelperBaseName());
+                        Datasource datasourceInfo = EntityConfigUtil.getDatasource(helperInfo.getHelperBaseName());
                         String tableName = delegator.getModelEntity(entityName).getTableName(datasourceInfo);
                         //Preparing DELETE query
                         sqlP = new SQLProcessor(helperInfo);

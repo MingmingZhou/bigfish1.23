@@ -30,10 +30,10 @@
         </if-not-empty>
         <call-object-method  obj-field="shoppingCart" method-name="shippingApplies" ret-field="shippingApplies"/>
         <if-compare operator="equals" value="false" field="shippingApplies">
-            <call-object-method obj-field="shoppingCart" method-name="setShipmentMethodTypeId">
+            <call-object-method obj-field="shoppingCart" method-name="setAllShipmentMethodTypeId">
                 <string value="NO_SHIPPING" />
             </call-object-method>
-            <call-object-method obj-field="shoppingCart" method-name="setCarrierPartyId">
+            <call-object-method obj-field="shoppingCart" method-name="setAllCarrierPartyId">
                 <string value="_NA_" />
             </call-object-method>
         </if-compare>
@@ -338,10 +338,10 @@
 			            </else>
 			            </if-empty>
 			        <else>
-			            <call-object-method obj-field="shoppingCart" method-name="setShipmentMethodTypeId">
+			            <call-object-method obj-field="shoppingCart" method-name="setAllShipmentMethodTypeId">
 			                <string value="NO_SHIPPING" />
 			            </call-object-method>
-			            <call-object-method obj-field="shoppingCart" method-name="setCarrierPartyId">
+			            <call-object-method obj-field="shoppingCart" method-name="setAllCarrierPartyId">
 			                <string value="_NA_" />
 			            </call-object-method>
 			        </else>
@@ -480,10 +480,10 @@
 	        </if-not-empty>
 	        
 	        <if-compare operator="not-equals" value="true" field="shippingApplies">
-	            <call-object-method obj-field="shoppingCart" method-name="setShipmentMethodTypeId">
+	            <call-object-method obj-field="shoppingCart" method-name="setAllShipmentMethodTypeId">
 	                <string value="NO_SHIPPING" />
 	            </call-object-method>
-	            <call-object-method obj-field="shoppingCart" method-name="setCarrierPartyId">
+	            <call-object-method obj-field="shoppingCart" method-name="setAllCarrierPartyId">
 	                <string value="_NA_" />
 	            </call-object-method>
 	        </if-compare>
@@ -1398,7 +1398,7 @@
 	          </if-not-empty>
           <!-- SET SHIPPING ADDRESS TO CART -->
 	          <if-not-empty field="shippingAddressPurposeContext.contactMechId">
-		        <call-object-method obj-field="shoppingCart" method-name="setShippingContactMechId">
+		        <call-object-method obj-field="shoppingCart" method-name="setAllShippingContactMechId">
 		            <field field="shippingAddressPurposeContext.contactMechId"/>
 		        </call-object-method>
 		      </if-not-empty>
@@ -2218,10 +2218,10 @@
                   <string value="DELIVERY_OPTION"/>
                   <string value="SHIP_TO"/>
             </call-object-method>
-	        <call-object-method obj-field="shoppingCart" method-name="setShipmentMethodTypeId">
+	        <call-object-method obj-field="shoppingCart" method-name="setAllShipmentMethodTypeId">
 	            <field field="shipmentMethodTypeId"/>
 	        </call-object-method>
-	        <call-object-method obj-field="shoppingCart" method-name="setCarrierPartyId">
+	        <call-object-method obj-field="shoppingCart" method-name="setAllCarrierPartyId">
 	            <field field="carrierPartyId"/>
 	        </call-object-method>
     </simple-method>
@@ -2550,10 +2550,10 @@
         <if-empty field="shoppingCart">
             <session-to-field field="shoppingCart"/>
         </if-empty>
-        <call-object-method obj-field="shoppingCart" method-name="setShipmentMethodTypeId">
+        <call-object-method obj-field="shoppingCart" method-name="setAllShipmentMethodTypeId">
             <field field="shipmentMethodTypeId"/>
         </call-object-method>
-        <call-object-method obj-field="shoppingCart" method-name="setCarrierPartyId">
+        <call-object-method obj-field="shoppingCart" method-name="setAllCarrierPartyId">
             <field field="carrierPartyId"/>
         </call-object-method>
         <if-not-empty field="productStoreShipMethId">
@@ -2609,7 +2609,7 @@
             <create-value value-field="postalAddress"/>
             <log level="info" message=" create Shipping Contact Mech id: ${shippingContactMechId}"/>
             <!--   Set shipping contact mech Id to cart     -->
-            <call-object-method obj-field="shoppingCart" method-name="setShippingContactMechId">
+            <call-object-method obj-field="shoppingCart" method-name="setAllShippingContactMechId">
                 <field field="shippingContactMechId"/>
             </call-object-method>
         <else>

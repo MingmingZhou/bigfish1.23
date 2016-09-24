@@ -75,10 +75,11 @@
     <!-- Admin -->
     <!-- Adding minimum amount of data to complete relationship -->
     <Party partyId="admin" statusId="PARTY_ENABLED"  />    
-    <UserLogin userLoginId="admin" partyId="admin"/>
+    <UserLogin userLoginId="admin" currentPassword="{SHA}47ca69ebb4bdc9ae0adec130880165d2cc05db1a" requirePasswordChange="N" partyId="admin"/>
     <!-- Give the default Ofbiz admin all access -->
     <UserLoginSecurityGroup userLoginId="admin" groupId="OSAFEADMIN" fromDate="2011-01-01 15:23:34.497"/>
     <UserLoginSecurityGroup userLoginId="admin" groupId="SGRP_ADMIN" fromDate="2011-01-01 15:23:34.497"/>
+    <UserLoginSecurityGroup userLoginId="admin" groupId="SUPER" fromDate="2001-01-01 12:00:00.0"/>
 
     
     <!-- BF Admin -->
@@ -103,7 +104,7 @@
     <UserLogin userLoginId="bfadministrator" currentPassword="{SHA}47ca69ebb4bdc9ae0adec130880165d2cc05db1a" requirePasswordChange="N" partyId="bfadministrator"/>
     <UserLoginSecurityGroup userLoginId="bfadministrator" groupId="OSAFEADMIN" fromDate="2011-01-01 15:23:34.497"/>
     <UserLoginSecurityGroup userLoginId="bfadministrator" groupId="SGRP_ADMIN" fromDate="2011-01-01 15:23:34.497"/>
-    <UserLoginSecurityGroup userLoginId="bfadministrator" groupId="FULLADMIN" fromDate="2011-01-01 15:23:34.497"/>
+    <UserLoginSecurityGroup userLoginId="bfadministrator" groupId="SUPER" fromDate="2011-01-01 15:23:34.497"/>
 
     <!-- BF Manager -->
     <Party partyId="bfmanager" partyTypeId="PERSON" statusId="PARTY_ENABLED" createdByUserLogin="admin" />

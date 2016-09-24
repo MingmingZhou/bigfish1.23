@@ -255,8 +255,8 @@ public class PayPalServices {
             if (estimate == null || estimate.compareTo(BigDecimal.ZERO) < 0) {
                 continue;
             }
-            cart.setShipmentMethodTypeId(shipMethod.getString("shipmentMethodTypeId"));
-            cart.setCarrierPartyId(shipMethod.getString("partyId"));
+            cart.setAllShipmentMethodTypeId(shipMethod.getString("shipmentMethodTypeId"));
+            cart.setAllCarrierPartyId(shipMethod.getString("partyId"));
             try {
                 coh.calcAndAddTax();
             } catch (GeneralException e) {

@@ -2988,7 +2988,7 @@ public class OsafeAdminFeedServices
     private static String getJobName(LocalDispatcher dispatcher,String serviceName)
     {
     	String jobName = "";
-        List<Map<String, Object>> processList = dispatcher.getJobManager().processList();
+        List<Map<String, Object>> processList = (List<Map<String, Object>>) dispatcher.getJobManager().getPoolState().get("taskList");
     	
     	for(Map<String, Object> process : processList)
     	{

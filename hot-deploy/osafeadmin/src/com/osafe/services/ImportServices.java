@@ -93,8 +93,9 @@ import org.ofbiz.entity.GenericValue;
 import org.ofbiz.entity.condition.EntityCondition;
 import org.ofbiz.entity.condition.EntityFunction;
 import org.ofbiz.entity.condition.EntityOperator;
-import org.ofbiz.entity.config.DatasourceInfo;
+import org.ofbiz.entity.config.model.Datasource;
 import org.ofbiz.entity.config.EntityConfigUtil;
+import org.ofbiz.entity.config.model.Datasource;
 import org.ofbiz.entity.datasource.GenericHelperInfo;
 import org.ofbiz.entity.jdbc.SQLProcessor;
 import org.ofbiz.entity.util.EntityUtil;
@@ -5747,7 +5748,7 @@ public class ImportServices {
                 {
                     GenericHelperInfo helperInfo = delegator.getGroupHelperInfo(delegator.getEntityGroupName(entity));
                     sqlP = new SQLProcessor(helperInfo);
-                    DatasourceInfo datasourceInfo = EntityConfigUtil.getDatasourceInfo(helperInfo.getHelperBaseName());
+                    Datasource datasourceInfo = EntityConfigUtil.getDatasource(helperInfo.getHelperBaseName());
 
                     int deleteRowCount =0; 
                     String tableName = delegator.getModelEntity(entity).getTableName(datasourceInfo);

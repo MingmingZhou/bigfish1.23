@@ -22,12 +22,13 @@ import org.ofbiz.entity.DelegatorFactory;
 import org.ofbiz.entity.GenericEntityException;
 import org.ofbiz.entity.GenericValue;
 import org.ofbiz.entity.util.EntityUtil;
+import org.ofbiz.order.order.OrderServices;
 import org.ofbiz.product.product.ProductContentWrapper;
 import org.ofbiz.product.product.ProductWorker;
 import org.ofbiz.product.store.ProductStoreWorker;
-import org.ofbiz.service.GenericDispatcher;
 import org.ofbiz.service.GenericServiceException;
 import org.ofbiz.service.LocalDispatcher;
+import org.ofbiz.service.ServiceContainer;
 
 import com.osafe.util.Util;
 
@@ -145,7 +146,7 @@ public class InventoryServices {
     public static void setProductInventoryLevel(String productId, String productStoreId, BigDecimal quantity, String deliveryOption) {
     	
     	Delegator delegator = DelegatorFactory.getDelegator(null);
-    	LocalDispatcher dispatcher = GenericDispatcher.getLocalDispatcher(null, delegator);
+    	LocalDispatcher dispatcher = ServiceContainer.getLocalDispatcher(delegator.getDelegatorName(), delegator);
     	
     	String inventoryMethod = Util.getProductStoreParm(productStoreId, "INVENTORY_METHOD");
     	GenericValue userLogin = null;

@@ -845,7 +845,7 @@ public class OsafeAdminCheckoutEvents {
 		    			if ("ORDER_HOLD".equals(orderHeader.getString("statusId")))
 		    			{
 		                    OrderChangeHelper.orderStatusChanges(dispatcher, sysUserLogin, orderId, "ORDER_APPROVED", null, "ITEM_APPROVED", null);
-                            Map<String, String> emailContext = UtilMisc.toMap("orderId", orderId, "userLogin", sysUserLogin);
+                            Map<String, Object> emailContext = UtilMisc.toMap("orderId", orderId, "userLogin", sysUserLogin);
                             dispatcher.runAsync("sendOrderConfirmation",emailContext);
 		    			}
 		    			

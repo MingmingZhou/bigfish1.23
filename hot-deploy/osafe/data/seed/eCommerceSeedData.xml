@@ -14,7 +14,7 @@
     <PartyRole partyId="admin" roleTypeId="SALES_REP"/>
     <PartyRole partyId="admin" roleTypeId="OWNER"/>
     <UserLogin userLoginId="admin" currentPassword="{SHA}47ca69ebb4bdc9ae0adec130880165d2cc05db1a" requirePasswordChange="N" partyId="admin"/>
-    <UserLoginSecurityGroup groupId="FULLADMIN" userLoginId="admin" fromDate="2001-01-01 00:00:00.0"/>
+    <UserLoginSecurityGroup groupId="SUPER" userLoginId="admin" fromDate="2001-01-01 00:00:00.0"/>
     <UserPreference userLoginId="admin" userPrefGroupTypeId="GLOBAL_PREFERENCES" userPrefTypeId="javaScriptEnabled" userPrefValue="Y"/>
     <UserPreference userLoginId="admin" userPrefGroupTypeId="GLOBAL_PREFERENCES" userPrefTypeId="VISUAL_THEME" userPrefValue="FLAT_GREY"/>
     <UserPreference userLoginId="_NA_" userPrefGroupTypeId="GLOBAL_PREFERENCES" userPrefTypeId="ORGANIZATION_PARTY" userPrefValue="DEFAULT"/>

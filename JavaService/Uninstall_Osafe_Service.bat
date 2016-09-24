@@ -1,1 +1,1 @@
-javaservice -uninstall "OfBiz Big Fish"
+javaservice -uninstall "OfBiz Runway"

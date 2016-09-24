@@ -6,12 +6,12 @@
 
     <context-param>
         <param-name>webSiteId</param-name>
-        <param-value>BF_Website</param-value>
+        <param-value>RNY_WEBSITE</param-value>
         <description>A unique ID used to look up the WebSite entity</description>
     </context-param>
     <context-param>
         <param-name>adminModuleName</param-name>
-        <param-value>BF</param-value>
+        <param-value>Fashion House</param-value>
         <description>Admin Module Name</description>
     </context-param>
     <context-param>

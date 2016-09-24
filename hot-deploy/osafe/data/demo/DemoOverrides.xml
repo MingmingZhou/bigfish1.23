@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+
+
+<XProductStoreParm productStoreId="BF_STORE" parmKey="PDP_FACET_GROUP_VARIANT_SWATCH_IMG" parmValue="COLOR" description="This is the FACET GROUP that may have variant 'swatches' images on the PLP. For example, if this parameter is set to COLOR then the PDP will offer the 'color swatches'as a selector." parmCategory="PDP"/>
+<XProductStoreParm productStoreId="BF_STORE" parmKey="PLP_FACET_GROUP_VARIANT_SWATCH_IMG" parmValue="COLOR" description="This is the FACET GROUP that may have variant 'swatch' images on the PLP. For example, if this parameter is set to COLOR, and COLOR=Red is clicked on the Facets, then the PDP processing will look for images from the variant product Color=Red." parmCategory="PLP"/>
+
+<XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_PLP_H" parmValue="240" description="Height of PLP Image" parmCategory="IMAGE"/>
+<XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_PLP_W" parmValue="180" description="Width of PLP Image" parmCategory="IMAGE"/>
+<XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_PDP_REG_H" parmValue="300" description="Height of PDP Image" parmCategory="IMAGE"/>
+<XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_PDP_REG_W" parmValue="225" description="Width of PDP Image" parmCategory="IMAGE"/>
+<XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_PDP_POPUP_H" parmValue="339" description="Height of PDP Popup Image" parmCategory="IMAGE"/>
+<XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_PDP_POPUP_W" parmValue="254" description="Width of PDP Popup Image" parmCategory="IMAGE"/>
+<XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_RECENT_H" parmValue="187" description="Height of PDP Recent Image" parmCategory="IMAGE"/>
+<XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_RECENT_W" parmValue="150" description="Width of PDP Recent Image" parmCategory="IMAGE"/>
+<XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_COMPLEMENT_H" parmValue="187" description="Height of PDP Complement Image" parmCategory="IMAGE"/>
+<XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_CART_H" parmValue="100" description="Height of Shopping Cart Image" parmCategory="IMAGE"/>
+<XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_CART_W" parmValue="75" description="Width of Shopping Cart Image" parmCategory="IMAGE"/>
+<XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_PLP_CAT_W" parmValue="180" description="Width of PLP Category Image" parmCategory="IMAGE"/>
+<XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_REVIEW_H" parmValue="200" description="Height of Submit Review Image" parmCategory="IMAGE"/>
+<XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_REVIEW_W" parmValue="150" description="Width of Submit review Image" parmCategory="IMAGE"/>
+<XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_PDP_VIDEO_H" parmValue="500" description="Height of PDP Product Video" parmCategory="VIDEO"/>
+<XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_PDP_VIDEO_W" parmValue="300" description="Width of PDP Product Video" parmCategory="VIDEO"/>
+<XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_PDP_SWATCH_H" parmValue="35" description="Height of PDP Swatch, leave blank or zero if no resizing should take place." parmCategory="IMAGE"/>
+<XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_PDP_SWATCH_W" parmValue="35" description="Width of PDP Swatch, leave blank or zero if no resizing should take place." parmCategory="IMAGE"/>
+<XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_PDP_VIDEO_360_H" parmValue="350" description="Height of PDP Video 360" parmCategory="VIDEO"/>
+<XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_PDP_VIDEO_360_W" parmValue="250" description="Width of PDP Video 360" parmCategory="VIDEO"/>
+<XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_PLP_MFG_H" parmValue="40" description="Height of PLP Manufacturer logo Image" parmCategory="IMAGE"/>
+<XProductStoreParm productStoreId="BF_STORE" parmKey="IMG_SIZE_PLP_MFG_W" parmValue="40" description="Width of PLP Manufacturer logo Image" parmCategory="IMAGE"/>
+
+<XProductStoreParm productStoreId="BF_STORE" parmKey="ADM_HELP_URL" parmValue="http://bigfish.salmonllc.com/help_files/" description="The URL location of the help files" parmCategory="ADM"/>
+<XProductStoreParm productStoreId="BF_STORE" parmKey="INVENTORY_METHOD" parmValue="NONE" description="The method used for tracking inventory: NONE: Inventory is not relevant to this implementation OFBIZ: use standard OFBiz inventory. Facility, reservations, ATP, QOH BIGFISH: simple inventory value" parmCategory="INVENTORY"/>
+
+<ProductStoreEmailSetting productStoreId="BF_STORE" emailType="CONT_NOTI_EMAIL" bodyScreenLocation="component://osafe/widget/EmailScreens.xml#contactUsEmailNotification" xslfoAttachScreenLocation="" fromAddress="bigfish@salmonllc.com" ccAddress="" bccAddress="bigfish@salmonllc.com" subject="${EMAIL_CLNT_NAME}: Contact us Information" contentType="" />
+<ProductStoreEmailSetting productStoreId="BF_STORE" emailType="REQCAT_NOTI_EMAIL" bodyScreenLocation="component://osafe/widget/EmailScreens.xml#requestCatalogEmailNotification"  xslfoAttachScreenLocation="" fromAddress="bigfish@salmonllc.com" ccAddress="" bccAddress="bigfish@salmonllc.com" subject="${EMAIL_CLNT_NAME}: Request Catalog Notification"  contentType="" />
+<ProductStoreEmailSetting productStoreId="BF_STORE" emailType="PARTY_REGIS_CONFIRM" bodyScreenLocation="component://osafe/widget/EmailScreens.xml#createPartyNotification" xslfoAttachScreenLocation="" fromAddress="bigfish@salmonllc.com" ccAddress="" bccAddress="bigfish@salmonllc.com" subject="${EMAIL_CLNT_NAME}: Thank you for registering!!" contentType="" />
+<ProductStoreEmailSetting productStoreId="BF_STORE" emailType="PRDS_ABD_CART" bodyScreenLocation="component://osafe/widget/EmailScreens.xml#abandonCartEmail" xslfoAttachScreenLocation="" fromAddress="bigfish@salmonllc.com" ccAddress="" bccAddress="bigfish@salmonllc.com" subject="${EMAIL_CLNT_NAME}:Your Shopping Cart is Full" contentType="" />
+<ProductStoreEmailSetting productStoreId="BF_STORE" emailType="PRDS_CUST_REGISTER" bodyScreenLocation="component://osafe/widget/EmailScreens.xml#createPartyNotification" xslfoAttachScreenLocation="" fromAddress="bigfish@salmonllc.com" ccAddress="" bccAddress="bigfish@salmonllc.com" subject="${EMAIL_CLNT_NAME}: Thank you for registering!!" contentType="" />
+<ProductStoreEmailSetting productStoreId="BF_STORE" emailType="PRDS_EMAIL_VERIFY" bodyScreenLocation="component://osafe/widget/EmailScreens.xml#VerifyEmailAddressNotification" xslfoAttachScreenLocation="" fromAddress="bigfish@salmonllc.com" ccAddress="" bccAddress="bigfish@salmonllc.com" subject="${EMAIL_CLNT_NAME}: User Name Reminder" contentType="" />
+<ProductStoreEmailSetting productStoreId="BF_STORE" emailType="PRDS_GC_PURCHASE" bodyScreenLocation="component://osafe/widget/EmailScreens.xml#GiftCardPurchase" xslfoAttachScreenLocation="" fromAddress="bigfish@salmonllc.com" ccAddress="" bccAddress="bigfish@salmonllc.com" subject="${EMAIL_CLNT_NAME}: A Gift From ${senderName}!" contentType="" />
+<ProductStoreEmailSetting productStoreId="BF_STORE" emailType="PRDS_GC_RELOAD" bodyScreenLocation="component://osafe/widget/EmailScreens.xml#GiftCardReload" xslfoAttachScreenLocation="" fromAddress="bigfish@salmonllc.com" ccAddress="" bccAddress="bigfish@salmonllc.com" subject="${EMAIL_CLNT_NAME}: Gift Card Reload Results" contentType="" />
+<ProductStoreEmailSetting productStoreId="BF_STORE" emailType="PRDS_ODR_BACKORDER" bodyScreenLocation="component://osafe/widget/EmailScreens.xml#BackorderNotice" xslfoAttachScreenLocation="" fromAddress="bigfish@salmonllc.com" ccAddress="" bccAddress="bigfish@salmonllc.com" subject="${EMAIL_CLNT_NAME}: Backorder Notification #${orderId}" contentType="" />
+<ProductStoreEmailSetting productStoreId="BF_STORE" emailType="PRDS_ODR_CHANGE" bodyScreenLocation="component://osafe/widget/EmailScreens.xml#OrderChangeNotice" xslfoAttachScreenLocation="" fromAddress="bigfish@salmonllc.com" ccAddress="" bccAddress="bigfish@salmonllc.com" subject="${EMAIL_CLNT_NAME}: Your Order #${orderId} Status Has Changed!!" contentType="" />
+<ProductStoreEmailSetting productStoreId="BF_STORE" emailType="PRDS_ODR_COMPLETE" bodyScreenLocation="component://osafe/widget/EmailScreens.xml#OrderCompleteNotice" xslfoAttachScreenLocation="" fromAddress="bigfish@salmonllc.com" ccAddress="" bccAddress="bigfish@salmonllc.com" subject="${EMAIL_CLNT_NAME}: Your Order #${orderId} Is Complete" contentType="" />
+<ProductStoreEmailSetting productStoreId="BF_STORE" emailType="PRDS_ODR_CONFIRM" bodyScreenLocation="component://osafe/widget/EmailScreens.xml#orderConfirmEmail" xslfoAttachScreenLocation="" fromAddress="bigfish@salmonllc.com" ccAddress="" bccAddress="bigfish@salmonllc.com" subject="${EMAIL_CLNT_NAME}: #${orderId} Thank you for your order!!" contentType="" />
+<ProductStoreEmailSetting productStoreId="BF_STORE" emailType="PRDS_ODR_PAYRETRY" bodyScreenLocation="component://osafe/widget/EmailScreens.xml#PaymentRetryNotice" xslfoAttachScreenLocation="" fromAddress="bigfish@salmonllc.com" ccAddress="" bccAddress="bigfish@salmonllc.com" subject="${EMAIL_CLNT_NAME}: Order Payment Notification #${orderId}" contentType="" />
+<ProductStoreEmailSetting productStoreId="BF_STORE" emailType="PRDS_ODR_SHIP_COMPLT" bodyScreenLocation="component://osafe/widget/EmailScreens.xml#ShipmentCompleteNotice" xslfoAttachScreenLocation="" fromAddress="bigfish@salmonllc.com" ccAddress="" bccAddress="bigfish@salmonllc.com" subject="${EMAIL_CLNT_NAME}: Your Order #${orderId} Has Shipped!!" contentType="" />
+<ProductStoreEmailSetting productStoreId="BF_STORE" emailType="PRDS_PWD_RETRIEVE" bodyScreenLocation="component://osafe/widget/EmailScreens.xml#forgotPasswordEmail" xslfoAttachScreenLocation="" fromAddress="bigfish@salmonllc.com" ccAddress="" bccAddress="bigfish@salmonllc.com" subject="${EMAIL_CLNT_NAME}: Password Reminder (${userLogin.userLoginId})" contentType="" />
+<ProductStoreEmailSetting productStoreId="BF_STORE" emailType="PRDS_QUO_CONFIRM" bodyScreenLocation="component://osafe/widget/EmailScreens.xml#ViewQuoteSimple" xslfoAttachScreenLocation="" fromAddress="bigfish@salmonllc.com" ccAddress="" bccAddress="bigfish@salmonllc.com" subject="${EMAIL_CLNT_NAME}: Quote Confirmation #${quoteId}" contentType="" />
+<ProductStoreEmailSetting productStoreId="BF_STORE" emailType="PRDS_RTN_ACCEPT" bodyScreenLocation="component://osafe/widget/EmailScreens.xml#ReturnAccept" xslfoAttachScreenLocation="" fromAddress="bigfish@salmonllc.com" ccAddress="" bccAddress="bigfish@salmonllc.com" subject="${EMAIL_CLNT_NAME}: Return Accepted #${returnHeader.returnId}" contentType="" />
+<ProductStoreEmailSetting productStoreId="BF_STORE" emailType="PRDS_RTN_CANCEL" bodyScreenLocation="component://osafe/widget/EmailScreens.xml#ReturnCancel" xslfoAttachScreenLocation="" fromAddress="bigfish@salmonllc.com" ccAddress="" bccAddress="bigfish@salmonllc.com" subject="${EMAIL_CLNT_NAME}: Return Cancelled #${returnHeader.returnId}" contentType="" />
+<ProductStoreEmailSetting productStoreId="BF_STORE" emailType="PRDS_RTN_COMPLETE" bodyScreenLocation="component://osafe/widget/EmailScreens.xml#ReturnComplete" xslfoAttachScreenLocation="" fromAddress="bigfish@salmonllc.com" ccAddress="" bccAddress="bigfish@salmonllc.com" subject="${EMAIL_CLNT_NAME}: Return Completed #${returnHeader.returnId}" contentType="" />
+<ProductStoreEmailSetting productStoreId="BF_STORE" emailType="PRDS_TELL_FRIEND" bodyScreenLocation="component://osafe/widget/EmailScreens.xml#TellFriend" xslfoAttachScreenLocation="" fromAddress="bigfish@salmonllc.com" ccAddress="" bccAddress="bigfish@salmonllc.com" subject="${sendFrom} has sent you a link!" contentType="" />
+<ProductStoreEmailSetting productStoreId="BF_STORE" emailType="UNSUB_CONT_LIST_NOTI" bodyScreenLocation="component://osafe/widget/EmailScreens.xml#ContactListUnsubscribeEmail" xslfoAttachScreenLocation="" fromAddress="bigfish@salmonllc.com" ccAddress="" bccAddress="bigfish@salmonllc.com" subject="${EMAIL_CLNT_NAME}: Unsubscribe Contact List" contentType="" />
+<ProductStoreEmailSetting productStoreId="BF_STORE" emailType="UPD_PRSNL_INF_CNFRM" bodyScreenLocation="component://osafe/widget/EmailScreens.xml#changePersonalInfoNotification" xslfoAttachScreenLocation="" fromAddress="bigfish@salmonllc.com" ccAddress="" bccAddress="bigfish@salmonllc.com" subject="${EMAIL_CLNT_NAME}: Personal Information Updated" contentType="" />
+<ProductStoreEmailSetting productStoreId="BF_STORE" emailType="PRDS_SHIP_REVIEW" bodyScreenLocation="component://osafe/widget/EmailScreens.xml#shipReviewEmail" xslfoAttachScreenLocation="" fromAddress="bigfish@salmonllc.com" ccAddress="" bccAddress="bigfish@salmonllc.com" subject="${EMAIL_CLNT_NAME}:Your Recent Order, Tell Us What You Think!!" contentType="" />
+<ProductStoreEmailSetting productStoreId="BF_STORE" emailType="PRDS_MAILING_LIST" bodyScreenLocation="component://osafe/widget/EmailScreens.xml#mailingListEmailNotification" xslfoAttachScreenLocation="" fromAddress="bigfish@salmonllc.com" ccAddress="" bccAddress="bigfish@salmonllc.com" subject="${EMAIL_CLNT_NAME}: Mailing List Information" contentType="" />
+<ProductStoreEmailSetting productStoreId="BF_STORE" emailType="PRDS_SCHED_JOB_ALERT" bodyScreenLocation="component://osafe/widget/EmailScreens.xml#sendScheduledJobNotification" xslfoAttachScreenLocation="" fromAddress="bigfish@salmonllc.com" ccAddress="" bccAddress="bigfish@salmonllc.com" subject="${EMAIL_CLNT_NAME}: Scheduled Job ${SCHEDULED_JOB_NAME} has ${SCHEDULED_JOB_STATUS}" contentType="" />
+<ProductStoreEmailSetting productStoreId="BF_STORE" emailType="PRDS_EMAIL_TEST" bodyScreenLocation="component://osafe/widget/EmailScreens.xml#emailTest" xslfoAttachScreenLocation="" fromAddress="bigfish@salmonllc.com" ccAddress="" bccAddress="bigfish@salmonllc.com" subject="${EMAIL_CLNT_NAME}: Test Email" contentType="" />
+
+<XProductStoreParm productStoreId="BF_STORE" parmKey="SEARCH_DEFAULT_TEXT" parmValue="What are you looking for?" description="Default text for site search entry text box" parmCategory="SEARCH"/>
+
+<SequenceValueItem seqName="DataResource" seqId="900000"/>
+<SequenceValueItem seqName="Content" seqId="900000"/>
+
+
+<DataResource dataResourceId="52740" dataResourceTypeId="ELECTRONIC_TEXT" dataTemplateTypeId="FTL" statusId="CTNT_PUBLISHED" mimeTypeId="application/octet-stream" />
+<ElectronicText dataResourceId="52740">
+  <textData><![CDATA[<div style="width:56em;"><!-- floated parents need a width (total of children) -->
+
+<div style="float:left;"><!-- container 1 -->
+  <ul class="topLevel">
+   <li class="subLevel navfirstitem"><strong>Shop By Category</strong></li>
+   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/active">Active</a></li>                    
+   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/blouses">Blouses</a></li>
+   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/denim">Denim</a></li>
+   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/dresses">Dresses</a></li>                    
+   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/intimates-/-sleepwear">Intimates &frasl; Sleepwear</a></li>
+   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/leggings">Leggins</a></li>
+   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/outerwear-/-jackets">Outerwear &frasl; Jackets</a></li>                    
+   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/pants">Pants</a></li>
+   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/rompers">Rompers</a></li>
+   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/shorts">Shorts</a></li>                    
+   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/skirts">Skirts</a></li>
+   <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/sweaters">Sweaters</a></li>
+   <li class="subLevel navlastitem"><a class="subLevel" href="/online/shop/apparel/swim">Swim</a></li>
+  </ul>
+</div>
+
+<div style="margin: 0 0 0 20em"><!-- container 2 -->
+  <ul class="topLevel">
+    <li class="subLevel navfirstitem"><strong>Best Sellers</strong></li>
+    <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/blouses/filterGroup=productFeature_MATERIAL:twill">Twill Blouses </a></li>                    
+    <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/intimates-/-sleepwear/filterGroup=productFeature_MATERIAL:cotton">Cotton Intimates</a></li>
+    <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/dresses/filterGroup=productFeature_MATERIAL:silk_chiffon">Chiffon Dresses</a></li>
+    <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/outerwear-/-jackets/filterGroup=productFeature_MATERIAL:leather">Leather Outerwear</a></li>
+    <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/pants/filterGroup=productFeature_MATERIAL:wool">Wool Pants</a></li>
+    <li class="subLevel "><a class="subLevel" href="/online/shop/apparel/pants/filterGroup=productFeature_MATERIAL:leather">Leather Pants</a></li>
+    <li class="subLevel "><a class="subLevel" href="/online/shop/dresses/long-sleeve-goddess-dress">Long Sleeve Goddess Dress </a></li>                    
+    <li class="subLevel "><a class="subLevel" href="/shop/intimates-/-sleepwear/sophia-hooded-robe">Sophia Hooded Robe </a></li>
+    <li class="subLevel "><strong class="subLevel">New Arrivals</strong></li>
+    <li class="subLevel "><a class="subLevel" href="/online/shop/shorts/cuffed-leather-shorts">Cuffed Leather Shorts</a></li>                    
+    <li class="subLevel "><a class="subLevel" href="/online/shop/rompers/embroidered-romper">Embroidered Romper</a></li>
+    <li class="subLevel "><a class="subLevel" href="/online/shop/sweaters/cashmere-cocoon-sweater">Cashmere Cocoon Sweater </a></li>
+    <li class="subLevel navlastitem"><a class="subLevel" href="/online/shop/swim/corsica-string-bikini">Corsica String Bikini</a></li>
+  </ul>
+</div>
+
+<div style="padding: 18px 0 0 0;"><!-- container 3 -->
+  <img src="/osafe_theme/images/user_content/images/freeDeliv.jpg" alt="free delivery" width="150" height="150"/>
+</div>
+</div>
+          ]]>
+  </textData>
+</ElectronicText>
+<Content contentId="56440" contentTypeId="DOCUMENT" dataResourceId="52740" statusId="CTNT_PUBLISHED" contentName="APPAREL To be use as an alternative to the Sub-Nav drop-down" description="To be use as an alternative to the Sub-Nav drop-down: Apparel"/>
+<ProductCategoryContent productCategoryId="APPAREL" contentId="56440" prodCatContentTypeId="PLP_ESPOT_MEGA_MENU" fromDate="2012-04-10 00:00:00" />
+
+
+</entity-engine-xml>
+
+
+
+

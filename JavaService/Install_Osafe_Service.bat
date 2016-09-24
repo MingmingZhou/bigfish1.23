@@ -21,7 +21,7 @@ set OFBIZ_HOME=E:\work\weixin\aqwqn\git\bigfish\1.23\ofbiz
 set LOGS_DIR=%OFBIZ_HOME%\runtime\logs
 set SOLR_PARMS=-Dsolr.solr.home=%OFBIZ_HOME%/hot-deploy/solr -Dsolr.data.dir=%OFBIZ_HOME%/hot-deploy/solr/data
 
-javaservice -install "OfBiz Big Fish" %JAVA_HOME%\jre\bin\server\jvm.dll -Xms512M -Xmx512M %SOLR_PARMS% -Djava.class.path=%JAVA_HOME%\lib\tools.jar;%OFBIZ_HOME%\ofbiz.jar -start org.ofbiz.base.start.Start -out %LOGS_DIR%\serviceLog.txt -err %LOGS_DIR%\serviceErr.txt -current %OFBIZ_HOME% -manual
+javaservice -install "OfBiz Runway" %JAVA_HOME%\jre\bin\server\jvm.dll -Xms512M -Xmx512M %SOLR_PARMS% -Djava.class.path=%JAVA_HOME%\lib\tools.jar;%OFBIZ_HOME%\ofbiz.jar -start org.ofbiz.base.start.Start -out %LOGS_DIR%\serviceLog.txt -err %LOGS_DIR%\serviceErr.txt -current %OFBIZ_HOME% -manual
 
 goto end
 
@@ -33,7 +33,7 @@ goto error_exit
 :error_exit
 
 @echo .
-@echo . Failed to install OfBiz Big Fish as a system service
+@echo . Failed to install OfBiz Runway as a system service
 @echo .
 
 :end

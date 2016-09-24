@@ -51,7 +51,7 @@ rem "%JAVA_HOME%\bin\java" -Xms512M -Xmx512M -XX:MaxPermSize=128m -Xdebug -Xnoag
 
 rem ### Simple easy to read line
 echo on
-title OfBiz Big Fish
+title OfBiz Runway
 set SOLR_PARMS=-Dsolr.solr.home=E:\work\weixin\aqwqn\git\bigfish\1.23\ofbiz/hot-deploy/solr -Dsolr.data.dir=E:\work\weixin\aqwqn\git\bigfish\1.23\ofbiz/hot-deploy/solr/data
 "%JAVA_HOME%\bin\java" -Xms512M -Xmx512M -XX:MaxPermSize=128m %SOLR_PARMS% -jar ofbiz.jar
 

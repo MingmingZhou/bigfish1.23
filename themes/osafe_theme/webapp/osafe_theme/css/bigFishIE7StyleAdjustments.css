@@ -1,0 +1,74 @@
+/* === ie7 test adjustments  === */
+
+/* --- cancel out padding for box model --- */
+
+#eCommerceMainPanel.leftPanel,
+#eCommerceLeftPanel,
+#eCommerceMainPanel.mainPanel,
+.dialogOverlay,
+.viewLargerImage,
+.footerColumn {
+    *padding: 0!important;
+    *border: none!important;
+}
+
+/* --- display overrides; must be inline --- */
+
+label,
+.caption,
+label span,
+#siteShoppingCart p,
+#siteShoppingCart #siteCartStats,
+#searchContainer input,
+#eCommercePageBody #eCommerceMainPanel.homePage,
+.pdpAlternateImage ul li,
+.seeLargerImage,
+.pdpVideo,
+.action.addToCart.pdpAddToCart,
+.action.addToCart.pdpAddToCart *,
+.action.addToWishlist.pdpAddToWishlist,
+.action.addToWishlist.pdpAddToWishlist *,
+.horizontalList li,
+.ui-tabs .ui-tabs-panel,
+.ccvContainer,
+.ccvContainer span {
+    *display: inline;
+    *float: none;
+
+}
+
+/* --- float / clear overrides --- */
+.PDPReviewListItems.reviewItemList li {
+      *float: left; 
+      *clear: left;
+}
+
+/* --- PDP floated groups need widths --- */
+
+.PDP.group.group2 {
+   *width: 350px;
+}
+
+.PDP.group.group3 {
+   *width: 400px;
+}
+
+.PDP.group.group4 {
+   *width: 100%;
+   *clear: both;
+}
+
+/* --- Instance Specific ie7 adjustments --- */
+
+#searchContainer input[type="text"] {
+   *width: 200px;
+   *display: inline;
+}
+
+.pdpDistinguishingFeatureList label {
+    *float: left;
+}
+
+.eCommerceHotSpot {
+   *display: inline;
+}

@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+<ProductFeatureType productFeatureTypeId="COLOR" parentTypeId="" hasTable="N" description="COLOR" />
+<ProductFeatureCategory productFeatureCategoryId="COLOR" parentCategoryId="" description="COLOR" />
+<ProductFeatureGroup productFeatureGroupId="COLOR" description="COLOR" />
+<ProductFeatureCatGrpAppl productCategoryId="ACTIVE" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="ACTIVE" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="DONATELLI" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="DONATELLI" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="STELLA" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="STELLA" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeature productFeatureId="COLOR_BROWN" productFeatureTypeId="COLOR" productFeatureCategoryId="COLOR" description="Brown" />
+<ProductFeatureGroupAppl productFeatureGroupId="COLOR" productFeatureId="COLOR_BROWN" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureType productFeatureTypeId="MATERIAL" parentTypeId="" hasTable="N" description="MATERIAL" />
+<ProductFeatureCategory productFeatureCategoryId="MATERIAL" parentCategoryId="" description="MATERIAL" />
+<ProductFeatureGroup productFeatureGroupId="MATERIAL" description="MATERIAL" />
+<ProductFeatureCatGrpAppl productCategoryId="ACTIVE" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="ACTIVE" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="DONATELLI" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="DONATELLI" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="STELLA" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="STELLA" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeature productFeatureId="MATERIAL_WOOL" productFeatureTypeId="MATERIAL" productFeatureCategoryId="MATERIAL" description="wool" />
+<ProductFeatureGroupAppl productFeatureGroupId="MATERIAL" productFeatureId="MATERIAL_WOOL" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureType productFeatureTypeId="SIZE" parentTypeId="" hasTable="N" description="SIZE" />
+<ProductFeatureCategory productFeatureCategoryId="SIZE" parentCategoryId="" description="SIZE" />
+<ProductFeatureGroup productFeatureGroupId="SIZE" description="SIZE" />
+<ProductFeatureCatGrpAppl productCategoryId="ACTIVE" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="ACTIVE" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="DONATELLI" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="DONATELLI" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="STELLA" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="STELLA" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeature productFeatureId="SIZE_MEDIUM" productFeatureTypeId="SIZE" productFeatureCategoryId="SIZE" description="Medium" />
+<ProductFeatureGroupAppl productFeatureGroupId="SIZE" productFeatureId="SIZE_MEDIUM" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureType productFeatureTypeId="STYLE" parentTypeId="" hasTable="N" description="STYLE" />
+<ProductFeatureCategory productFeatureCategoryId="STYLE" parentCategoryId="" description="STYLE" />
+<ProductFeatureGroup productFeatureGroupId="STYLE" description="STYLE" />
+<ProductFeatureCatGrpAppl productCategoryId="ACTIVE" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="ACTIVE" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="DONATELLI" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="DONATELLI" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="STELLA" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="STELLA" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeature productFeatureId="STYLE_HOODED" productFeatureTypeId="STYLE" productFeatureCategoryId="STYLE" description="Hooded" />
+<ProductFeatureGroupAppl productFeatureGroupId="STYLE" productFeatureId="STYLE_HOODED" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeature productFeatureId="COLOR_PINK" productFeatureTypeId="COLOR" productFeatureCategoryId="COLOR" description="Pink" />
+<ProductFeatureGroupAppl productFeatureGroupId="COLOR" productFeatureId="COLOR_PINK" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeature productFeatureId="SIZE_X-SMALL" productFeatureTypeId="SIZE" productFeatureCategoryId="SIZE" description="X-Small" />
+<ProductFeatureGroupAppl productFeatureGroupId="SIZE" productFeatureId="SIZE_X-SMALL" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureCatGrpAppl productCategoryId="VERA" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="VERA" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeature productFeatureId="COLOR_BLACK" productFeatureTypeId="COLOR" productFeatureCategoryId="COLOR" description="Black" />
+<ProductFeatureGroupAppl productFeatureGroupId="COLOR" productFeatureId="COLOR_BLACK" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureCatGrpAppl productCategoryId="VERA" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="VERA" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="VERA" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="VERA" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeature productFeatureId="SIZE_LARGE" productFeatureTypeId="SIZE" productFeatureCategoryId="SIZE" description="Large" />
+<ProductFeatureGroupAppl productFeatureGroupId="SIZE" productFeatureId="SIZE_LARGE" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureCatGrpAppl productCategoryId="VERA" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="VERA" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeature productFeatureId="COLOR_YELLOW" productFeatureTypeId="COLOR" productFeatureCategoryId="COLOR" description="Yellow" />
+<ProductFeatureGroupAppl productFeatureGroupId="COLOR" productFeatureId="COLOR_YELLOW" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeature productFeatureId="COLOR_GREY" productFeatureTypeId="COLOR" productFeatureCategoryId="COLOR" description="Grey" />
+<ProductFeatureGroupAppl productFeatureGroupId="COLOR" productFeatureId="COLOR_GREY" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeature productFeatureId="SIZE_SMALL" productFeatureTypeId="SIZE" productFeatureCategoryId="SIZE" description="Small" />
+<ProductFeatureGroupAppl productFeatureGroupId="SIZE" productFeatureId="SIZE_SMALL" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureCatGrpAppl productCategoryId="SHOES" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SHOES" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="SHOES" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SHOES" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="SHOES" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SHOES" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="SHOES" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SHOES" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="BLOUSES" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="BLOUSES" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeature productFeatureId="COLOR_BEIGE-TAN" productFeatureTypeId="COLOR" productFeatureCategoryId="COLOR" description="Beige-Tan" />
+<ProductFeatureGroupAppl productFeatureGroupId="COLOR" productFeatureId="COLOR_BEIGE-TAN" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureCatGrpAppl productCategoryId="BLOUSES" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="BLOUSES" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="BLOUSES" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="BLOUSES" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="BLOUSES" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="BLOUSES" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeature productFeatureId="SIZE_X-LARGE" productFeatureTypeId="SIZE" productFeatureCategoryId="SIZE" description="X-Large" />
+<ProductFeatureGroupAppl productFeatureGroupId="SIZE" productFeatureId="SIZE_X-LARGE" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeature productFeatureId="COLOR_WHITE" productFeatureTypeId="COLOR" productFeatureCategoryId="COLOR" description="White" />
+<ProductFeatureGroupAppl productFeatureGroupId="COLOR" productFeatureId="COLOR_WHITE" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeature productFeatureId="COLOR_RED" productFeatureTypeId="COLOR" productFeatureCategoryId="COLOR" description="Red" />
+<ProductFeatureGroupAppl productFeatureGroupId="COLOR" productFeatureId="COLOR_RED" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureCatGrpAppl productCategoryId="DENIM" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="DENIM" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeature productFeatureId="COLOR_NAVY" productFeatureTypeId="COLOR" productFeatureCategoryId="COLOR" description="Navy" />
+<ProductFeatureGroupAppl productFeatureGroupId="COLOR" productFeatureId="COLOR_NAVY" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureCatGrpAppl productCategoryId="DENIM" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="DENIM" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="DENIM" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="DENIM" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="DENIM" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="DENIM" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeature productFeatureId="COLOR_BLUE" productFeatureTypeId="COLOR" productFeatureCategoryId="COLOR" description="Blue" />
+<ProductFeatureGroupAppl productFeatureGroupId="COLOR" productFeatureId="COLOR_BLUE" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeature productFeatureId="COLOR_ANIMALPRINT" productFeatureTypeId="COLOR" productFeatureCategoryId="COLOR" description="Animal Print" />
+<ProductFeatureGroupAppl productFeatureGroupId="COLOR" productFeatureId="COLOR_ANIMALPRINT" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeature productFeatureId="MATERIAL_WOVEN" productFeatureTypeId="MATERIAL" productFeatureCategoryId="MATERIAL" description="woven" />
+<ProductFeatureGroupAppl productFeatureGroupId="MATERIAL" productFeatureId="MATERIAL_WOVEN" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeature productFeatureId="SIZE_6" productFeatureTypeId="SIZE" productFeatureCategoryId="SIZE" description="6" />
+<ProductFeatureGroupAppl productFeatureGroupId="SIZE" productFeatureId="SIZE_6" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeature productFeatureId="STYLE_FEATHER" productFeatureTypeId="STYLE" productFeatureCategoryId="STYLE" description="feather" />
+<ProductFeatureGroupAppl productFeatureGroupId="STYLE" productFeatureId="STYLE_FEATHER" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeature productFeatureId="COLOR_CREAM" productFeatureTypeId="COLOR" productFeatureCategoryId="COLOR" description="Cream" />
+<ProductFeatureGroupAppl productFeatureGroupId="COLOR" productFeatureId="COLOR_CREAM" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeature productFeatureId="MATERIAL_JERSEY" productFeatureTypeId="MATERIAL" productFeatureCategoryId="MATERIAL" description="jersey" />
+<ProductFeatureGroupAppl productFeatureGroupId="MATERIAL" productFeatureId="MATERIAL_JERSEY" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeature productFeatureId="STYLE_BACKBUTTONCLOS" productFeatureTypeId="STYLE" productFeatureCategoryId="STYLE" description="Back button closure" />
+<ProductFeatureGroupAppl productFeatureGroupId="STYLE" productFeatureId="STYLE_BACKBUTTONCLOS" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureCatGrpAppl productCategoryId="DRESSES" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="DRESSES" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="DRESSES" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="DRESSES" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="DRESSES" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="DRESSES" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="DRESSES" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="DRESSES" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeature productFeatureId="COLOR_OLIVE" productFeatureTypeId="COLOR" productFeatureCategoryId="COLOR" description="Olive" />
+<ProductFeatureGroupAppl productFeatureGroupId="COLOR" productFeatureId="COLOR_OLIVE" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeature productFeatureId="COLOR_BURGUNDY" productFeatureTypeId="COLOR" productFeatureCategoryId="COLOR" description="Burgundy" />
+<ProductFeatureGroupAppl productFeatureGroupId="COLOR" productFeatureId="COLOR_BURGUNDY" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeature productFeatureId="COLOR_SNAKEPRINT" productFeatureTypeId="COLOR" productFeatureCategoryId="COLOR" description="Snake Print" />
+<ProductFeatureGroupAppl productFeatureGroupId="COLOR" productFeatureId="COLOR_SNAKEPRINT" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeature productFeatureId="COLOR_PURPLE" productFeatureTypeId="COLOR" productFeatureCategoryId="COLOR" description="Purple" />
+<ProductFeatureGroupAppl productFeatureGroupId="COLOR" productFeatureId="COLOR_PURPLE" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureCatGrpAppl productCategoryId="INTIMATESSLEEPWEAR" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="INTIMATESSLEEPWEAR" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="INTIMATESSLEEPWEAR" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="INTIMATESSLEEPWEAR" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="INTIMATESSLEEPWEAR" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="INTIMATESSLEEPWEAR" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="INTIMATESSLEEPWEAR" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="INTIMATESSLEEPWEAR" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeature productFeatureId="COLOR_MULTI" productFeatureTypeId="COLOR" productFeatureCategoryId="COLOR" description="Multi" />
+<ProductFeatureGroupAppl productFeatureGroupId="COLOR" productFeatureId="COLOR_MULTI" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureCatGrpAppl productCategoryId="LEGGINGS" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="LEGGINGS" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="LEGGINGS" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="LEGGINGS" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="LEGGINGS" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="LEGGINGS" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="LEGGINGS" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="LEGGINGS" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="OUTERWEARANDJACKETS" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="OUTERWEARANDJACKETS" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="OUTERWEARANDJACKETS" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="OUTERWEARANDJACKETS" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="OUTERWEARANDJACKETS" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="OUTERWEARANDJACKETS" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="OUTERWEARANDJACKETS" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="OUTERWEARANDJACKETS" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="PANTS" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="PANTS" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="PANTS" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="PANTS" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="PANTS" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="PANTS" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="PANTS" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="PANTS" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeature productFeatureId="COLOR_ORANGE" productFeatureTypeId="COLOR" productFeatureCategoryId="COLOR" description="Orange" />
+<ProductFeatureGroupAppl productFeatureGroupId="COLOR" productFeatureId="COLOR_ORANGE" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureCatGrpAppl productCategoryId="ROMPERS" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="ROMPERS" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="ROMPERS" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="ROMPERS" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="ROMPERS" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="ROMPERS" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="ROMPERS" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="ROMPERS" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="SHORTS" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SHORTS" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="SHORTS" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SHORTS" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="SHORTS" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SHORTS" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="SHORTS" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SHORTS" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeature productFeatureId="SIZE_6.5" productFeatureTypeId="SIZE" productFeatureCategoryId="SIZE" description="6.5" />
+<ProductFeatureGroupAppl productFeatureGroupId="SIZE" productFeatureId="SIZE_6.5" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeature productFeatureId="SIZE_7" productFeatureTypeId="SIZE" productFeatureCategoryId="SIZE" description="7" />
+<ProductFeatureGroupAppl productFeatureGroupId="SIZE" productFeatureId="SIZE_7" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureCatGrpAppl productCategoryId="SKIRTS" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SKIRTS" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="SKIRTS" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SKIRTS" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="SKIRTS" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SKIRTS" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="SKIRTS" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SKIRTS" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeature productFeatureId="MATERIAL_WOOLCREPE" productFeatureTypeId="MATERIAL" productFeatureCategoryId="MATERIAL" description="wool crepe" />
+<ProductFeatureGroupAppl productFeatureGroupId="MATERIAL" productFeatureId="MATERIAL_WOOLCREPE" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeature productFeatureId="SIZE_ONESIZE" productFeatureTypeId="SIZE" productFeatureCategoryId="SIZE" description="One Size" />
+<ProductFeatureGroupAppl productFeatureGroupId="SIZE" productFeatureId="SIZE_ONESIZE" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeature productFeatureId="STYLE_MULTI-POCKET" productFeatureTypeId="STYLE" productFeatureCategoryId="STYLE" description="multi-pocket" />
+<ProductFeatureGroupAppl productFeatureGroupId="STYLE" productFeatureId="STYLE_MULTI-POCKET" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeature productFeatureId="COLOR_STRIPED" productFeatureTypeId="COLOR" productFeatureCategoryId="COLOR" description="Striped" />
+<ProductFeatureGroupAppl productFeatureGroupId="COLOR" productFeatureId="COLOR_STRIPED" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureCatGrpAppl productCategoryId="SWEATERS" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SWEATERS" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="SWEATERS" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SWEATERS" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="SWEATERS" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SWEATERS" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="SWEATERS" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SWEATERS" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="SWIM" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SWIM" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="SWIM" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SWIM" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="SWIM" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SWIM" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="SWIM" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SWIM" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="HANDBAGS" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="HANDBAGS" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeature productFeatureId="COLOR_METALLIC" productFeatureTypeId="COLOR" productFeatureCategoryId="COLOR" description="Metallic" />
+<ProductFeatureGroupAppl productFeatureGroupId="COLOR" productFeatureId="COLOR_METALLIC" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureCatGrpAppl productCategoryId="HANDBAGS" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="HANDBAGS" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="HANDBAGS" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="HANDBAGS" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="HANDBAGS" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="HANDBAGS" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="HANDBAGS-WN" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="HANDBAGS-WN" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="HANDBAGS-WN" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="HANDBAGS-WN" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="HANDBAGS-WN" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="HANDBAGS-WN" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="HANDBAGS-WN" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="HANDBAGS-WN" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="SHOES-WN" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SHOES-WN" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="SHOES-WN" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SHOES-WN" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="SHOES-WN" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SHOES-WN" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="SHOES-WN" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SHOES-WN" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="SMALLACCESSORIES" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SMALLACCESSORIES" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="SMALLACCESSORIES" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SMALLACCESSORIES" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="SMALLACCESSORIES" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SMALLACCESSORIES" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="SMALLACCESSORIES" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SMALLACCESSORIES" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="TECHPHONEACCESSORIES" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="TECHPHONEACCESSORIES" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="TECHPHONEACCESSORIES" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="TECHPHONEACCESSORIES" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="TECHPHONEACCESSORIES" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="TECHPHONEACCESSORIES" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="TECHPHONEACCESSORIES" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="TECHPHONEACCESSORIES" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="WALLETS" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="WALLETS" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="WALLETS" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="WALLETS" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="WALLETS" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="WALLETS" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="WALLETS" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="WALLETS" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="ACCESSORIES" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="ACCESSORIES" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="ACCESSORIES" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="ACCESSORIES" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="ACCESSORIES" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="ACCESSORIES" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="ACCESSORIES" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="ACCESSORIES" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="JEWELRY" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="JEWELRY" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeature productFeatureId="COLOR_GOLD" productFeatureTypeId="COLOR" productFeatureCategoryId="COLOR" description="Gold" />
+<ProductFeatureGroupAppl productFeatureGroupId="COLOR" productFeatureId="COLOR_GOLD" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureCatGrpAppl productCategoryId="JEWELRY" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="JEWELRY" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="JEWELRY" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="JEWELRY" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="JEWELRY" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="JEWELRY" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeature productFeatureId="COLOR_SILVER" productFeatureTypeId="COLOR" productFeatureCategoryId="COLOR" description="Silver" />
+<ProductFeatureGroupAppl productFeatureGroupId="COLOR" productFeatureId="COLOR_SILVER" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeature productFeatureId="COLOR_BRONZE" productFeatureTypeId="COLOR" productFeatureCategoryId="COLOR" description="Bronze" />
+<ProductFeatureGroupAppl productFeatureGroupId="COLOR" productFeatureId="COLOR_BRONZE" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureCatGrpAppl productCategoryId="SAMPLESALE" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SAMPLESALE" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="SAMPLESALE" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SAMPLESALE" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="SAMPLESALE" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SAMPLESALE" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="SAMPLESALE" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SAMPLESALE" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="ANIMALEXOTICS" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="ANIMALEXOTICS" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="ANIMALEXOTICS" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="ANIMALEXOTICS" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="ANIMALEXOTICS" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="ANIMALEXOTICS" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="ANIMALEXOTICS" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="ANIMALEXOTICS" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="LEATHER" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="LEATHER" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="LEATHER" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="LEATHER" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="LEATHER" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="LEATHER" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="LEATHER" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="LEATHER" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="BOHO" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="BOHO" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="BOHO" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="BOHO" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="BOHO" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="BOHO" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="BOHO" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="BOHO" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="CAPESPONCHOS" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="CAPESPONCHOS" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="FUR" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="FUR" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="CAPESPONCHOS" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="CAPESPONCHOS" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="FUR" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="FUR" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="CAPESPONCHOS" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="CAPESPONCHOS" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="FUR" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="FUR" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="CAPESPONCHOS" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="CAPESPONCHOS" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="FUR" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="FUR" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureType productFeatureTypeId="30" parentTypeId="" hasTable="N" description="30" />
+<ProductFeatureCategory productFeatureCategoryId="30" parentCategoryId="" description="30" />
+<ProductFeatureGroup productFeatureGroupId="30" description="30" />
+<ProductFeatureCatGrpAppl productCategoryId="CAPESPONCHOS" productFeatureGroupId="30" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="CAPESPONCHOS" productFeatureCategoryId="30" fromDate="2013-02-12 12:00:36" />
+<ProductFeature productFeatureId="30_LEATHER" productFeatureTypeId="30" productFeatureCategoryId="30" description="Leather" />
+<ProductFeatureGroupAppl productFeatureGroupId="30" productFeatureId="30_LEATHER" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeature productFeatureId="30_SILK" productFeatureTypeId="30" productFeatureCategoryId="30" description="Silk" />
+<ProductFeatureGroupAppl productFeatureGroupId="30" productFeatureId="30_SILK" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureCatGrpAppl productCategoryId="COLORBLOCKING" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="COLORBLOCKING" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="COLORBLOCKING" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="COLORBLOCKING" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="COLORBLOCKING" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="COLORBLOCKING" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="COLORBLOCKING" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="COLORBLOCKING" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="COLORBLOCKING" productFeatureGroupId="30" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="COLORBLOCKING" productFeatureCategoryId="30" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="FUR" productFeatureGroupId="30" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="FUR" productFeatureCategoryId="30" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="LADYLIKE" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="LADYLIKE" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="LADYLIKE" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="LADYLIKE" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="LADYLIKE" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="LADYLIKE" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="LADYLIKE" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="LADYLIKE" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="LADYLIKE" productFeatureGroupId="30" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="LADYLIKE" productFeatureCategoryId="30" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureType productFeatureTypeId="SIZEID" parentTypeId="" hasTable="N" description="SIZEID" />
+<ProductFeatureCategory productFeatureCategoryId="SIZEID" parentCategoryId="" description="SIZEID" />
+<ProductFeatureGroup productFeatureGroupId="SIZEID" description="SIZEID" />
+<ProductFeatureCatGrpAppl productCategoryId="LADYLIKE" productFeatureGroupId="SIZEID" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="LADYLIKE" productFeatureCategoryId="SIZEID" fromDate="2013-02-12 12:00:36" />
+<ProductFeature productFeatureId="SIZEID_LARGE" productFeatureTypeId="SIZEID" productFeatureCategoryId="SIZEID" description="Large" />
+<ProductFeatureGroupAppl productFeatureGroupId="SIZEID" productFeatureId="SIZEID_LARGE" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeature productFeatureId="SIZEID_MEDIUM" productFeatureTypeId="SIZEID" productFeatureCategoryId="SIZEID" description="Medium" />
+<ProductFeatureGroupAppl productFeatureGroupId="SIZEID" productFeatureId="SIZEID_MEDIUM" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeature productFeatureId="SIZEID_SMALL" productFeatureTypeId="SIZEID" productFeatureCategoryId="SIZEID" description="Small" />
+<ProductFeatureGroupAppl productFeatureGroupId="SIZEID" productFeatureId="SIZEID_SMALL" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureCatGrpAppl productCategoryId="LEATHER" productFeatureGroupId="30" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="LEATHER" productFeatureCategoryId="30" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="LEATHER" productFeatureGroupId="SIZEID" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="LEATHER" productFeatureCategoryId="SIZEID" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="WIDELEGFLARE" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="WIDELEGFLARE" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="WIDELEGFLARE" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="WIDELEGFLARE" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="WIDELEGFLARE" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="WIDELEGFLARE" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="WIDELEGFLARE" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="WIDELEGFLARE" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="WIDELEGFLARE" productFeatureGroupId="30" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="WIDELEGFLARE" productFeatureCategoryId="30" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="WIDELEGFLARE" productFeatureGroupId="SIZEID" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="WIDELEGFLARE" productFeatureCategoryId="SIZEID" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="WHATSNEW" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="WHATSNEW" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="WHATSNEW" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="WHATSNEW" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="WHATSNEW" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="WHATSNEW" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="WHATSNEW" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="WHATSNEW" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="WHATSNEW" productFeatureGroupId="30" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="WHATSNEW" productFeatureCategoryId="30" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="WHATSNEW" productFeatureGroupId="SIZEID" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="WHATSNEW" productFeatureCategoryId="SIZEID" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="ACCESSORIES-WN" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="ACCESSORIES-WN" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="ACCESSORIES-WN" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="ACCESSORIES-WN" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="ACCESSORIES-WN" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="ACCESSORIES-WN" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="ACCESSORIES-WN" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="ACCESSORIES-WN" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="ACCESSORIES-WN" productFeatureGroupId="30" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="ACCESSORIES-WN" productFeatureCategoryId="30" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="ACCESSORIES-WN" productFeatureGroupId="SIZEID" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="ACCESSORIES-WN" productFeatureCategoryId="SIZEID" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="APPAREL-WN" productFeatureGroupId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="APPAREL-WN" productFeatureCategoryId="COLOR" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="APPAREL-WN" productFeatureGroupId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="APPAREL-WN" productFeatureCategoryId="MATERIAL" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="APPAREL-WN" productFeatureGroupId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="APPAREL-WN" productFeatureCategoryId="SIZE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="APPAREL-WN" productFeatureGroupId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="APPAREL-WN" productFeatureCategoryId="STYLE" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="APPAREL-WN" productFeatureGroupId="30" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="APPAREL-WN" productFeatureCategoryId="30" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="APPAREL-WN" productFeatureGroupId="SIZEID" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="APPAREL-WN" productFeatureCategoryId="SIZEID" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="SHOES-WN" productFeatureGroupId="30" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SHOES-WN" productFeatureCategoryId="30" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCatGrpAppl productCategoryId="SHOES-WN" productFeatureGroupId="SIZEID" fromDate="2013-02-12 12:00:36" />
+<ProductFeatureCategoryAppl productCategoryId="SHOES-WN" productFeatureCategoryId="SIZEID" fromDate="2013-02-12 12:00:36" />
+</entity-engine-xml>

@@ -1,0 +1,36 @@
+#eCommerceInnerBasicWrapper,
+#eCommeceOuterBasicWrap {
+    width: auto!important;
+}
+
+
+#eCommerceNavBar, 
+#eCommerceFooter,
+#searchInputContainer,
+#siteShoppingCart,
+#eCommerceHeaderLinks {
+    display: none!important;	
+}
+
+#cart_display .summary label,
+#cart_display tr.cart_contents td {
+    font-size: large!important;
+}
+
+.orderConfirmBillingAddressSeq {
+	float: none!important;
+}
+.orderConfirmShippingAddressSeq {
+	float: none!important;
+}
+.orderConfirmPaymentOptionsSeq {
+  	float: none!important;
+	clear: none!important;
+}
+
+.orderConfirmContinueButtonSeq {
+    display: none!important;
+}
+
+
+

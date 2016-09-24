@@ -9,7 +9,7 @@
                 <std-String value="productStoreId"/>
             </map-Key>
             <map-Value>
-                <std-String value="BF_STORE"/>
+                <std-String value="RNY_STORE"/>
             </map-Value>
         </map-Entry>
         <map-Entry>
@@ -17,7 +17,7 @@
                 <std-String value="browseRootProductCategoryId"/>
             </map-Key>
             <map-Value>
-                <std-String value="BF_CATEGORY_ROOT"/>
+                <std-String value="RNY_CATEGORY_ROOT"/>
             </map-Value>
         </map-Entry>
         <map-Entry>
@@ -59,7 +59,7 @@
                 <std-String value="productStoreId"/>
             </map-Key>
             <map-Value>
-                <std-String value="BF_STORE"/>
+                <std-String value="RNY_STORE"/>
             </map-Value>
         </map-Entry>
         <map-Entry>
@@ -102,7 +102,7 @@
                 <std-String value="productStoreId"/>
             </map-Key>
             <map-Value>
-                <std-String value="BF_STORE"/>
+                <std-String value="RNY_STORE"/>
             </map-Value>
         </map-Entry>
         <map-Entry>
@@ -145,7 +145,7 @@
                 <std-String value="productStoreId"/>
             </map-Key>
             <map-Value>
-                <std-String value="BF_STORE"/>
+                <std-String value="RNY_STORE"/>
             </map-Value>
         </map-Entry>
         <map-Entry>
@@ -188,7 +188,7 @@
                 <std-String value="productStoreId"/>
             </map-Key>
             <map-Value>
-                <std-String value="BF_STORE"/>
+                <std-String value="RNY_STORE"/>
             </map-Value>
         </map-Entry>
         <map-Entry>
@@ -231,7 +231,7 @@
                 <std-String value="productStoreId"/>
             </map-Key>
             <map-Value>
-                <std-String value="BF_STORE"/>
+                <std-String value="RNY_STORE"/>
             </map-Value>
         </map-Entry>
         <map-Entry>
@@ -274,7 +274,7 @@
                 <std-String value="productStoreId"/>
             </map-Key>
             <map-Value>
-                <std-String value="BF_STORE"/>
+                <std-String value="RNY_STORE"/>
             </map-Value>
         </map-Entry>
         <map-Entry>
@@ -317,7 +317,7 @@
                 <std-String value="productStoreId"/>
             </map-Key>
             <map-Value>
-                <std-String value="BF_STORE"/>
+                <std-String value="RNY_STORE"/>
             </map-Value>
         </map-Entry>
         <map-Entry>
@@ -360,7 +360,7 @@
                 <std-String value="productStoreId"/>
             </map-Key>
             <map-Value>
-                <std-String value="BF_STORE"/>
+                <std-String value="RNY_STORE"/>
             </map-Value>
         </map-Entry>
         <map-Entry>
@@ -403,7 +403,7 @@
                 <std-String value="productStoreId"/>
             </map-Key>
             <map-Value>
-                <std-String value="BF_STORE"/>
+                <std-String value="RNY_STORE"/>
             </map-Value>
         </map-Entry>
         <map-Entry>
@@ -446,7 +446,7 @@
                 <std-String value="productStoreId"/>
             </map-Key>
             <map-Value>
-                <std-String value="BF_STORE"/>
+                <std-String value="RNY_STORE"/>
             </map-Value>
         </map-Entry>
         <map-Entry>
@@ -489,7 +489,7 @@
                 <std-String value="productStoreId"/>
             </map-Key>
             <map-Value>
-                <std-String value="BF_STORE"/>
+                <std-String value="RNY_STORE"/>
             </map-Value>
         </map-Entry>
         <map-Entry>
@@ -532,7 +532,7 @@
                 <std-String value="productStoreId"/>
             </map-Key>
             <map-Value>
-                <std-String value="BF_STORE"/>
+                <std-String value="RNY_STORE"/>
             </map-Value>
         </map-Entry>
         <map-Entry>
@@ -575,7 +575,7 @@
                 <std-String value="productStoreId"/>
             </map-Key>
             <map-Value>
-                <std-String value="BF_STORE"/>
+                <std-String value="RNY_STORE"/>
             </map-Value>
         </map-Entry>
         <map-Entry>
@@ -583,7 +583,7 @@
                 <std-String value="browseRootProductCategoryId"/>
             </map-Key>
             <map-Value>
-                <std-String value="BF_CATEGORY_ROOT"/>
+                <std-String value="RNY_CATEGORY_ROOT"/>
             </map-Value>
         </map-Entry>
         <map-Entry>
@@ -626,7 +626,7 @@
                 <std-String value="productStoreId"/>
             </map-Key>
             <map-Value>
-                <std-String value="BF_STORE"/>
+                <std-String value="RNY_STORE"/>
             </map-Value>
         </map-Entry>
         <map-Entry>
@@ -634,7 +634,7 @@
                 <std-String value="browseRootProductCategoryId"/>
             </map-Key>
             <map-Value>
-                <std-String value="BF_CATEGORY_ROOT"/>
+                <std-String value="RNY_CATEGORY_ROOT"/>
             </map-Value>
         </map-Entry>
         <map-Entry>
@@ -712,7 +712,7 @@
                 <std-String value="productStoreId"/>
             </map-Key>
             <map-Value>
-                <std-String value="BF_STORE"/>
+                <std-String value="RNY_STORE"/>
             </map-Value>
         </map-Entry>
         <map-Entry>
@@ -720,7 +720,7 @@
                 <std-String value="browseRootProductCategoryId"/>
             </map-Key>
             <map-Value>
-                <std-String value="BF_CATEGORY_ROOT"/>
+                <std-String value="RNY_CATEGORY_ROOT"/>
             </map-Value>
         </map-Entry>
         <map-Entry>

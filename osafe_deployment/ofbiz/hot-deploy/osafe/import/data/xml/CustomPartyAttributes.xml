@@ -1,3 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?><BigFishCustomPartyAttribute xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-
+<?xml version="1.0" encoding="UTF-8"?>
+<BigFishCustomPartyAttribute xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <CustomPartyAttribute>
+        <AttrName>RING_SIZE</AttrName>
+        <SequenceNum>2</SequenceNum>
+        <Caption>Ring Size:</Caption>
+        <Type>RADIO_BUTTON</Type>
+        <EntryFormat></EntryFormat>
+        <MaxLength></MaxLength>
+        <ValueList>Five, Six, Seven, Eight</ValueList>
+        <Required>Y</Required>
+        <ReqMessage>Please select a Ring Size from the options provided</ReqMessage>
+    </CustomPartyAttribute>
+    <CustomPartyAttribute>
+        <AttrName>RING_METAL_PREFERENCE</AttrName>
+        <SequenceNum>03</SequenceNum>
+        <Caption>Ring Metal Preference:</Caption>
+        <Type>CHECKBOX</Type>
+        <EntryFormat></EntryFormat>
+        <MaxLength></MaxLength>
+        <ValueList>Yellow Gold, White Gold, Platinum</ValueList>
+        <Required>Y</Required>
+        <ReqMessage>Please select a Ring Metal Preference</ReqMessage>
+    </CustomPartyAttribute>
+    <CustomPartyAttribute>
+        <AttrName>COMMENTS</AttrName>
+        <SequenceNum>04</SequenceNum>
+        <Caption>Comments:</Caption>
+        <Type>ENTRY_BOX</Type>
+        <EntryFormat></EntryFormat>
+        <MaxLength></MaxLength>
+        <ValueList></ValueList>
+        <Required>Y</Required>
+        <ReqMessage>Please Provide Comments.</ReqMessage>
+    </CustomPartyAttribute>
 </BigFishCustomPartyAttribute>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+<ProductFeatureAppl productId="100017" productFeatureId="STYLE_HOODED" productFeatureApplTypeId="DISTINGUISHING_FEAT" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureAppl productId="100017" productFeatureId="STYLE_HOODED" productFeatureApplTypeId="DISTINGUISHING_FEAT" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureAppl productId="100017-1" productFeatureId="STYLE_HOODED" productFeatureApplTypeId="DISTINGUISHING_FEAT" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureAppl productId="100122" productFeatureId="MATERIAL_WOVEN" productFeatureApplTypeId="DISTINGUISHING_FEAT" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureAppl productId="51156" productFeatureId="MATERIAL_WOVEN" productFeatureApplTypeId="DISTINGUISHING_FEAT" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureAppl productId="100122" productFeatureId="STYLE_FEATHER" productFeatureApplTypeId="DISTINGUISHING_FEAT" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureAppl productId="51156" productFeatureId="STYLE_FEATHER" productFeatureApplTypeId="DISTINGUISHING_FEAT" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureAppl productId="100122" productFeatureId="MATERIAL_JERSEY" productFeatureApplTypeId="DISTINGUISHING_FEAT" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureAppl productId="NewVar12" productFeatureId="MATERIAL_JERSEY" productFeatureApplTypeId="DISTINGUISHING_FEAT" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureAppl productId="100122" productFeatureId="STYLE_BACKBUTTONCLOS" productFeatureApplTypeId="DISTINGUISHING_FEAT" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureAppl productId="NewVar12" productFeatureId="STYLE_BACKBUTTONCLOS" productFeatureApplTypeId="DISTINGUISHING_FEAT" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureAppl productId="100055" productFeatureId="MATERIAL_WOOLCREPE" productFeatureApplTypeId="DISTINGUISHING_FEAT" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureAppl productId="51083" productFeatureId="MATERIAL_WOOLCREPE" productFeatureApplTypeId="DISTINGUISHING_FEAT" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureAppl productId="100055" productFeatureId="STYLE_MULTI-POCKET" productFeatureApplTypeId="DISTINGUISHING_FEAT" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureAppl productId="51083" productFeatureId="STYLE_MULTI-POCKET" productFeatureApplTypeId="DISTINGUISHING_FEAT" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureAppl productId="100114" productFeatureId="COLOR_YELLOW" productFeatureApplTypeId="DISTINGUISHING_FEAT" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureAppl productId="100114" productFeatureId="COLOR_YELLOW" productFeatureApplTypeId="DISTINGUISHING_FEAT" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+<ProductFeatureAppl productId="100114-1" productFeatureId="COLOR_YELLOW" productFeatureApplTypeId="DISTINGUISHING_FEAT" fromDate="2013-02-12 12:00:36" sequenceNum="10" />
+</entity-engine-xml>

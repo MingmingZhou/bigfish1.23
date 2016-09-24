@@ -3,56 +3,56 @@
 
 
 <!-- Company-->
-<Party partyId="BF_COMPANY" partyTypeId="PARTY_GROUP" externalId="" preferredCurrencyUomId="" description="" statusId="PARTY_ENABLED" createdDate="" createdByUserLogin="" lastModifiedDate="" lastModifiedByUserLogin="" dataSourceId="" isUnread="" />
-<PartyGroup partyId="BF_COMPANY" groupName="Company Name" logoImageUrl="/osafe_theme/images/user_content/image/logo.gif"/>
-<PartyRole partyId="BF_COMPANY" roleTypeId="BILL_FROM_VENDOR"/>
-<PartyRole partyId="BF_COMPANY" roleTypeId="BILL_TO_CUSTOMER"/>
-<PartyRole partyId="BF_COMPANY" roleTypeId="BUYER"/>
-<PartyRole partyId="BF_COMPANY" roleTypeId="INTERNAL_ORGANIZATIO"/>
-<PartyRole partyId="BF_COMPANY" roleTypeId="ORGANIZATION_ROLE"/>
-<PartyRole partyId="BF_COMPANY" roleTypeId="SHIP_FROM_VENDOR"/>
-<PartyRole partyId="BF_COMPANY" roleTypeId="SHIP_TO_CUSTOMER"/>
-<PartyRole partyId="BF_COMPANY" roleTypeId="SUPPLIER"/>
-<PartyRole partyId="BF_COMPANY" roleTypeId="VENDOR"/>
-<PartyRole partyId="BF_COMPANY" roleTypeId="_NA_" />
-<ContactMech contactMechId="BF_1000" contactMechTypeId="POSTAL_ADDRESS" infoString="" />
-<ContactMech contactMechId="BF_1001" contactMechTypeId="TELECOM_NUMBER" infoString="" />
-<ContactMech contactMechId="BF_1002" contactMechTypeId="EMAIL_ADDRESS" infoString="company@company.com" />
-<PartyContactMech partyId="BF_COMPANY" contactMechId="BF_1000" fromDate="2011-01-01 00:00:00.0" thruDate="" roleTypeId="" allowSolicitation="N" extension="" verified="" comments="" yearsWithContactMech="" monthsWithContactMech="" />
-<PartyContactMech partyId="BF_COMPANY" contactMechId="BF_1001" fromDate="2011-01-01 00:00:00.0" thruDate="" roleTypeId="" allowSolicitation="N" extension="" verified="" comments="" yearsWithContactMech="" monthsWithContactMech="" />
-<PartyContactMech partyId="BF_COMPANY" contactMechId="BF_1002" fromDate="2011-01-01 00:00:00.0" thruDate="" roleTypeId="" allowSolicitation="N" extension="" verified="" comments="" yearsWithContactMech="" monthsWithContactMech="" />
-<PartyContactMechPurpose partyId="BF_COMPANY" contactMechId="BF_1000" contactMechPurposeTypeId="GENERAL_LOCATION" fromDate="2011-01-01 00:00:00.0" thruDate="" />
-<PartyContactMechPurpose partyId="BF_COMPANY" contactMechId="BF_1001" contactMechPurposeTypeId="PRIMARY_PHONE" fromDate="2011-01-01 00:00:00.0" thruDate="" />
-<PartyContactMechPurpose partyId="BF_COMPANY" contactMechId="BF_1002" contactMechPurposeTypeId="PRIMARY_EMAIL" fromDate="2011-01-01 00:00:00.0" thruDate="" />
-<PostalAddress contactMechId="BF_1000" toName="" attnName="" address1="100 Company Blvd." address2="" city="Company City" stateProvinceGeoId="NY" postalCode="11530" countryGeoId="USA" />
-<TelecomNumber contactMechId="BF_1001" areaCode="516" contactNumber="7427888" />
+<Party partyId="RNY_COMPANY" partyTypeId="PARTY_GROUP" externalId="" preferredCurrencyUomId="" description="" statusId="PARTY_ENABLED" createdDate="" createdByUserLogin="" lastModifiedDate="" lastModifiedByUserLogin="" dataSourceId="" isUnread="" />
+<PartyGroup partyId="RNY_COMPANY" groupName="Company Name" logoImageUrl="/osafe_theme/images/user_content/image/logo.gif"/>
+<PartyRole partyId="RNY_COMPANY" roleTypeId="BILL_FROM_VENDOR"/>
+<PartyRole partyId="RNY_COMPANY" roleTypeId="BILL_TO_CUSTOMER"/>
+<PartyRole partyId="RNY_COMPANY" roleTypeId="BUYER"/>
+<PartyRole partyId="RNY_COMPANY" roleTypeId="INTERNAL_ORGANIZATIO"/>
+<PartyRole partyId="RNY_COMPANY" roleTypeId="ORGANIZATION_ROLE"/>
+<PartyRole partyId="RNY_COMPANY" roleTypeId="SHIP_FROM_VENDOR"/>
+<PartyRole partyId="RNY_COMPANY" roleTypeId="SHIP_TO_CUSTOMER"/>
+<PartyRole partyId="RNY_COMPANY" roleTypeId="SUPPLIER"/>
+<PartyRole partyId="RNY_COMPANY" roleTypeId="VENDOR"/>
+<PartyRole partyId="RNY_COMPANY" roleTypeId="_NA_" />
+<ContactMech contactMechId="RNY_1000" contactMechTypeId="POSTAL_ADDRESS" infoString="" />
+<ContactMech contactMechId="RNY_1001" contactMechTypeId="TELECOM_NUMBER" infoString="" />
+<ContactMech contactMechId="RNY_1002" contactMechTypeId="EMAIL_ADDRESS" infoString="company@company.com" />
+<PartyContactMech partyId="RNY_COMPANY" contactMechId="RNY_1000" fromDate="2011-01-01 00:00:00.0" thruDate="" roleTypeId="" allowSolicitation="N" extension="" verified="" comments="" yearsWithContactMech="" monthsWithContactMech="" />
+<PartyContactMech partyId="RNY_COMPANY" contactMechId="RNY_1001" fromDate="2011-01-01 00:00:00.0" thruDate="" roleTypeId="" allowSolicitation="N" extension="" verified="" comments="" yearsWithContactMech="" monthsWithContactMech="" />
+<PartyContactMech partyId="RNY_COMPANY" contactMechId="RNY_1002" fromDate="2011-01-01 00:00:00.0" thruDate="" roleTypeId="" allowSolicitation="N" extension="" verified="" comments="" yearsWithContactMech="" monthsWithContactMech="" />
+<PartyContactMechPurpose partyId="RNY_COMPANY" contactMechId="RNY_1000" contactMechPurposeTypeId="GENERAL_LOCATION" fromDate="2011-01-01 00:00:00.0" thruDate="" />
+<PartyContactMechPurpose partyId="RNY_COMPANY" contactMechId="RNY_1001" contactMechPurposeTypeId="PRIMARY_PHONE" fromDate="2011-01-01 00:00:00.0" thruDate="" />
+<PartyContactMechPurpose partyId="RNY_COMPANY" contactMechId="RNY_1002" contactMechPurposeTypeId="PRIMARY_EMAIL" fromDate="2011-01-01 00:00:00.0" thruDate="" />
+<PostalAddress contactMechId="RNY_1000" toName="" attnName="" address1="100 Company Blvd." address2="" city="Company City" stateProvinceGeoId="NY" postalCode="11530" countryGeoId="USA" />
+<TelecomNumber contactMechId="RNY_1001" areaCode="516" contactNumber="7427888" />
 
 <!-- Product Store -->
-<Facility facilityId="BF_FAC" facilityTypeId="WAREHOUSE" ownerPartyId="BF_COMPANY" defaultInventoryItemTypeId="NON_SERIAL_INV_ITEM" facilityName="Warehouse"/>
-<ProductStore productStoreId="BF_STORE" primaryStoreGroupId="" storeName="BF Store Name" companyName="Company Name" title="Store Title" subtitle="Store Sub Title" payToPartyId="BF_COMPANY" daysToCancelNonPay="30" manualAuthIsCapture="Y" prorateShipping="Y" prorateTaxes="Y" viewCartOnAdd="N" autoSaveCart="Y" autoApproveReviews="N" isDemoStore="N" isImmediatelyFulfilled="Y" inventoryFacilityId="BF_FAC" oneInventoryFacility="Y" checkInventory="N" reserveInventory="N" reserveOrderEnumId="" requireInventory="N" balanceResOnOrderCreation="N" requirementMethodEnumId="" orderNumberPrefix="WS" defaultLocaleString="en" defaultCurrencyUomId="USD" defaultSalesChannelEnumId="WEB_SALES_CHANNEL" allowPassword="Y" defaultPassword="" explodeOrderItems="N" checkGcBalance="N" retryFailedAuths="N" headerApprovedStatus="ORDER_APPROVED" itemApprovedStatus="ITEM_APPROVED" digitalItemApprovedStatus="ITEM_APPROVED" headerDeclinedStatus="ORDER_REJECTED" itemDeclinedStatus="ITEM_REJECTED" headerCancelStatus="ORDER_CANCELLED" itemCancelStatus="ITEM_CANCELLED" authDeclinedMessage="There has been a problem with your method of payment. Please  try a  different method or call customer service." authFraudMessage="Your order has been rejected and  your account  has been disabled due to fraud." authErrorMessage="" visualThemeId="OSAFE_DEFAULT" storeCreditAccountEnumId="FIN_ACCOUNT" usePrimaryEmailUsername="N" requireCustomerRole="N" autoInvoiceDigitalItems="Y" reqShipAddrForDigItems="Y" showCheckoutGiftOptions="Y" selectPaymentTypePerItem="N" showPricesWithVatTax="N" showTaxIsExempt="Y" vatTaxAuthGeoId="" vatTaxAuthPartyId="" enableAutoSuggestionList="N" enableDigProdUpload="N" prodSearchExcludeVariants="Y" digProdUploadCategoryId="" autoOrderCcTryExp="Y" autoOrderCcTryOtherCards="Y" autoOrderCcTryLaterNsf="Y" autoOrderCcTryLaterMax="" storeCreditValidDays="90" autoApproveInvoice="Y" autoApproveOrder="Y" shipIfCaptureFails="Y" setOwnerUponIssuance="N" reqReturnInventoryReceive="N" addToCartRemoveIncompat="N" addToCartReplaceUpsell="N" splitPayPrefPerShpGrp="N" showOutOfStockProducts="N" />
-<ProdCatalog prodCatalogId="BF_CATALOG" catalogName="Product Catalog" useQuickAdd="N" />
-<ProductCategory productCategoryId="BF_CATEGORY_ROOT" productCategoryTypeId="CATALOG_CATEGORY" primaryParentCategoryId="" categoryName="Browse Root" description="Browse Root" longDescription="Browse Root" categoryImageUrl="" linkOneImageUrl="" linkTwoImageUrl="" detailScreen="" showInSelect="" />
-<ProdCatalogCategory prodCatalogId="BF_CATALOG" productCategoryId="BF_CATEGORY_ROOT" prodCatalogCategoryTypeId="PCCT_BROWSE_ROOT" fromDate="2011-01-01 00:00:00.0" sequenceNum="10"/>
-<ProductStoreCatalog productStoreId="BF_STORE" prodCatalogId="BF_CATALOG" fromDate="2011-01-01 00:00:00.0" thruDate="" sequenceNum="1" />
-<ProductStoreFacility productStoreId="BF_STORE" facilityId="BF_FAC" fromDate="2001-01-01 00:00:00.0"/>
-<ProductStorePaymentSetting productStoreId="BF_STORE" paymentMethodTypeId="CREDIT_CARD" paymentServiceTypeEnumId="PRDS_PAY_AUTH" paymentService="alwaysApproveCCProcessor" paymentCustomMethodId="CC_AUTH_ALWAYSAPPROV" paymentGatewayConfigId="" paymentPropertiesPath="" applyToAllProducts="N" />
-<ProductStorePaymentSetting productStoreId="BF_STORE" paymentMethodTypeId="CREDIT_CARD" paymentServiceTypeEnumId="PRDS_PAY_CAPTURE" paymentService="testCCCapture" paymentCustomMethodId="CC_CAPTURE_TEST" paymentGatewayConfigId="" paymentPropertiesPath="" applyToAllProducts="N" />
-<ProductStorePaymentSetting productStoreId="BF_STORE" paymentMethodTypeId="CREDIT_CARD" paymentServiceTypeEnumId="PRDS_PAY_REAUTH" paymentService="alwaysApproveCCProcessor" paymentCustomMethodId="CC_AUTH_ALWAYSAPPROV" paymentGatewayConfigId="" paymentPropertiesPath="" applyToAllProducts="N" />
-<ProductStorePaymentSetting productStoreId="BF_STORE" paymentMethodTypeId="CREDIT_CARD" paymentServiceTypeEnumId="PRDS_PAY_REFUND" paymentService="testCCRefund" paymentCustomMethodId="CC_REFUND_TEST" paymentGatewayConfigId="" paymentPropertiesPath="" applyToAllProducts="N" />
-<ProductStorePaymentSetting productStoreId="BF_STORE" paymentMethodTypeId="CREDIT_CARD" paymentServiceTypeEnumId="PRDS_PAY_RELEASE" paymentService="testCCRelease" paymentCustomMethodId="CC_RELEASE_TEST" paymentGatewayConfigId="" paymentPropertiesPath="" applyToAllProducts="N" />
-<ProductStorePaymentSetting productStoreId="BF_STORE" paymentMethodTypeId="EXT_PAYPAL" paymentServiceTypeEnumId="PRDS_PAY_AUTH" paymentService="payPalProcessor" paymentCustomMethodId="PAYPAL_AUTH" paymentGatewayConfigId="PAYPAL_CONFIG" applyToAllProducts="Y"/>
-<ProductStorePaymentSetting productStoreId="BF_STORE" paymentMethodTypeId="EXT_PAYPAL" paymentServiceTypeEnumId="PRDS_PAY_CAPTURE" paymentService="payPalCapture" paymentCustomMethodId="PAYPAL_CAPTURE" paymentGatewayConfigId="PAYPAL_CONFIG" applyToAllProducts="Y"/>
-<ProductStorePaymentSetting productStoreId="BF_STORE" paymentMethodTypeId="EXT_PAYPAL" paymentServiceTypeEnumId="PRDS_PAY_EXTERNAL" paymentGatewayConfigId="PAYPAL_CONFIG" applyToAllProducts="Y"/>
-<ProductStorePaymentSetting productStoreId="BF_STORE" paymentMethodTypeId="EXT_PAYPAL" paymentServiceTypeEnumId="PRDS_PAY_RELEASE" paymentGatewayConfigId="PAYPAL_CONFIG" paymentCustomMethodId="PAYPAL_RELEASE"/>
+<Facility facilityId="RNY_FAC" facilityTypeId="WAREHOUSE" ownerPartyId="RNY_COMPANY" defaultInventoryItemTypeId="NON_SERIAL_INV_ITEM" facilityName="Warehouse"/>
+<ProductStore productStoreId="RNY_STORE" primaryStoreGroupId="" storeName="RNY Store Name" companyName="Company Name" title="Store Title" subtitle="Store Sub Title" payToPartyId="RNY_COMPANY" daysToCancelNonPay="30" manualAuthIsCapture="Y" prorateShipping="Y" prorateTaxes="Y" viewCartOnAdd="N" autoSaveCart="Y" autoApproveReviews="N" isDemoStore="N" isImmediatelyFulfilled="Y" inventoryFacilityId="RNY_FAC" oneInventoryFacility="Y" checkInventory="N" reserveInventory="N" reserveOrderEnumId="" requireInventory="N" balanceResOnOrderCreation="N" requirementMethodEnumId="" orderNumberPrefix="WS" defaultLocaleString="en" defaultCurrencyUomId="USD" defaultSalesChannelEnumId="WEB_SALES_CHANNEL" allowPassword="Y" defaultPassword="" explodeOrderItems="N" checkGcBalance="N" retryFailedAuths="N" headerApprovedStatus="ORDER_APPROVED" itemApprovedStatus="ITEM_APPROVED" digitalItemApprovedStatus="ITEM_APPROVED" headerDeclinedStatus="ORDER_REJECTED" itemDeclinedStatus="ITEM_REJECTED" headerCancelStatus="ORDER_CANCELLED" itemCancelStatus="ITEM_CANCELLED" authDeclinedMessage="There has been a problem with your method of payment. Please  try a  different method or call customer service." authFraudMessage="Your order has been rejected and  your account  has been disabled due to fraud." authErrorMessage="" visualThemeId="OSAFE_DEFAULT" storeCreditAccountEnumId="FIN_ACCOUNT" usePrimaryEmailUsername="N" requireCustomerRole="N" autoInvoiceDigitalItems="Y" reqShipAddrForDigItems="Y" showCheckoutGiftOptions="Y" selectPaymentTypePerItem="N" showPricesWithVatTax="N" showTaxIsExempt="Y" vatTaxAuthGeoId="" vatTaxAuthPartyId="" enableAutoSuggestionList="N" enableDigProdUpload="N" prodSearchExcludeVariants="Y" digProdUploadCategoryId="" autoOrderCcTryExp="Y" autoOrderCcTryOtherCards="Y" autoOrderCcTryLaterNsf="Y" autoOrderCcTryLaterMax="" storeCreditValidDays="90" autoApproveInvoice="Y" autoApproveOrder="Y" shipIfCaptureFails="Y" setOwnerUponIssuance="N" reqReturnInventoryReceive="N" addToCartRemoveIncompat="N" addToCartReplaceUpsell="N" splitPayPrefPerShpGrp="N" showOutOfStockProducts="N" />
+<ProdCatalog prodCatalogId="RNY_CATALOG" catalogName="Product Catalog" useQuickAdd="N" />
+<ProductCategory productCategoryId="RNY_CATEGORY_ROOT" productCategoryTypeId="CATALOG_CATEGORY" primaryParentCategoryId="" categoryName="Browse Root" description="Browse Root" longDescription="Browse Root" categoryImageUrl="" linkOneImageUrl="" linkTwoImageUrl="" detailScreen="" showInSelect="" />
+<ProdCatalogCategory prodCatalogId="RNY_CATALOG" productCategoryId="RNY_CATEGORY_ROOT" prodCatalogCategoryTypeId="PCCT_BROWSE_ROOT" fromDate="2011-01-01 00:00:00.0" sequenceNum="10"/>
+<ProductStoreCatalog productStoreId="RNY_STORE" prodCatalogId="RNY_CATALOG" fromDate="2011-01-01 00:00:00.0" thruDate="" sequenceNum="1" />
+<ProductStoreFacility productStoreId="RNY_STORE" facilityId="RNY_FAC" fromDate="2001-01-01 00:00:00.0"/>
+<ProductStorePaymentSetting productStoreId="RNY_STORE" paymentMethodTypeId="CREDIT_CARD" paymentServiceTypeEnumId="PRDS_PAY_AUTH" paymentService="alwaysApproveCCProcessor" paymentCustomMethodId="CC_AUTH_ALWAYSAPPROV" paymentGatewayConfigId="" paymentPropertiesPath="" applyToAllProducts="N" />
+<ProductStorePaymentSetting productStoreId="RNY_STORE" paymentMethodTypeId="CREDIT_CARD" paymentServiceTypeEnumId="PRDS_PAY_CAPTURE" paymentService="testCCCapture" paymentCustomMethodId="CC_CAPTURE_TEST" paymentGatewayConfigId="" paymentPropertiesPath="" applyToAllProducts="N" />
+<ProductStorePaymentSetting productStoreId="RNY_STORE" paymentMethodTypeId="CREDIT_CARD" paymentServiceTypeEnumId="PRDS_PAY_REAUTH" paymentService="alwaysApproveCCProcessor" paymentCustomMethodId="CC_AUTH_ALWAYSAPPROV" paymentGatewayConfigId="" paymentPropertiesPath="" applyToAllProducts="N" />
+<ProductStorePaymentSetting productStoreId="RNY_STORE" paymentMethodTypeId="CREDIT_CARD" paymentServiceTypeEnumId="PRDS_PAY_REFUND" paymentService="testCCRefund" paymentCustomMethodId="CC_REFUND_TEST" paymentGatewayConfigId="" paymentPropertiesPath="" applyToAllProducts="N" />
+<ProductStorePaymentSetting productStoreId="RNY_STORE" paymentMethodTypeId="CREDIT_CARD" paymentServiceTypeEnumId="PRDS_PAY_RELEASE" paymentService="testCCRelease" paymentCustomMethodId="CC_RELEASE_TEST" paymentGatewayConfigId="" paymentPropertiesPath="" applyToAllProducts="N" />
+<ProductStorePaymentSetting productStoreId="RNY_STORE" paymentMethodTypeId="EXT_PAYPAL" paymentServiceTypeEnumId="PRDS_PAY_AUTH" paymentService="payPalProcessor" paymentCustomMethodId="PAYPAL_AUTH" paymentGatewayConfigId="PAYPAL_CONFIG" applyToAllProducts="Y"/>
+<ProductStorePaymentSetting productStoreId="RNY_STORE" paymentMethodTypeId="EXT_PAYPAL" paymentServiceTypeEnumId="PRDS_PAY_CAPTURE" paymentService="payPalCapture" paymentCustomMethodId="PAYPAL_CAPTURE" paymentGatewayConfigId="PAYPAL_CONFIG" applyToAllProducts="Y"/>
+<ProductStorePaymentSetting productStoreId="RNY_STORE" paymentMethodTypeId="EXT_PAYPAL" paymentServiceTypeEnumId="PRDS_PAY_EXTERNAL" paymentGatewayConfigId="PAYPAL_CONFIG" applyToAllProducts="Y"/>
+<ProductStorePaymentSetting productStoreId="RNY_STORE" paymentMethodTypeId="EXT_PAYPAL" paymentServiceTypeEnumId="PRDS_PAY_RELEASE" paymentGatewayConfigId="PAYPAL_CONFIG" paymentCustomMethodId="PAYPAL_RELEASE"/>
 
 <!-- COMPANY Product Store Role  -->
-<ProductStoreRole partyId="BF_COMPANY" productStoreId="BF_STORE" roleTypeId="INTERNAL_ORGANIZATIO" fromDate="2012-10-05 12:37:06.000"></ProductStoreRole>
+<ProductStoreRole partyId="RNY_COMPANY" productStoreId="RNY_STORE" roleTypeId="INTERNAL_ORGANIZATIO" fromDate="2012-10-05 12:37:06.000"></ProductStoreRole>
 
 <!-- Website -->
-<WebSite webSiteId="BF_Website" siteName="BF Site" httpHost="" httpPort="8080" httpsHost="" httpsPort="8443" enableHttps="Y" standardContentPrefix="" secureContentPrefix="" cookieDomain="" visualThemeSetId="ECOMMERCE" productStoreId="BF_STORE" allowProductStoreChange="N" />
-<WebSite webSiteId="BF_admin_site" siteName="BF Admin Site" httpHost="" httpPort="8080" httpsHost="" httpsPort="8443" enableHttps="Y" standardContentPrefix="" secureContentPrefix="" cookieDomain="" visualThemeSetId="ECOMMERCE" productStoreId="BF_STORE" allowProductStoreChange="N" />
+<WebSite webSiteId="RNY_WEBSITE" siteName="RNY Site" httpHost="" httpPort="8080" httpsHost="" httpsPort="8443" enableHttps="Y" standardContentPrefix="" secureContentPrefix="" cookieDomain="" visualThemeSetId="ECOMMERCE" productStoreId="RNY_STORE" allowProductStoreChange="N" />
+<WebSite webSiteId="RNY_admin_site" siteName="RNY Admin Site" httpHost="" httpPort="8080" httpsHost="" httpsPort="8443" enableHttps="Y" standardContentPrefix="" secureContentPrefix="" cookieDomain="" visualThemeSetId="ECOMMERCE" productStoreId="RNY_STORE" allowProductStoreChange="N" />
 <Content contentId="OTS_PPOINT_01" contentTypeId="WEB_SITE_PUB_PT" contentName="Web Site Publish Point" description="" localeString="en_US" />
-<WebSiteContent webSiteId="BF_Website" contentId="OTS_PPOINT_01" webSiteContentTypeId="PUBLISH_POINT" fromDate="2011-01-01 00:00:00.0"/>
+<WebSiteContent webSiteId="RNY_WEBSITE" contentId="OTS_PPOINT_01" webSiteContentTypeId="PUBLISH_POINT" fromDate="2011-01-01 00:00:00.0"/>
 
 
 <!-- WEBSTIE PUBLISH POINT -->
@@ -640,156 +640,156 @@
 
 <!-- XContentXref content product store reference -->
 <!-- SITE INFO-->
-<XContentXref productStoreId="BF_STORE" bfContentId="SI_HEADER_CONTENT" contentId="SI_HEADER_01" contentTypeId="BF_SITE_INFO"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="SI_FOOTER_CONTENT" contentId="SI_FOOTER_01" contentTypeId="BF_SITE_INFO"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="SI_LOGO" contentId="SI_LOGO_01" contentTypeId="BF_SITE_INFO"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="SI_SHOPPING_CART" contentId="SI_CART_01" contentTypeId="BF_SITE_INFO"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="SI_SEARCH" contentId="SI_SEARCH_01" contentTypeId="BF_SITE_INFO"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="SI_MAILING_LIST" contentId="SI_MAILING_01" contentTypeId="BF_SITE_INFO"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="SI_HEAD_TAG_CONTENT" contentId="SI_HEAD_TAG_01" contentTypeId="BF_SITE_INFO"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="SI_SUPER_MEGA_MENU" contentId="SI_SUPER_MEGA_MENU_01" contentTypeId="BF_SITE_INFO"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="SI_HEADER_CONTENT" contentId="SI_HEADER_01" contentTypeId="BF_SITE_INFO"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="SI_FOOTER_CONTENT" contentId="SI_FOOTER_01" contentTypeId="BF_SITE_INFO"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="SI_LOGO" contentId="SI_LOGO_01" contentTypeId="BF_SITE_INFO"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="SI_SHOPPING_CART" contentId="SI_CART_01" contentTypeId="BF_SITE_INFO"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="SI_SEARCH" contentId="SI_SEARCH_01" contentTypeId="BF_SITE_INFO"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="SI_MAILING_LIST" contentId="SI_MAILING_01" contentTypeId="BF_SITE_INFO"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="SI_HEAD_TAG_CONTENT" contentId="SI_HEAD_TAG_01" contentTypeId="BF_SITE_INFO"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="SI_SUPER_MEGA_MENU" contentId="SI_SUPER_MEGA_MENU_01" contentTypeId="BF_SITE_INFO"/>
 
 <!-- HOME PAGE SPOTS -->
-<XContentXref productStoreId="BF_STORE" bfContentId="HPS_01" contentId="HPS_01_01" contentTypeId="BF_HOME_PAGE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="HPS_02" contentId="HPS_02_01" contentTypeId="BF_HOME_PAGE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="HPS_03" contentId="HPS_03_01" contentTypeId="BF_HOME_PAGE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="HPS_04" contentId="HPS_04_01" contentTypeId="BF_HOME_PAGE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="HPS_05" contentId="HPS_05_01" contentTypeId="BF_HOME_PAGE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="HPS_06" contentId="HPS_06_01" contentTypeId="BF_HOME_PAGE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="HPS_07" contentId="HPS_07_01" contentTypeId="BF_HOME_PAGE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="HPS_08" contentId="HPS_08_01" contentTypeId="BF_HOME_PAGE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="HPS_09" contentId="HPS_09_01" contentTypeId="BF_HOME_PAGE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="HPS_10" contentId="HPS_10_01" contentTypeId="BF_HOME_PAGE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="HPS_11" contentId="HPS_11_01" contentTypeId="BF_HOME_PAGE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="HPS_12" contentId="HPS_12_01" contentTypeId="BF_HOME_PAGE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="HPS_13" contentId="HPS_13_01" contentTypeId="BF_HOME_PAGE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="HPS_14" contentId="HPS_14_01" contentTypeId="BF_HOME_PAGE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="HPS_15" contentId="HPS_15_01" contentTypeId="BF_HOME_PAGE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="HPS_16" contentId="HPS_16_01" contentTypeId="BF_HOME_PAGE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="HPS_01" contentId="HPS_01_01" contentTypeId="BF_HOME_PAGE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="HPS_02" contentId="HPS_02_01" contentTypeId="BF_HOME_PAGE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="HPS_03" contentId="HPS_03_01" contentTypeId="BF_HOME_PAGE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="HPS_04" contentId="HPS_04_01" contentTypeId="BF_HOME_PAGE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="HPS_05" contentId="HPS_05_01" contentTypeId="BF_HOME_PAGE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="HPS_06" contentId="HPS_06_01" contentTypeId="BF_HOME_PAGE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="HPS_07" contentId="HPS_07_01" contentTypeId="BF_HOME_PAGE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="HPS_08" contentId="HPS_08_01" contentTypeId="BF_HOME_PAGE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="HPS_09" contentId="HPS_09_01" contentTypeId="BF_HOME_PAGE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="HPS_10" contentId="HPS_10_01" contentTypeId="BF_HOME_PAGE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="HPS_11" contentId="HPS_11_01" contentTypeId="BF_HOME_PAGE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="HPS_12" contentId="HPS_12_01" contentTypeId="BF_HOME_PAGE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="HPS_13" contentId="HPS_13_01" contentTypeId="BF_HOME_PAGE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="HPS_14" contentId="HPS_14_01" contentTypeId="BF_HOME_PAGE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="HPS_15" contentId="HPS_15_01" contentTypeId="BF_HOME_PAGE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="HPS_16" contentId="HPS_16_01" contentTypeId="BF_HOME_PAGE"/>
 
 <!-- ESPOTS -->
-<XContentXref productStoreId="BF_STORE" bfContentId="PTS_ADDR_BOOK_VIEW" contentId="PTS_ADDR_BV_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PTS_ADDR_BOOK_EDIT" contentId="PTS_ADDR_BE_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PTS_MY_ACCOUNT" contentId="PTS_ACCOUNT_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PTS_ORDER_CONFIRM" contentId="PTS_ORD_CONFIRM_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PTS_ORDER_STATUS" contentId="PTS_ORD_STATUS_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PTS_ORDER_SUMMARY" contentId="PTS_ORD_SUMMARY_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PTS_SHIPPING_ADDRESS" contentId="PTS_SHIP_ADDR_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PTS_SHIPPING_METHOD" contentId="PTS_SHIP_METH_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PTS_SHOPPING_CART" contentId="PTS_CART_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PTS_CONTACT_US" contentId="PTS_CONTACT_US_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PTS_RQST_QUOTE" contentId="PTS_RQST_QUOTE_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PTS_STORE_LOCATOR" contentId="PTS_ST_LOC_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PTS_MAILING_LIST" contentId="PTS_MAILING_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PTS_LOGIN" contentId="PTS_LOGIN_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PTS_LOGIN_INFO" contentId="PTS_LOGIN_01_INFO" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PTS_PERSONAL_INFO" contentId="PTS_PERS_INF_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PTS_CONFIRM" contentId="PTS_CONFIRM_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PTS_SEARCH_NO_RESULT" contentId="PTS_SRCH_NO_RSL_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PTS_ONE_STEP_CHKOUT" contentId="PTS_OS_CHKOUT_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PTS_STORE_PICKUP" contentId="PTS_ST_PICKUP_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PTS_WISHLIST" contentId="PTS_WISHLIST_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PTS_PMT_METHOD_VIEW" contentId="PTS_PMT_MV_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PTS_PMT_METHOD_EDIT" contentId="PTS_PMT_ME_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PTS_GIFT_MESSAGE" contentId="PTS_GIFT_MESS_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PTS_EMAIL_A_FRIEND" contentId="PTS_EML_FRND_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PTS_SHOP_LIST_SEARCH" contentId="PTS_SHP_SRCH_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PTS_ADDR_BOOK_VIEW" contentId="PTS_ADDR_BV_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PTS_ADDR_BOOK_EDIT" contentId="PTS_ADDR_BE_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PTS_MY_ACCOUNT" contentId="PTS_ACCOUNT_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PTS_ORDER_CONFIRM" contentId="PTS_ORD_CONFIRM_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PTS_ORDER_STATUS" contentId="PTS_ORD_STATUS_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PTS_ORDER_SUMMARY" contentId="PTS_ORD_SUMMARY_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PTS_SHIPPING_ADDRESS" contentId="PTS_SHIP_ADDR_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PTS_SHIPPING_METHOD" contentId="PTS_SHIP_METH_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PTS_SHOPPING_CART" contentId="PTS_CART_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PTS_CONTACT_US" contentId="PTS_CONTACT_US_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PTS_RQST_QUOTE" contentId="PTS_RQST_QUOTE_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PTS_STORE_LOCATOR" contentId="PTS_ST_LOC_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PTS_MAILING_LIST" contentId="PTS_MAILING_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PTS_LOGIN" contentId="PTS_LOGIN_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PTS_LOGIN_INFO" contentId="PTS_LOGIN_01_INFO" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PTS_PERSONAL_INFO" contentId="PTS_PERS_INF_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PTS_CONFIRM" contentId="PTS_CONFIRM_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PTS_SEARCH_NO_RESULT" contentId="PTS_SRCH_NO_RSL_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PTS_ONE_STEP_CHKOUT" contentId="PTS_OS_CHKOUT_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PTS_STORE_PICKUP" contentId="PTS_ST_PICKUP_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PTS_WISHLIST" contentId="PTS_WISHLIST_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PTS_PMT_METHOD_VIEW" contentId="PTS_PMT_MV_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PTS_PMT_METHOD_EDIT" contentId="PTS_PMT_ME_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PTS_GIFT_MESSAGE" contentId="PTS_GIFT_MESS_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PTS_EMAIL_A_FRIEND" contentId="PTS_EML_FRND_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PTS_SHOP_LIST_SEARCH" contentId="PTS_SHP_SRCH_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
 
-<XContentXref productStoreId="BF_STORE" bfContentId="PES_ADDR_BOOK_VIEW" contentId="PES_ADDR_BV_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PES_ADDR_BOOK_EDIT" contentId="PES_ADDR_BE_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PES_MY_ACCOUNT" contentId="PES_ACCOUNT_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PES_ORDER_CONFIRM" contentId="PES_ORD_CONFIRM_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PES_ORDER_STATUS" contentId="PES_ORD_STATUS_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PES_ORDER_SUMMARY" contentId="PES_ORD_SUMMARY_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PES_SHIPPING_ADDRESS" contentId="PES_SHIP_ADDR_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PES_SHIPPING_METHOD" contentId="PES_SHIP_METH_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PES_SHOPPING_CART" contentId="PES_CART_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PES_CONTACT_US" contentId="PES_CONTACT_US_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PES_RQST_QUOTE" contentId="PES_RQST_QUOTE_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PES_STORE_LOCATOR" contentId="PES_ST_LOC_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PES_MAILING_LIST" contentId="PES_MAILING_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PES_LOGIN" contentId="PES_LOGIN_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PES_LOGIN_INFO" contentId="PES_LOGIN_01_INFO" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PES_PERSONAL_INFO" contentId="PES_PERS_INF_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PES_CONFIRM" contentId="PES_CONFIRM_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PES_SEARCH_NO_RESULT" contentId="PES_SRCH_NO_RSL_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PES_ONE_STEP_CHKOUT" contentId="PES_OS_CHKOUT_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PES_STORE_PICKUP" contentId="PES_ST_PICKUP_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PES_WISHLIST" contentId="PES_WISHLIST_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PES_PMT_METHOD_VIEW" contentId="PES_PMT_MV_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PES_PMT_METHOD_EDIT" contentId="PES_PMT_ME_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PES_GIFT_MESSAGE" contentId="PES_GIFT_MESS_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PES_EMAIL_A_FRIEND" contentId="PES_EML_FRND_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PES_ADDR_BOOK_VIEW" contentId="PES_ADDR_BV_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PES_ADDR_BOOK_EDIT" contentId="PES_ADDR_BE_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PES_MY_ACCOUNT" contentId="PES_ACCOUNT_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PES_ORDER_CONFIRM" contentId="PES_ORD_CONFIRM_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PES_ORDER_STATUS" contentId="PES_ORD_STATUS_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PES_ORDER_SUMMARY" contentId="PES_ORD_SUMMARY_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PES_SHIPPING_ADDRESS" contentId="PES_SHIP_ADDR_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PES_SHIPPING_METHOD" contentId="PES_SHIP_METH_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PES_SHOPPING_CART" contentId="PES_CART_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PES_CONTACT_US" contentId="PES_CONTACT_US_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PES_RQST_QUOTE" contentId="PES_RQST_QUOTE_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PES_STORE_LOCATOR" contentId="PES_ST_LOC_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PES_MAILING_LIST" contentId="PES_MAILING_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PES_LOGIN" contentId="PES_LOGIN_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PES_LOGIN_INFO" contentId="PES_LOGIN_01_INFO" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PES_PERSONAL_INFO" contentId="PES_PERS_INF_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PES_CONFIRM" contentId="PES_CONFIRM_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PES_SEARCH_NO_RESULT" contentId="PES_SRCH_NO_RSL_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PES_ONE_STEP_CHKOUT" contentId="PES_OS_CHKOUT_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PES_STORE_PICKUP" contentId="PES_ST_PICKUP_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PES_WISHLIST" contentId="PES_WISHLIST_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PES_PMT_METHOD_VIEW" contentId="PES_PMT_MV_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PES_PMT_METHOD_EDIT" contentId="PES_PMT_ME_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PES_GIFT_MESSAGE" contentId="PES_GIFT_MESS_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PES_EMAIL_A_FRIEND" contentId="PES_EML_FRND_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
 
-<XContentXref productStoreId="BF_STORE" bfContentId="PDP_CONTENT_01" contentId="PDP_CONTENT_01_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PDP_CONTENT_02" contentId="PDP_CONTENT_02_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PDP_CONTENT_03" contentId="PDP_CONTENT_03_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PDP_CONTENT_04" contentId="PDP_CONTENT_04_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PDP_CONTENT_05" contentId="PDP_CONTENT_05_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PDP_CONTENT_01" contentId="PDP_CONTENT_01_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PDP_CONTENT_02" contentId="PDP_CONTENT_02_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PDP_CONTENT_03" contentId="PDP_CONTENT_03_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PDP_CONTENT_04" contentId="PDP_CONTENT_04_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PDP_CONTENT_05" contentId="PDP_CONTENT_05_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
 
-<XContentXref productStoreId="BF_STORE" bfContentId="PLP_CONTENT_01" contentId="PLP_CONTENT_01_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PLP_CONTENT_02" contentId="PLP_CONTENT_02_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PLP_CONTENT_03" contentId="PLP_CONTENT_03_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PLP_CONTENT_04" contentId="PLP_CONTENT_04_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PLP_CONTENT_05" contentId="PLP_CONTENT_05_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PLP_CONTENT_01" contentId="PLP_CONTENT_01_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PLP_CONTENT_02" contentId="PLP_CONTENT_02_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PLP_CONTENT_03" contentId="PLP_CONTENT_03_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PLP_CONTENT_04" contentId="PLP_CONTENT_04_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PLP_CONTENT_05" contentId="PLP_CONTENT_05_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
 
-<XContentXref productStoreId="BF_STORE" bfContentId="CHECKOUT_CC_VERIFY" contentId="CHECKOUT_CC_VRFY_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="CHECKOUT_EFT_GUIDE" contentId="CHECKOUT_EFT_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="MULTI_ADDR_ESPOT" contentId="MULTI_ADDR_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="MULTI_SHIPPING_ESPOT" contentId="MULTI_SHIPPING_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PS_OUT_OF_STOCK" contentId="PS_OUT_OF_STOCK_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PS_IN_STORE_ONLY" contentId="PS_IN_STORE_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="RECUR_LIST_ESPOT" contentId="RECUR_LIST_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="RECUR_DETAIL_ESPOT" contentId="RECUR_DETAIL_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="CHECKOUT_CC_VERIFY" contentId="CHECKOUT_CC_VRFY_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="CHECKOUT_EFT_GUIDE" contentId="CHECKOUT_EFT_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="MULTI_ADDR_ESPOT" contentId="MULTI_ADDR_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="MULTI_SHIPPING_ESPOT" contentId="MULTI_SHIPPING_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PS_OUT_OF_STOCK" contentId="PS_OUT_OF_STOCK_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PS_IN_STORE_ONLY" contentId="PS_IN_STORE_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="RECUR_LIST_ESPOT" contentId="RECUR_LIST_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="RECUR_DETAIL_ESPOT" contentId="RECUR_DETAIL_01" contentTypeId="BF_PAGE_TOP_SPOT"/>
 
 <!-- PDP SPOTS -->
-<XContentXref productStoreId="BF_STORE" bfContentId="PS_INTRODUCED" contentId="PS_INTRODUCED_01" contentTypeId="BF_PDP_SPOT"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="PS_DISCONTINUED" contentId="PS_DISCONTINUED_01" contentTypeId="BF_PDP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PS_INTRODUCED" contentId="PS_INTRODUCED_01" contentTypeId="BF_PDP_SPOT"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="PS_DISCONTINUED" contentId="PS_DISCONTINUED_01" contentTypeId="BF_PDP_SPOT"/>
 
 <!-- STATIC PAGES-->
-<XContentXref productStoreId="BF_STORE" bfContentId="SP_ABOUT_US" contentId="SP_ABOUT_US_01" contentTypeId="BF_STATIC_PAGE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="SP_PRIVACY_POLICY" contentId="SP_PRIV_POLICY_01" contentTypeId="BF_STATIC_PAGE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="SP_TERMS_CONDITIONS" contentId="SP_TC_01" contentTypeId="BF_STATIC_PAGE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="SP_SITE_MAP" contentId="SP_SITE_MAP_01" contentTypeId="BF_STATIC_PAGE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="SP_ERROR_PAGE" contentId="SP_ERROR_PAGE_01" contentTypeId="BF_STATIC_PAGE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="SP_RETURN_POLICY" contentId="SP_RETURN_POLICY_01" contentTypeId="BF_STATIC_PAGE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="SP_CONTACT_US" contentId="SP_CONTACT_US_01" contentTypeId="BF_STATIC_PAGE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="SP_ABOUT_US" contentId="SP_ABOUT_US_01" contentTypeId="BF_STATIC_PAGE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="SP_PRIVACY_POLICY" contentId="SP_PRIV_POLICY_01" contentTypeId="BF_STATIC_PAGE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="SP_TERMS_CONDITIONS" contentId="SP_TC_01" contentTypeId="BF_STATIC_PAGE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="SP_SITE_MAP" contentId="SP_SITE_MAP_01" contentTypeId="BF_STATIC_PAGE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="SP_ERROR_PAGE" contentId="SP_ERROR_PAGE_01" contentTypeId="BF_STATIC_PAGE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="SP_RETURN_POLICY" contentId="SP_RETURN_POLICY_01" contentTypeId="BF_STATIC_PAGE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="SP_CONTACT_US" contentId="SP_CONTACT_US_01" contentTypeId="BF_STATIC_PAGE"/>
 
 <!-- CONTENT LIBRARY-->
 
 <!-- EMAIL CONTENT-->
-<XContentXref productStoreId="BF_STORE" bfContentId="E_HEAD_TAG" contentId="E_HEAD_TAG_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="E_COMMON_HEADER" contentId="E_COMMON_HEADER_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="E_COMMON_STYLES" contentId="E_COMMON_STYLES_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="E_COMMON_FOOTER" contentId="E_COMMON_FOOTER_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="E_NEW_CUSTOMER" contentId="E_NEW_CUSTOMER_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="E_CHANGE_CUSTOMER" contentId="E_CHNGE_CUST_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="E_FORGOT_PASSWORD" contentId="E_FORGOT_PASS_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="E_ABANDON_CART" contentId="E_ABANDON_CART_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="E_CONTACT_US" contentId="E_CONTACT_US_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="E_REQUEST_CATALOG" contentId="E_REQ_CATALOG_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="E_REQUEST_QUOTE" contentId="E_REQ_QUOTE_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="E_ORDER_CONFIRM" contentId="E_ORD_CONFIRM_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="E_ORDER_CHANGE" contentId="E_ORD_CHNGE_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="E_SHIP_REVIEW" contentId="E_SHIP_REVIEW_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="E_ORDER_DETAIL" contentId="E_ORD_DETAIL_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="E_ORDER_HEADER" contentId="E_ORD_HEADER_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="E_ORDER_PAYMENTS" contentId="E_ORD_PAYMENTS_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="E_ORDER_SHIPMENTS" contentId="E_ORD_SHIPMENTS_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="E_ORDER_ITEMS" contentId="E_ORD_ITMS_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="E_ORDER_ITEM_SUMMARY" contentId="E_ORD_ITM_SUMMARY_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="E_MAILING_LIST" contentId="E_MAILING_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="E_SCHED_JOB_ALERT" contentId="E_SCHD_JOB_ALRT_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="E_TELL_FRIEND" contentId="E_TELL_FRIEND_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="E_HEAD_TAG" contentId="E_HEAD_TAG_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="E_COMMON_HEADER" contentId="E_COMMON_HEADER_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="E_COMMON_STYLES" contentId="E_COMMON_STYLES_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="E_COMMON_FOOTER" contentId="E_COMMON_FOOTER_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="E_NEW_CUSTOMER" contentId="E_NEW_CUSTOMER_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="E_CHANGE_CUSTOMER" contentId="E_CHNGE_CUST_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="E_FORGOT_PASSWORD" contentId="E_FORGOT_PASS_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="E_ABANDON_CART" contentId="E_ABANDON_CART_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="E_CONTACT_US" contentId="E_CONTACT_US_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="E_REQUEST_CATALOG" contentId="E_REQ_CATALOG_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="E_REQUEST_QUOTE" contentId="E_REQ_QUOTE_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="E_ORDER_CONFIRM" contentId="E_ORD_CONFIRM_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="E_ORDER_CHANGE" contentId="E_ORD_CHNGE_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="E_SHIP_REVIEW" contentId="E_SHIP_REVIEW_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="E_ORDER_DETAIL" contentId="E_ORD_DETAIL_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="E_ORDER_HEADER" contentId="E_ORD_HEADER_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="E_ORDER_PAYMENTS" contentId="E_ORD_PAYMENTS_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="E_ORDER_SHIPMENTS" contentId="E_ORD_SHIPMENTS_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="E_ORDER_ITEMS" contentId="E_ORD_ITMS_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="E_ORDER_ITEM_SUMMARY" contentId="E_ORD_ITM_SUMMARY_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="E_MAILING_LIST" contentId="E_MAILING_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="E_SCHED_JOB_ALERT" contentId="E_SCHD_JOB_ALRT_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="E_TELL_FRIEND" contentId="E_TELL_FRIEND_01" contentTypeId="BF_EMAIL_TEMPLATE"/>
 
 <!-- TXT CONTENT-->
-<XContentXref productStoreId="BF_STORE" bfContentId="TXT_ABANDON_CART" contentId="TXT_ABANDON_CART_01" contentTypeId="BF_TXT_TEMPLATE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="TXT_NEW_CUSTOMER" contentId="TXT_NEW_CUSTOMER_01" contentTypeId="BF_TXT_TEMPLATE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="TXT_ORDER_CHANGE" contentId="TXT_ORDER_CHANGE_01" contentTypeId="BF_TXT_TEMPLATE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="TXT_ORDER_CONFIRM" contentId="TXT_ORDER_CONFIRM_01" contentTypeId="BF_TXT_TEMPLATE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="TXT_FORGOT_PASSWORD" contentId="TXT_FRGT_PASS_01" contentTypeId="BF_TXT_TEMPLATE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="TXT_SHIP_REVIEW" contentId="TXT_SHIP_REVIEW_01" contentTypeId="BF_TXT_TEMPLATE"/>
-<XContentXref productStoreId="BF_STORE" bfContentId="TXT_CHANGE_CUSTOMER" contentId="TXT_CHG_CUST_01" contentTypeId="BF_TXT_TEMPLATE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="TXT_ABANDON_CART" contentId="TXT_ABANDON_CART_01" contentTypeId="BF_TXT_TEMPLATE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="TXT_NEW_CUSTOMER" contentId="TXT_NEW_CUSTOMER_01" contentTypeId="BF_TXT_TEMPLATE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="TXT_ORDER_CHANGE" contentId="TXT_ORDER_CHANGE_01" contentTypeId="BF_TXT_TEMPLATE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="TXT_ORDER_CONFIRM" contentId="TXT_ORDER_CONFIRM_01" contentTypeId="BF_TXT_TEMPLATE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="TXT_FORGOT_PASSWORD" contentId="TXT_FRGT_PASS_01" contentTypeId="BF_TXT_TEMPLATE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="TXT_SHIP_REVIEW" contentId="TXT_SHIP_REVIEW_01" contentTypeId="BF_TXT_TEMPLATE"/>
+<XContentXref productStoreId="RNY_STORE" bfContentId="TXT_CHANGE_CUSTOMER" contentId="TXT_CHG_CUST_01" contentTypeId="BF_TXT_TEMPLATE"/>
 
 <!-- END XContentXref content product store reference -->
 

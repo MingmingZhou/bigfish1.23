@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+
+<Content contentId="SI_HEADER_CONTENT" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="SI_HEADER_CONTENT">
+   <textData>
+      <![CDATA[<div class="defaultDevice">
+     <ul>
+          <li><a href="<@ofbizUrl>main</@ofbizUrl>">Home</a></li>
+          <li><a href="<@ofbizUrl>contactUs</@ofbizUrl>">Contact Us</a></li>
+          <li><a href="<@ofbizUrl>storeLocator</@ofbizUrl>">Locate Store</a></li>
+          <li><a href="<@ofbizUrl>requestCatalog</@ofbizUrl>">Request Catalog</a></li>
+          <li><a href="<@ofbizUrl>MyAccount</@ofbizUrl>">My Account</a></li>
+               <#if userLogin?has_content && userLogin.userLoginId != "anonymous">
+                  <li><a href="<@ofbizUrl>logout</@ofbizUrl>">Logout</a></li>
+              <#else/>
+          <li><a href="<@ofbizUrl>checkLogin</@ofbizUrl>">Sign In</a></li>
+              </#if>
+     </ul>
+</div>]]>
+  </textData>
+</ElectronicText>
+
+<Content contentId="SI_LOGO" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="SI_LOGO">
+ <textData>
+      <![CDATA[<div class="defaultDevice">
+     <a href="<@ofbizUrl>main</@ofbizUrl>">
+          <img alt="Home" src="/osafe_theme/images/user_content/images/siteLogo.png"/>
+     </a>
+</div>
+
+<!-- Below contains the site logo and the My Cart button.  The My Cart button is placed here to allow for best alignment with the scalable logo image -->
+
+<div class="smallDevice">
+     <div class="logoCartContainer">
+          <div class="siteLogo">
+               <div class="siteLogoContainer">
+                    <div class="inner">
+                         <a href="<@ofbizUrl>main</@ofbizUrl>">
+                              <img src="/osafe_theme/images/user_content/images/siteLogo.png" />
+                         </a>
+                    </div>
+               </div>
+          </div>
+          <div class="cartButtonContainer">
+               <div class="inner">
+                    <a class="mobileShowCart" href="/online/control/eCommerceShowcart">My Cart</a>
+               </div>
+          </div>
+     </div>
+</div>
+ 
+]]>
+</textData>
+</ElectronicText>
+
+
+<Content contentId="SI_SHOPPING_CART" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="SI_SHOPPING_CART">
+  <textData><![CDATA[<p>Shopping Bag</p>
+
+<div id="siteCartStats">
+
+  <div class="highlightGroup">
+
+    <a href="<@ofbizUrl>eCommerceShowcart</@ofbizUrl>" id="siteShoppingCartSize">${CART_SIZE!} 
+
+      <#if CART_SIZE == 1>
+         Item
+      <#else>
+         Items
+      </#if>
+
+    </a>
+    <#if (CART_SIZE gt 0)>
+    <a href="<@ofbizUrl>eCommerceShowcart</@ofbizUrl>" class="price">
+
+      <@ofbizCurrency amount=CART.getGrandTotal()   isoCode=CURRENCY_UOM_DEFAULT!CART.getCurrency()/>
+    </a>
+<#else>
+ <a href="<@ofbizUrl>eCommerceShowcart</@ofbizUrl>" class="price">
+      <@ofbizCurrency isoCode=CURRENCY_UOM_DEFAULT!CART.getCurrency()/>
+</a>
+
+    </#if>
+  </div>
+
+</div>]]>
+  </textData>
+</ElectronicText>
+
+<Content contentId="SI_FOOTER_CONTENT" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="SI_FOOTER_CONTENT">
+<textData>
+  <![CDATA[<div class="footerColumn">
+    <span class="footerCaption">OUR PRODUCTS</span>
+    <ul id="footerLinks">
+        <li><a href="<@ofbizUrl>eCommerceCategoryList?productCategoryId=APPAREL</@ofbizUrl>">Women's Apparel</a></li>
+        <li><a href="<@ofbizUrl>eCommerceCategoryList?productCategoryId=HANDBAGSANDSHOES</@ofbizUrl>">Handbags / Shoes</a></li>
+        <li><a href="<@ofbizUrl>eCommerceCategoryList?productCategoryId=JEWELRYACCESSORIES</@ofbizUrl>">Jewelry / Accessories</a></li>
+        <li><a href="<@ofbizUrl>eCommerceProductList?productCategoryId=SAMPLE SALE</@ofbizUrl>">Sample Sale</a></li>
+        <li><a href="<@ofbizUrl>eCommerceCategoryList?productCategoryId=TOPTRENDS</@ofbizUrl>">Top Trends</a></li>
+    </ul>
+</div>
+
+
+<div class="footerColumn">
+    <span class="footerCaption">MY ACCOUNT</span>
+    <ul id="footerLinks">
+        <li><a href="<@ofbizUrl>eCommerceOrderHistory</@ofbizUrl>">Check Order Status</a></li>
+        <li><a href="<@ofbizUrl>eCommerceEditAddressBook</@ofbizUrl>">Edit Shipping Address</a></li>
+        <li><a href="<@ofbizUrl>eCommerceEditLoginInfo</@ofbizUrl>">Edit Login Information</a></li>
+    </ul>
+</div>
+
+<div class="footerColumn">
+    <span class="footerCaption">ABOUT US</span>
+    <ul id="footerLinks">
+        <li><a href="<@ofbizUrl>contactUs</@ofbizUrl>">Contact Us</a></li>
+        <li><a href="<@ofbizUrl>eCommerceContent?contentId=SP_ABOUT_US</@ofbizUrl>">About Us</a></li>
+        <li><a href="<@ofbizUrl>eCommerceContent?contentId=SP_RETURN_POLICY</@ofbizUrl>">Return Policy</a></li>
+        <li><a href="<@ofbizUrl>eCommerceContent?contentId=SP_PRIVACY_POLICY</@ofbizUrl>">Privacy Policy</a></li>
+    </ul>
+</div>
+
+<div class="footerColumn">
+    <ul id="footerLinks">
+        <li><a target="facebook" href="http://www.facebook.com"><img src="/osafe_theme/images/user_content/images/facebookIcon.gif" alt="Facebook"></a></li>
+        <li><a target="twitter" href="http://www.twitter.com"><img src="/osafe_theme/images/user_content/images/twitterIcon.gif" alt="Twitter"></a></li>
+    </ul>
+</div>]]>
+  </textData>
+</ElectronicText>
+
+<Content contentId="SI_HEAD_TAG_CONTENT" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="SI_HEAD_TAG_CONTENT">
+<textData>
+  <![CDATA[
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
+<link rel="stylesheet" media="screen and (max-width: 450px)" href="/osafe_theme/css/bigFishSmallDevice.css" type="text/css"/>
+]]>
+  </textData>
+</ElectronicText>
+
+
+
+<Content contentId="SI_SEARCH" statusId="CTNT_PUBLISHED"/>
+<ElectronicText dataResourceId="SI_SEARCH">
+  <textData><![CDATA[
+<script type="text/javascript">
+function clearIt(what)
+{
+if(what.value == what.defaultValue) what.value = '';
+}
+function setIt(what)
+{
+if(what.value == '') what.value = what.defaultValue;
+}
+</script>
+
+<!-- Site Search Uses the same markup and therefor does not need 'defaultDevice' or 'smallDevice' for show/hide purposes. -->
+
+     <form id="frmSearchForm" onsubmit="return submitSearchForm(document.frmSearchForm);" action="siteSearch" name="frmSearchForm" method="get">
+          <fieldset class="formstyle" title="Search this site...">
+               <div id="searchInputContainer">
+                    <div class="searchField">
+                         <div class="searchFieldContainer">
+                              <div class="inner">
+                                   <input onblur="setIt(this)" onfocus="clearIt(this)" value="What are you looking for?" name="searchText" id="searchText" />
+                              </div>
+                         </div>
+                    </div>
+                    <div class="searchButton">
+                         <div class="inner">
+                              <input type="image" src="/osafe_theme/images/user_content/images/searchButton.png" value="Go" name="searchBtn" />
+                         </div>
+                    </div>
+               </div>
+          </fieldset>
+          <div class="searchAutoComplete" id="searchAutoComplete"></div>
+     </form>
+
+
+]]>
+</textData>
+</ElectronicText>
+
+
+
+</entity-engine-xml>

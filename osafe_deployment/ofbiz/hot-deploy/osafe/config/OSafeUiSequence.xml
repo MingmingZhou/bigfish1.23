@@ -7,67 +7,67 @@
 <!-- PDP -->
 <!-- *************************************** -->
     <property key="pdpMainImage">
-        <value xml:lang="en">10</value>
+        <value xml:lang="en">50</value>
         <screen>PDP</screen>
         <style>image</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The primary PDP image displayed upon initial display of the PDP. </description>
     </property>
     <property key="pdpProductName">
-        <value xml:lang="en">20</value>
+        <value xml:lang="en">10</value>
         <screen>PDP</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>1</group>
         <description>Product Name. The primary Product Name.</description>
     </property>
     <property key="pdpPriceOnline">
-        <value xml:lang="en">30</value>
+        <value xml:lang="en">120</value>
         <screen>PDP</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>Online Price. The actual price the customer will pay for this item. Could be overridden with Volume Pricing depending on the configuration. </description>
     </property>
     <property key="pdpSelectableFeature">
-        <value xml:lang="en">40</value>
+        <value xml:lang="en">140</value>
         <screen>PDP</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>Selectable Features. This element contains all the features that define the specific Variant for purchase. Typical examples are Color and Size.</description>
     </property>
     <property key="pdpQty">
-        <value xml:lang="en">50</value>
+        <value xml:lang="en">170</value>
         <screen>PDP</screen>
         <style>entry</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>The Qty field that the customer uses for purchasing.</description>
     </property>
     <property key="pdpAddToCart">
-        <value xml:lang="en">60</value>
+        <value xml:lang="en">180</value>
         <screen>PDP</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>Add To Cart. The actual action button that adds the Product to the cart.</description>
     </property>
     <property key="pdpLongDescription">
-        <value xml:lang="en">70</value>
+        <value xml:lang="en">60</value>
         <screen>PDP</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>Long Description. The primary description for the Product. </description>
     </property>
     <property key="pdpDistinguishingFeature">
-        <value xml:lang="en">80</value>
+        <value xml:lang="en">150</value>
         <screen>PDP</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>Distinguishing Feature. Secondary description for the Product.</description>
     </property>
     <property key="pdpSeeLargerImage">
@@ -79,11 +79,11 @@
         <description>A link asset that allows for a popup view of a larger image, as required.</description>
     </property>
     <property key="pdpAlternateImage">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">40</value>
         <screen>PDP</screen>
         <style>image</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>Alternate Image, typically used to display another view of the Product upon mouse hover.</description>
     </property>
     <property key="pdpVideo360">
@@ -127,11 +127,11 @@
         <description>In Store Only Content. Specific Page Content that may be included informing the customer that the Product is only available for in store purchase.</description>
     </property>
     <property key="pdpPriceList">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">130</value>
         <screen>PDP</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>List Price. May be used as a display or in calculations for Savings fields.</description>
     </property>
     <property key="pdpPriceSavingPercent">
@@ -159,11 +159,11 @@
         <description>Recurrence price. The price the customer will pay for this item if placed as a recurring order.</description>
     </property>
     <property key="pdpReviewStars">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">30</value>
         <screen>PDP</screen>
         <style>image</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>1</group>
         <description>RENAME from pdpCustomerRating. Customer Rating and Review Stars. This could apply for BigFish, Reevoo or another integrated Rating and Review solution.</description>
     </property>
     <property key="pdpReviewRead">
@@ -191,11 +191,11 @@
         <description>A Container that will display a list of all reviews posted by customers.</description>
     </property>
     <property key="pdpAddToWishlist">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">190</value>
         <screen>PDP</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>Add To Wishlist. The actual action button that adds the Product to the Wish List.</description>
     </property>
     <property key="pdpVolumePricing">
@@ -223,35 +223,35 @@
         <description>Special Instructions. Secondary description for the Product.</description>
     </property>
     <property key="pdpDeliveryInfo">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">80</value>
         <screen>PDP</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>Delivery. Secondary description for the Product.</description>
     </property>
     <property key="pdpDirections">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">90</value>
         <screen>PDP</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>Directions. Secondary description for the Product.</description>
     </property>
     <property key="pdpIngredients">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">70</value>
         <screen>PDP</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>Ingredients. Secondary description for the Product.</description>
     </property>
     <property key="pdpWarnings">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">100</value>
         <screen>PDP</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>Warnings. Secondary description for the Product.</description>
     </property>
     <property key="pdpTermsAndConditions">
@@ -263,19 +263,19 @@
         <description>Terms and Conditions. Secondary description for the Product.</description>
     </property>
     <property key="pdpTabs">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">210</value>
         <screen>PDP</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>4</group>
         <description>A container Tab component. Can be used as a general tab area for various content, including Product features and Descriptions.</description>
     </property>
     <property key="pdpComplement">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">220</value>
         <screen>PDP</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>5</group>
         <description>Complement Products. A container that is further defined in pdpComplement.</description>
     </property>
     <property key="pdpAccessory">
@@ -295,19 +295,19 @@
         <description>Complement and Accessory product combined into a container with an outer "div".</description>
     </property>
     <property key="pdpRecentlyViewed">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">230</value>
         <screen>PDP</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>6</group>
         <description>Recently Viewed Products. A container that is further defined in pdpRecent.</description>
     </property>
     <property key="pdpStockLegend">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">160</value>
         <screen>PDP</screen>
         <style>content</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>Stock Legend. If applicable, a legend to indicate stock levels.</description>
     </property>
     <property key="pdpSeeMainImage">
@@ -367,11 +367,11 @@
         <description>Manufacturer Heading (could be Designer for example)</description>
     </property>
     <property key="pdpManufacturerImage">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">110</value>
         <screen>PDP</screen>
         <style>image</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>Manufacturer Image or Logo</description>
     </property>
     <property key="pdpManufacturerName">
@@ -383,11 +383,11 @@
         <description>Manufacturer Name</description>
     </property>
     <property key="pdpContent01">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">200</value>
         <screen>PDP</screen>
         <style>content</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>General additional PDP content</description>
     </property>
     <property key="pdpContent02">
@@ -423,11 +423,11 @@
         <description>General additional PDP content</description>
     </property>
     <property key="pdpInternalName">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">20</value>
         <screen>PDP</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>1</group>
         <description>Product Internal Name</description>
     </property>
     <property key="pdpLabelName">
@@ -627,17 +627,17 @@
         <description>Offers the Read-Reviews link. Only applicable if using BigFish Reviews.</description>
     </property>
     <property key="pdpTabsReviewWrite">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">50</value>
         <screen>PDPTabs</screen>
-        <group>0</group>
+        <group>4</group>
         <style>action</style>
         <mandatory>NA</mandatory>
         <description>Offers the Write-A-Review link. Only applicable if using BigFish Reviews.</description>
     </property>
     <property key="pdpTabsReviewList">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">40</value>
         <screen>PDPTabs</screen>
-        <group>0</group>
+        <group>4</group>
         <style>container</style>
         <mandatory>NA</mandatory>
         <description>The actual reviews posted by customers.</description>
@@ -691,9 +691,9 @@
         <description>Long Description. The primary description for the Product.</description>
     </property>
     <property key="pdpTabsDistinguishingFeature">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">10</value>
         <screen>PDPTabs</screen>
-        <group>0</group>
+        <group>1</group>
         <style>string</style>
         <mandatory>NA</mandatory>
         <description>Distinguishing Feature. Secondary description for the Product.</description>
@@ -803,9 +803,9 @@
         <description>Back To Main Image. A simple link used with Video and Video360 as a way to return to the Image view.</description>
     </property>
    <property key="pdpTabsAdditional">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">20</value>
         <screen>PDPTabs</screen>
-        <group>0</group>
+        <group>2</group>
         <style>string</style>
         <mandatory>NA</mandatory>
         <description>Additional Content By Category. Display of Product level content maintained at the Category level.</description>
@@ -875,9 +875,9 @@
         <description>General additional PDP content</description>
     </property>
     <property key="pdpTabsContent02">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">30</value>
         <screen>PDPTabs</screen>
-        <group>0</group>
+        <group>3</group>
         <style>content</style>
         <mandatory>NA</mandatory>
         <description>General additional PDP content</description>
@@ -982,19 +982,19 @@
 <!-- Quicklook -->
 <!-- *************************************** -->
     <property key="quicklookProductName">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">10</value>
         <screen>Quicklook</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>1</group>
         <description>Product Name. The primary Product Name.</description>
     </property>
     <property key="quicklookMainImage">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">50</value>
         <screen>Quicklook</screen>
         <style>image</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The primary PDP image displayed upon initial display of the PDP. </description>
     </property>
     <property key="quicklookSeeLargerImage">
@@ -1006,11 +1006,11 @@
         <description>A link asset that allows for a popup view of a larger image, as required.</description>
     </property>
     <property key="quicklookAlternateImage">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">40</value>
         <screen>Quicklook</screen>
         <style>image</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>Alternate Image, typically used to display another view of the Product upon mouse hover.</description>
     </property>
     <property key="quicklookVideo360">
@@ -1054,19 +1054,19 @@
         <description>In Store Only Content. Specific Page Content that may be included informing the customer that the Product is only available for in store purchase.</description>
     </property>
     <property key="quicklookPriceList">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">100</value>
         <screen>Quicklook</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>List Price. May be used as a display or in calculations for Savings fields.</description>
     </property>
     <property key="quicklookPriceOnline">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">90</value>
         <screen>Quicklook</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>Online Price. The actual price the customer will pay for this item. Could be overridden with Volume Pricing depending on the configuration.</description>
     </property>
     <property key="quicklookPriceSavingPercent">
@@ -1094,11 +1094,11 @@
         <description>Recurrence price. The price the customer will pay for this item if placed as a recurring order.</description>
     </property>
     <property key="quicklookReviewStars">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">30</value>
         <screen>Quicklook</screen>
         <style>image</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>1</group>
         <description>RENAME from pdpCustomerRating. Customer Rating and Review Stars. This could apply for BigFish, Reevoo or another integrated Rating and Review solution.</description>
     </property>
     <property key="quicklookReviewRead">
@@ -1126,35 +1126,35 @@
         <description>The actual reviews posted by customers.</description>
     </property>
     <property key="quicklookSelectableFeature">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">110</value>
         <screen>Quicklook</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>Selectable Features. This element contains all the features that define the specific Variant for purchase. Typical examples are Color and Size.</description>
     </property>
     <property key="quicklookQty">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">130</value>
         <screen>Quicklook</screen>
         <style>entry</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>The Qty field that the customer uses for purchasing.</description>
     </property>
     <property key="quicklookAddToCart">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">140</value>
         <screen>Quicklook</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>Add To Cart. The actual action button that adds the Product to the cart.</description>
     </property>
     <property key="quicklookAddToWishlist">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">150</value>
         <screen>Quicklook</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>Add To Wishlist. The actual action button that adds the Product to the Wish List.</description>
     </property>
     <property key="quicklookVolumePricing">
@@ -1166,19 +1166,19 @@
         <description>Volume Pricing. Products may be configured to have Volume Pricing.</description>
     </property>
     <property key="quicklookLongDescription">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">60</value>
         <screen>Quicklook</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>Long Description. The primary description for the Product.</description>
     </property>
     <property key="quicklookDistinguishingFeature">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">70</value>
         <screen>Quicklook</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>Distinguishing Feature. Secondary description for the Product.</description>
     </property>
     <property key="quicklookSalesPitch">
@@ -1278,11 +1278,11 @@
         <description>Recently Viewed Products. A container that is further defined in pdpRecent.</description>
     </property>
     <property key="quicklookStockLegend">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">120</value>
         <screen>Quicklook</screen>
         <style>content</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>Stock Legend. If applicable, a legend to indicate stock levels.</description>
     </property>
     <property key="quicklookSeeMainImage">
@@ -1342,11 +1342,11 @@
         <description>Manufacturer Heading (could be Designer for example)</description>
     </property>
     <property key="quicklookManufacturerImage">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">80</value>
         <screen>Quicklook</screen>
         <style>image</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>Manufacturer Image or Logo</description>
     </property>
     <property key="quicklookManufacturerName">
@@ -1366,11 +1366,11 @@
         <description>See Item Details</description>
     </property>
     <property key="quicklookContent01">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">160</value>
         <screen>Quicklook</screen>
         <style>content</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>General additional PDP content</description>
     </property>
     <property key="quicklookContent02">
@@ -1406,11 +1406,11 @@
         <description>General additional PDP content</description>
     </property>
     <property key="quicklookInternalName">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">20</value>
         <screen>Quicklook</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>1</group>
         <description>Product Internal Name</description>
     </property>
     <property key="quicklookLabelName">
@@ -1489,7 +1489,7 @@
         <description>Main Image</description>
     </property>
     <property key="plpProductName">
-        <value xml:lang="en">20</value>
+        <value xml:lang="en">0</value>
         <screen>PLP</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
@@ -1497,7 +1497,7 @@
         <description>Product Name</description>
     </property>
     <property key="plpPriceOnline">
-        <value xml:lang="en">30</value>
+        <value xml:lang="en">40</value>
         <screen>PLP</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
@@ -1505,7 +1505,7 @@
         <description>Online Price. The actual price the customer will pay for this item. Could be overridden with Volume Pricing depending on the configuration.</description>
     </property>
     <property key="plpDetailLink">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">30</value>
         <screen>PLP</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
@@ -1545,7 +1545,7 @@
         <description>Recurrence price. The price the customer will pay for this item if placed as a recurring order.</description>
     </property>
     <property key="plpSwatchImage">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">20</value>
         <screen>PLP</screen>
         <style>image</style>
         <mandatory>NA</mandatory>
@@ -2064,7 +2064,7 @@
         <description>Product Label</description>
     </property>
     <property key="pdpComplementDetailLink">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">20</value>
         <screen>PDPComplement</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
@@ -2080,7 +2080,7 @@
         <description>List Price. May be used as a display or in calculations for Savings fields.</description>
     </property>
     <property key="pdpComplementPriceOnline">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">30</value>
         <screen>PDPComplement</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
@@ -2144,7 +2144,7 @@
         <description>Offers the Write-A-Review link. Only applicable if using BigFish Reviews.</description>
     </property>
     <property key="pdpComplementThumbImage">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">10</value>
         <screen>PDPComplement</screen>
         <style>image</style>
         <mandatory>NA</mandatory>
@@ -2324,7 +2324,7 @@
         <description>Product Label</description>
     </property>
     <property key="pdpAccessoryDetailLink">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">20</value>
         <screen>PDPAccessory</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
@@ -2340,7 +2340,7 @@
         <description>List Price. May be used as a display or in calculations for Savings fields.</description>
     </property>
     <property key="pdpAccessoryPriceOnline">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">30</value>
         <screen>PDPAccessory</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
@@ -2404,7 +2404,7 @@
         <description>Offers the Write-A-Review link. Only applicable if using BigFish Reviews.</description>
     </property>
     <property key="pdpAccessoryThumbImage">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">10</value>
         <screen>PDPAccessory</screen>
         <style>image</style>
         <mandatory>NA</mandatory>
@@ -2568,7 +2568,7 @@
         <description>Product Name</description>
     </property>
     <property key="pdpRecentDetailLink">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">20</value>
         <screen>PDPRecent</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
@@ -2584,7 +2584,7 @@
         <description>List Price. May be used as a display or in calculations for Savings fields.</description>
     </property>
     <property key="pdpRecentPriceOnline">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">30</value>
         <screen>PDPRecent</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
@@ -2664,7 +2664,7 @@
         <description>Offers the Write-A-Review link. Only applicable if using BigFish Reviews.</description>
     </property>
     <property key="pdpRecentThumbImage">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">10</value>
         <screen>PDPRecent</screen>
         <style>image</style>
         <mandatory>NA</mandatory>
@@ -2828,7 +2828,7 @@
         <description>Main Image</description>
     </property>
     <property key="clpLongDescription">
-        <value xml:lang="en">20</value>
+        <value xml:lang="en">0</value>
         <screen>CLP</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
@@ -2836,7 +2836,7 @@
         <description>Long Description</description>
     </property>
     <property key="clpProductListLink">
-        <value xml:lang="en">30</value>
+        <value xml:lang="en">20</value>
         <screen>CLP</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
@@ -2848,7 +2848,7 @@
 <!-- ShowCart -->
 <!-- *************************************** -->
     <property key="showCartFootprint">
-        <value xml:lang="en">10</value>
+        <value xml:lang="en">0</value>
         <screen>ShowCart</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -2856,7 +2856,7 @@
         <description>The footprint, or temperature bar, that informs the customer which step of a multi-page check-out they are currently on</description>
     </property>
     <property key="showCartOrderItems">
-        <value xml:lang="en">20</value>
+        <value xml:lang="en">10</value>
         <screen>ShowCart</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -2864,7 +2864,7 @@
         <description>All the items that have been added to the Shopping Cart, excluding the Summary totals</description>
     </property>
     <property key="showCartOrderItemsSummary">
-        <value xml:lang="en">30</value>
+        <value xml:lang="en">20</value>
         <screen>ShowCart</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -2872,7 +2872,7 @@
         <description>The Cart Items Summary attributes</description>
     </property>
     <property key="showCartPromoCode">
-        <value xml:lang="en">40</value>
+        <value xml:lang="en">30</value>
         <screen>ShowCart</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -2888,7 +2888,7 @@
         <description>Loyalty Points entry element. This is where the customer enters a Loyalty Points ID and may redeem for monetary units.</description>
     </property>
     <property key="showCartPreviousButton">
-        <value xml:lang="en">60</value>
+        <value xml:lang="en">40</value>
         <screen>ShowCart</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
@@ -2896,7 +2896,7 @@
         <description>The PREVIOUS button that will return the customer to the previous step.</description>
     </property>
     <property key="showCartContinueButton">
-        <value xml:lang="en">70</value>
+        <value xml:lang="en">50</value>
         <screen>ShowCart</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
@@ -2906,7 +2906,7 @@
     <property key="showCartGiftMessageWarning">
         <value xml:lang="en">0</value>
         <screen>ShowCart</screen>
-        <style>string</style>
+        <style>container</style>
         <mandatory>NA</mandatory>
         <group>0</group>
         <description>Gift Message Warning</description>
@@ -2920,7 +2920,7 @@
         <screen>ShowCartOrderItems</screen>
         <style>image</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>1</group>
         <description>The item image</description>
     </property>
     <property key="showCartOrderItemsItemName">
@@ -2928,7 +2928,7 @@
         <screen>ShowCartOrderItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The item Name</description>
     </property>
     <property key="showCartOrderItemsItemDescription">
@@ -2936,7 +2936,7 @@
         <screen>ShowCartOrderItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The item Description (Selected Features)</description>
     </property>
     <property key="showCartOrderItemsItemQty">
@@ -2944,39 +2944,39 @@
         <screen>ShowCartOrderItems</screen>
         <style>entry</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The item quantity (entry field)</description>
     </property>
     <property key="showCartOrderItemsItemOfferPrice">
-        <value xml:lang="en">50</value>
+        <value xml:lang="en">80</value>
         <screen>ShowCartOrderItems</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The offer price of the item</description>
     </property>
     <property key="showCartOrderItemsItemPrice">
-        <value xml:lang="en">60</value>
-        <screen>ShowCartOrderItems</screen>
-        <style>currency</style>
-        <mandatory>NA</mandatory>
-        <group>0</group>
-        <description>The unit price of the item</description>
-    </property>
-    <property key="showCartOrderItemsItemTotal">
         <value xml:lang="en">70</value>
         <screen>ShowCartOrderItems</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
+        <description>The unit price of the item</description>
+    </property>
+    <property key="showCartOrderItemsItemTotal">
+        <value xml:lang="en">90</value>
+        <screen>ShowCartOrderItems</screen>
+        <style>currency</style>
+        <mandatory>NA</mandatory>
+        <group>3</group>
         <description>The total (quantity * price) of the item.</description>
     </property>
     <property key="showCartOrderItemsItemUpdateButton">
-        <value xml:lang="en">80</value>
+        <value xml:lang="en">50</value>
         <screen>ShowCartOrderItems</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The button that will update the quantity of the item.</description>
     </property>
     <property key="showCartOrderItemsItemPriceRecurrence">
@@ -2996,11 +2996,11 @@
         <description>Recurrence Frequency. Checkbox.</description>
     </property>
     <property key="showCartOrderItemsItemRemoveButton">
-        <value xml:lang="en">90</value>
+        <value xml:lang="en">60</value>
         <screen>ShowCartOrderItems</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The button that will remove the item from the cart</description>
     </property>
     <property key="showCartOrderItemsItemAvailability">
@@ -3032,7 +3032,7 @@
 <!-- ShowCartOrderItemsSummary -->
 <!-- *************************************** -->
     <property key="showCartOrderItemsSummaryTotalSubAmount">
-        <value xml:lang="en">10</value>
+        <value xml:lang="en">20</value>
         <screen>ShowCartOrderItemsSummary</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
@@ -3040,7 +3040,7 @@
         <description>Sub total amount</description>
     </property>
     <property key="showCartOrderItemsSummaryShippingMethod">
-        <value xml:lang="en">20</value>
+        <value xml:lang="en">30</value>
         <screen>ShowCartOrderItemsSummary</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
@@ -3048,7 +3048,7 @@
         <description>Shipping Method, if available</description>
     </property>
     <property key="showCartOrderItemsSummaryShippingAmount">
-        <value xml:lang="en">30</value>
+        <value xml:lang="en">40</value>
         <screen>ShowCartOrderItemsSummary</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
@@ -3056,7 +3056,7 @@
         <description>Shipping Amount, if available</description>
     </property>
     <property key="showCartOrderItemsSummaryTaxAmount">
-        <value xml:lang="en">40</value>
+        <value xml:lang="en">50</value>
         <screen>ShowCartOrderItemsSummary</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
@@ -3064,7 +3064,7 @@
         <description>Tax, if available</description>
     </property>
     <property key="showCartOrderItemsSummaryPromoDiscount">
-        <value xml:lang="en">60</value>
+        <value xml:lang="en">70</value>
         <screen>ShowCartOrderItemsSummary</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
@@ -3072,7 +3072,7 @@
         <description>Discount from coupon or promo</description>
     </property>
     <property key="showCartOrderItemsSummaryLoyaltyDiscount">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">100</value>
         <screen>ShowCartOrderItemsSummary</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
@@ -3080,7 +3080,7 @@
         <description>Discount from Loyalty redemption</description>
     </property>
     <property key="showCartOrderItemsSummaryTotalAmount">
-        <value xml:lang="en">70</value>
+        <value xml:lang="en">60</value>
         <screen>ShowCartOrderItemsSummary</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
@@ -3088,7 +3088,7 @@
         <description>Total Amount</description>
     </property>
     <property key="showCartOrderItemsSummaryTotalNumberItems">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">10</value>
         <screen>ShowCartOrderItemsSummary</screen>
         <style>number</style>
         <mandatory>NA</mandatory>
@@ -3096,7 +3096,7 @@
         <description>Total number of items</description>
     </property>
     <property key="showCartOrderItemsSummaryShippingInstructions">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">90</value>
         <screen>ShowCartOrderItemsSummary</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
@@ -3124,7 +3124,7 @@
         <description>Prompt to enter Personal Information.  Available for only guest customers</description>
     </property>
     <property key="shippingAddressBillingAddress">
-        <value xml:lang="en">30</value>
+        <value xml:lang="en">20</value>
         <screen>ShippingAddress</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3132,7 +3132,7 @@
         <description>Prompt to enter or confirm the Billing Address</description>
     </property>
     <property key="shippingAddressShippingAddress">
-        <value xml:lang="en">40</value>
+        <value xml:lang="en">30</value>
         <screen>ShippingAddress</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3140,7 +3140,7 @@
         <description>Prompt to enter or confirm the Shipping Address</description>
     </property>
     <property key="shippingAddressPreviousButton">
-        <value xml:lang="en">50</value>
+        <value xml:lang="en">40</value>
         <screen>ShippingAddress</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
@@ -3148,7 +3148,7 @@
         <description>The PREVIOUS button that will return the customer to the previous step.</description>
     </property>
     <property key="shippingAddressContinueButton">
-        <value xml:lang="en">60</value>
+        <value xml:lang="en">50</value>
         <screen>ShippingAddress</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
@@ -3168,7 +3168,7 @@
         <description>The footprint, or temperature bar, that informs the customer which step of a multi-page check-out they are currently on.</description>
     </property>
     <property key="shippingOptionsMultiAddress">
-        <value xml:lang="en">20</value>
+        <value xml:lang="en">0</value>
         <screen>ShippingOptions</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
@@ -3221,7 +3221,7 @@
         <description>The footprint, or so called temperature bar, that informs the customer which step of a multi-page check-out they are currently on.</description>
     </property>
     <property key="orderSummaryOrderItems">
-        <value xml:lang="en">30</value>
+        <value xml:lang="en">20</value>
         <screen>OrderSummary</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3229,7 +3229,7 @@
         <description>All the items that have been added to the Shopping Cart, excluding the Summary totals</description>
     </property>
     <property key="orderSummaryOrderItemsSummary">
-        <value xml:lang="en">40</value>
+        <value xml:lang="en">30</value>
         <screen>OrderSummary</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3237,7 +3237,7 @@
         <description>The Cart Items Summary attributes</description>
     </property>
     <property key="orderSummaryPromoCode">
-        <value xml:lang="en">50</value>
+        <value xml:lang="en">0</value>
         <screen>OrderSummary</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3245,7 +3245,7 @@
         <description>Promo or Coupon Code entry element. This is where the customer enters a coupon code and may view the savings or benefits.</description>
     </property>
     <property key="orderSummaryLoyaltyPoints">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">50</value>
         <screen>OrderSummary</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3253,7 +3253,7 @@
         <description>Loyalty Points entry element. This is where the customer enters a Loyalty Points ID and may redeem for monetary units.</description>
     </property>
     <property key="orderSummaryBillingAddress">
-        <value xml:lang="en">60</value>
+        <value xml:lang="en">70</value>
         <screen>OrderSummary</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3261,7 +3261,7 @@
         <description>Display confirmation of Billing Address.</description>
     </property>
     <property key="orderSummaryShippingAddress">
-        <value xml:lang="en">70</value>
+        <value xml:lang="en">80</value>
         <screen>OrderSummary</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3269,7 +3269,7 @@
         <description>Display confirmation of Shipping Address.</description>
     </property>
     <property key="orderSummaryStorePickup">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">60</value>
         <screen>OrderSummary</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3285,7 +3285,7 @@
         <description>For multi-address selection, the component that will replace ShippingAddress and ShippingMethod containers</description>
     </property>
     <property key="orderSummaryGiftCard">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">40</value>
         <screen>OrderSummary</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3301,7 +3301,7 @@
         <description>Store Credit redemption entry element. This is where the customer enters a Store Credit to be applied against the balance due.</description>
     </property>
     <property key="orderSummaryPaymentOptions">
-        <value xml:lang="en">80</value>
+        <value xml:lang="en">90</value>
         <screen>OrderSummary</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3309,7 +3309,7 @@
         <description>The various payment options as configured for this implementation.</description>
     </property>
     <property key="orderSummaryCreateAccount">
-        <value xml:lang="en">90</value>
+        <value xml:lang="en">100</value>
         <screen>OrderSummary</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3317,7 +3317,7 @@
         <description>In the event that a multi-step checkout was accessed via a Guest workflow, prompts to allow customer to create an account.</description>
     </property>
     <property key="orderSummaryPreviousButton">
-        <value xml:lang="en">100</value>
+        <value xml:lang="en">110</value>
         <screen>OrderSummary</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
@@ -3325,7 +3325,7 @@
         <description>The PREVIOUS button that will return the customer to the previous step.</description>
     </property>
     <property key="orderSummaryContinueButton">
-        <value xml:lang="en">110</value>
+        <value xml:lang="en">120</value>
         <screen>OrderSummary</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
@@ -3341,7 +3341,7 @@
         <screen>OrderSummaryOrderItems</screen>
         <style>image</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>1</group>
         <description>The item image</description>
     </property>
     <property key="orderSummaryOrderItemsItemName">
@@ -3349,7 +3349,7 @@
         <screen>OrderSummaryOrderItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The item Name</description>
     </property>
     <property key="orderSummaryOrderItemsItemDescription">
@@ -3357,7 +3357,7 @@
         <screen>OrderSummaryOrderItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The item Description (Selected Features)</description>
     </property>
     <property key="orderSummaryOrderItemsItemQty">
@@ -3365,23 +3365,23 @@
         <screen>OrderSummaryOrderItems</screen>
         <style>number</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The item quantity (entry field)</description>
     </property>
     <property key="orderSummaryOrderItemsItemOfferPrice">
-        <value xml:lang="en">50</value>
-        <screen>OrderSummaryOrderItems</screen>
-        <style>currency</style>
-        <mandatory>NA</mandatory>
-        <group>0</group>
-        <description>The offer price of the item</description>
-    </property>
-    <property key="orderSummaryOrderItemsItemPrice">
         <value xml:lang="en">60</value>
         <screen>OrderSummaryOrderItems</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
+        <description>The offer price of the item</description>
+    </property>
+    <property key="orderSummaryOrderItemsItemPrice">
+        <value xml:lang="en">50</value>
+        <screen>OrderSummaryOrderItems</screen>
+        <style>currency</style>
+        <mandatory>NA</mandatory>
+        <group>2</group>
         <description>The unit price of the item</description>
     </property>
     <property key="orderSummaryOrderItemsItemTotal">
@@ -3389,7 +3389,7 @@
         <screen>OrderSummaryOrderItems</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>The total (quantity * price) of the item.</description>
     </property>
     <property key="orderSummaryOrderItemsItemPriceRecurrence">
@@ -3461,7 +3461,7 @@
         <description>Discount from coupon or promo</description>
     </property>
     <property key="orderSummaryOrderItemsSummaryLoyaltyDiscount">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">80</value>
         <screen>OrderSummaryOrderItemsSummary</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
@@ -3469,7 +3469,7 @@
         <description>Discount from Loyalty redemption</description>
     </property>
     <property key="orderSummaryOrderItemsSummaryTotalAmount">
-        <value xml:lang="en">70</value>
+        <value xml:lang="en">50</value>
         <screen>OrderSummaryOrderItemsSummary</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
@@ -3485,7 +3485,7 @@
         <description>Total number of items</description>
     </property>
     <property key="orderSummaryOrderItemsSummaryShippingInstructions">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">70</value>
         <screen>OrderSummaryOrderItemsSummary</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
@@ -3497,7 +3497,7 @@
 <!-- OrderConfirm -->
 <!-- *************************************** -->
     <property key="orderConfirmFootprint">
-        <value xml:lang="en">10</value>
+        <value xml:lang="en">0</value>
         <screen>OrderConfirm</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3505,7 +3505,7 @@
         <description>The footprint, or so called temperature bar, that informs the customer which step of a multi-page check-out they are currently on.</description>
     </property>
     <property key="orderConfirmOrderItems">
-        <value xml:lang="en">30</value>
+        <value xml:lang="en">0</value>
         <screen>OrderConfirm</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3513,7 +3513,7 @@
         <description>All the items that have been added to the Shopping Cart, excluding the Summary items</description>
     </property>
     <property key="orderConfirmOrderItemsSummary">
-        <value xml:lang="en">40</value>
+        <value xml:lang="en">50</value>
         <screen>OrderConfirm</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3521,7 +3521,7 @@
         <description>The Cart Items Summary attributes</description>
     </property>
     <property key="orderConfirmBillingAddress">
-        <value xml:lang="en">50</value>
+        <value xml:lang="en">20</value>
         <screen>OrderConfirm</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3529,7 +3529,7 @@
         <description>Display confirmation of Billing Address</description>
     </property>
     <property key="orderConfirmShippingAddress">
-        <value xml:lang="en">60</value>
+        <value xml:lang="en">0</value>
         <screen>OrderConfirm</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3537,7 +3537,7 @@
         <description>Display confirmation of Shipping Address</description>
     </property>
     <property key="orderConfirmShippingGroupSummary">
-        <value xml:lang="en">60</value>
+        <value xml:lang="en">40</value>
         <screen>OrderConfirm</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3545,7 +3545,7 @@
         <description>For multi-address selection, the component that will replace ShippingAddress and ShippingMethod containers</description>
     </property>
     <property key="orderConfirmPaymentOptions">
-        <value xml:lang="en">70</value>
+        <value xml:lang="en">30</value>
         <screen>OrderConfirm</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3553,7 +3553,7 @@
         <description>The various payment options as configured for this implementation</description>
     </property>
     <property key="orderConfirmExportToPdfButton">
-        <value xml:lang="en">80</value>
+        <value xml:lang="en">70</value>
         <screen>OrderConfirm</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
@@ -3561,7 +3561,7 @@
         <description>The button that will  print order confirmation in PDF format.</description>
     </property>
     <property key="orderConfirmPreviousButton">
-        <value xml:lang="en">90</value>
+        <value xml:lang="en">0</value>
         <screen>OrderConfirm</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
@@ -3569,7 +3569,7 @@
         <description>The PREVIOUS button that will return the customer to the previous step.</description>
     </property>
     <property key="orderConfirmContinueButton">
-        <value xml:lang="en">100</value>
+        <value xml:lang="en">60</value>
         <screen>OrderConfirm</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
@@ -3577,7 +3577,7 @@
         <description>The CONTINUE button that will return the customer to the next step.</description>
     </property>
     <property key="orderConfirmStorePickup">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">10</value>
         <screen>OrderConfirm</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3601,7 +3601,7 @@
         <screen>OrderConfirmOrderItems</screen>
         <style>image</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>1</group>
         <description>The item image</description>
     </property>
     <property key="orderConfirmOrderItemsItemName">
@@ -3609,7 +3609,7 @@
         <screen>OrderConfirmOrderItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The item Name</description>
     </property>
     <property key="orderConfirmOrderItemsItemDescription">
@@ -3617,7 +3617,7 @@
         <screen>OrderConfirmOrderItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The item Description (Selected Features)</description>
     </property>
     <property key="orderConfirmOrderItemsItemQty">
@@ -3625,23 +3625,23 @@
         <screen>OrderConfirmOrderItems</screen>
         <style>number</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The item quantity (entry field)</description>
     </property>
     <property key="orderConfirmOrderItemsItemOfferPrice">
-        <value xml:lang="en">50</value>
-        <screen>OrderConfirmOrderItems</screen>
-        <style>currency</style>
-        <mandatory>NA</mandatory>
-        <group>0</group>
-        <description>The offer price of the item</description>
-    </property>
-    <property key="orderConfirmOrderItemsItemPrice">
         <value xml:lang="en">60</value>
         <screen>OrderConfirmOrderItems</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
+        <description>The offer price of the item</description>
+    </property>
+    <property key="orderConfirmOrderItemsItemPrice">
+        <value xml:lang="en">50</value>
+        <screen>OrderConfirmOrderItems</screen>
+        <style>currency</style>
+        <mandatory>NA</mandatory>
+        <group>2</group>
         <description>The unit price of the item</description>
     </property>
     <property key="orderConfirmOrderItemsItemTotal">
@@ -3649,7 +3649,7 @@
         <screen>OrderConfirmOrderItems</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>The total (quantity * price) of the item.</description>
     </property>
     <property key="orderConfirmOrderItemsItemPriceRecurrence">
@@ -3681,7 +3681,7 @@
 <!-- OrderConfirmOrderItemsSummary -->
 <!-- *************************************** -->
     <property key="orderConfirmOrderItemsSummaryTotalNumberItems">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">10</value>
         <screen>OrderConfirmOrderItemsSummary</screen>
         <style>number</style>
         <mandatory>NA</mandatory>
@@ -3689,7 +3689,7 @@
         <description>Total number of items</description>
     </property>
     <property key="orderConfirmOrderItemsSummaryTotalSubAmount">
-        <value xml:lang="en">10</value>
+        <value xml:lang="en">20</value>
         <screen>OrderConfirmOrderItemsSummary</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
@@ -3697,7 +3697,7 @@
         <description>Sub total amount</description>
     </property>
     <property key="orderConfirmOrderItemsSummaryShippingMethod">
-        <value xml:lang="en">20</value>
+        <value xml:lang="en">30</value>
         <screen>OrderConfirmOrderItemsSummary</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
@@ -3705,7 +3705,7 @@
         <description>Shipping Method, if available</description>
     </property>
     <property key="orderConfirmOrderItemsSummaryShippingAmount">
-        <value xml:lang="en">30</value>
+        <value xml:lang="en">40</value>
         <screen>OrderConfirmOrderItemsSummary</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
@@ -3713,7 +3713,7 @@
         <description>Shipping Amount, if available</description>
     </property>
     <property key="orderConfirmOrderItemsSummaryTaxAmount">
-        <value xml:lang="en">40</value>
+        <value xml:lang="en">50</value>
         <screen>OrderConfirmOrderItemsSummary</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
@@ -3721,7 +3721,7 @@
         <description>Tax, if available</description>
     </property>
     <property key="orderConfirmOrderItemsSummaryPromoDiscount">
-        <value xml:lang="en">60</value>
+        <value xml:lang="en">70</value>
         <screen>OrderConfirmOrderItemsSummary</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
@@ -3737,7 +3737,7 @@
         <description>Discount from Loyalty redemption</description>
     </property>
     <property key="orderConfirmOrderItemsSummaryTotalAmount">
-        <value xml:lang="en">70</value>
+        <value xml:lang="en">60</value>
         <screen>OrderConfirmOrderItemsSummary</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
@@ -3745,7 +3745,7 @@
         <description>Total amount</description>
     </property>
     <property key="orderConfirmOrderItemsSummaryShippingInstructions">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">90</value>
         <screen>OrderConfirmOrderItemsSummary</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
@@ -3757,7 +3757,7 @@
 <!-- OnePageCheckout -->
 <!-- *************************************** -->
     <property key="onePageCheckoutFootprint">
-        <value xml:lang="en">10</value>
+        <value xml:lang="en">0</value>
         <screen>OnePageCheckout</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3765,7 +3765,7 @@
         <description>The footprint, or temperature bar, that informs the customer which step of a check-out they are currently on</description>
     </property>
     <property key="onePageCheckoutOrderItems">
-        <value xml:lang="en">30</value>
+        <value xml:lang="en">10</value>
         <screen>OnePageCheckout</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3773,7 +3773,7 @@
         <description>All the items that have been added to the Shopping Cart, excluding the Summary items</description>
     </property>
     <property key="onePageCheckoutOrderItemsSummary">
-        <value xml:lang="en">40</value>
+        <value xml:lang="en">20</value>
         <screen>OnePageCheckout</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3781,7 +3781,7 @@
         <description>The Cart Items Summary attributes</description>
     </property>
     <property key="onePageCheckoutPromoCode">
-        <value xml:lang="en">50</value>
+        <value xml:lang="en">0</value>
         <screen>OnePageCheckout</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3797,7 +3797,7 @@
         <description>Loyalty Points entry element. This is where the customer enters a Loyalty Points ID and may redeem for monetary units.</description>
     </property>
     <property key="onePageCheckoutBillingAddress">
-        <value xml:lang="en">60</value>
+        <value xml:lang="en">40</value>
         <screen>OnePageCheckout</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3805,7 +3805,7 @@
         <description>Display confirmation of Billing Address</description>
     </property>
     <property key="onePageCheckoutShippingAddress">
-        <value xml:lang="en">70</value>
+        <value xml:lang="en">50</value>
         <screen>OnePageCheckout</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3813,7 +3813,7 @@
         <description>Display confirmation of Shipping Address</description>
     </property>
     <property key="onePageCheckoutShippingGroupSummary">
-        <value xml:lang="en">70</value>
+        <value xml:lang="en">0</value>
         <screen>OnePageCheckout</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3821,7 +3821,7 @@
         <description>For multi-address selection, the component that will replace ShippingAddress and ShippingMethod containers</description>
     </property>
     <property key="onePageCheckoutShippingMethod">
-        <value xml:lang="en">80</value>
+        <value xml:lang="en">60</value>
         <screen>OnePageCheckout</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3829,7 +3829,7 @@
         <description>Prompt to select one of the available Shipping Methods.</description>
     </property>
     <property key="onePageCheckoutPaymentOptions">
-        <value xml:lang="en">90</value>
+        <value xml:lang="en">80</value>
         <screen>OnePageCheckout</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3837,7 +3837,7 @@
         <description>The various payment options as configured for this implementation.</description>
     </property>
     <property key="onePageCheckoutPersonalInfo">
-        <value xml:lang="en">100</value>
+        <value xml:lang="en">30</value>
         <screen>OnePageCheckout</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3845,7 +3845,7 @@
         <description>Personal Info Container</description>
     </property>
     <property key="onePageCheckoutPreviousButton">
-        <value xml:lang="en">110</value>
+        <value xml:lang="en">100</value>
         <screen>OnePageCheckout</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
@@ -3853,7 +3853,7 @@
         <description>The PREVIOUS button that will return the customer to the previous step.</description>
     </property>
     <property key="onePageCheckoutContinueButton">
-        <value xml:lang="en">120</value>
+        <value xml:lang="en">110</value>
         <screen>OnePageCheckout</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
@@ -3861,7 +3861,7 @@
         <description>The CONTINUE button that will return the customer to the next step.</description>
     </property>
     <property key="onePageCheckoutShippingInstructions">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">70</value>
         <screen>OnePageCheckout</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3869,7 +3869,7 @@
         <description>Prompt for a freeform entry box of customer Delivery Instruction.</description>
     </property>
     <property key="onePageCheckoutGiftCard">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">120</value>
         <screen>OnePageCheckout</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3885,7 +3885,7 @@
         <description>Store Credit redemption entry element. This is where the customer enters a Store Credit to be applied against the balance due.</description>
     </property>
     <property key="onePageCheckoutCreateAccount">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">90</value>
         <screen>OnePageCheckout</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -3921,7 +3921,7 @@
         <description>Country selector</description>
     </property>
     <property key="personalInfoFirstName">
-        <value xml:lang="en">10</value>
+        <value xml:lang="en">20</value>
         <screen>PersonalInfo</screen>
         <style>entry</style>
         <mandatory>YES</mandatory>
@@ -3929,7 +3929,7 @@
         <description>First Name</description>
     </property>
     <property key="personalInfoLastName">
-        <value xml:lang="en">20</value>
+        <value xml:lang="en">30</value>
         <screen>PersonalInfo</screen>
         <style>entry</style>
         <mandatory>YES</mandatory>
@@ -3948,7 +3948,7 @@
         <value xml:lang="en">0</value>
         <screen>PersonalInfo</screen>
         <style>entry</style>
-        <mandatory>NO</mandatory>
+        <mandatory>YES</mandatory>
         <group>0</group>
         <description>Address Line 2</description>
     </property>
@@ -3993,7 +3993,7 @@
         <description>Checkbox that allows the customer to accept (skip) address entry from an address Verification method</description>
     </property>
     <property key="personalInfoTitle">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">10</value>
         <screen>PersonalInfo</screen>
         <style>entry</style>
         <mandatory>YES</mandatory>
@@ -4009,7 +4009,7 @@
         <description>Gender</description>
     </property>
     <property key="personalInfoDateOfBirthMMDDYYYY">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">40</value>
         <screen>PersonalInfo</screen>
         <style>entry</style>
         <mandatory>NO</mandatory>
@@ -4041,7 +4041,7 @@
         <description>Date of Birth in DDMM format</description>
     </property>
     <property key="personalInfoPhoneHome">
-        <value xml:lang="en">30</value>
+        <value xml:lang="en">0</value>
         <screen>PersonalInfo</screen>
         <style>entry</style>
         <mandatory>YES</mandatory>
@@ -4049,10 +4049,10 @@
         <description>Phone Home</description>
     </property>
     <property key="personalInfoPhoneCell">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">90</value>
         <screen>PersonalInfo</screen>
         <style>entry</style>
-        <mandatory>YES</mandatory>
+        <mandatory>NO</mandatory>
         <group>0</group>
         <description>Phone Cell</description>
     </property>
@@ -4073,7 +4073,7 @@
         <description>Loyalty Point Identifier</description>
     </property>
     <property key="personalInfoCustomAttributes">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">80</value>
         <screen>PersonalInfo</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -4081,15 +4081,15 @@
         <description>Custom Attributes, if defined</description>
     </property>
     <property key="personalInfoAllowSolicitation">
-        <value xml:lang="en">40</value>
+        <value xml:lang="en">50</value>
         <screen>PersonalInfo</screen>
         <style>entry</style>
-        <mandatory>YES</mandatory>
+        <mandatory>NO</mandatory>
         <group>0</group>
         <description>Checkbox Solicitation</description>
     </property>
     <property key="personalInfoEmailPreference">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">60</value>
         <screen>PersonalInfo</screen>
         <style>entry</style>
         <mandatory>YES</mandatory>
@@ -4097,7 +4097,7 @@
         <description>Radio Button Email Preference</description>
     </property>
     <property key="personalInfoTxtPreference">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">70</value>
         <screen>PersonalInfo</screen>
         <style>entry</style>
         <mandatory>YES</mandatory>
@@ -4133,10 +4133,10 @@
         <description>Country selector</description>
     </property>
     <property key="billingAddressInfoFullName">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">20</value>
         <screen>BillingAddressInfo</screen>
         <style>entry</style>
-        <mandatory>YES</mandatory>
+        <mandatory>NO</mandatory>
         <group>0</group>
         <description>Full Name</description>
     </property>
@@ -4165,7 +4165,7 @@
         <description>Address Nickname</description>
     </property>
     <property key="billingAddressInfoAddress1">
-        <value xml:lang="en">20</value>
+        <value xml:lang="en">30</value>
         <screen>BillingAddressInfo</screen>
         <style>entry</style>
         <mandatory>YES</mandatory>
@@ -4173,7 +4173,7 @@
         <description>Address Line 1</description>
     </property>
     <property key="billingAddressInfoAddress2">
-        <value xml:lang="en">30</value>
+        <value xml:lang="en">40</value>
         <screen>BillingAddressInfo</screen>
         <style>entry</style>
         <mandatory>NO</mandatory>
@@ -4181,7 +4181,7 @@
         <description>Address Line 2</description>
     </property>
     <property key="billingAddressInfoAddress3">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">50</value>
         <screen>BillingAddressInfo</screen>
         <style>entry</style>
         <mandatory>NO</mandatory>
@@ -4189,7 +4189,7 @@
         <description>Address Line 3</description>
     </property>
     <property key="billingAddressInfoCityTown">
-        <value xml:lang="en">40</value>
+        <value xml:lang="en">60</value>
         <screen>BillingAddressInfo</screen>
         <style>entry</style>
         <mandatory>YES</mandatory>
@@ -4197,7 +4197,7 @@
         <description>City or Town</description>
     </property>
     <property key="billingAddressInfoStateProvince">
-        <value xml:lang="en">50</value>
+        <value xml:lang="en">70</value>
         <screen>BillingAddressInfo</screen>
         <style>entry</style>
         <mandatory>YES</mandatory>
@@ -4205,7 +4205,7 @@
         <description>State or Province</description>
     </property>
     <property key="billingAddressInfoZipPostcode">
-        <value xml:lang="en">60</value>
+        <value xml:lang="en">80</value>
         <screen>BillingAddressInfo</screen>
         <style>entry</style>
         <mandatory>YES</mandatory>
@@ -4337,9 +4337,9 @@
 <!-- ShippingAddressInfo -->
 <!-- *************************************** -->
     <property key="shippingAddressInfoAddressSelector">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">10</value>
         <screen>ShippingAddressInfo</screen>
-        <style>container</style>
+        <style>entry</style>
         <mandatory>NA</mandatory>
         <group>0</group>
         <description>Address Selector</description>
@@ -4355,7 +4355,7 @@
     <property key="shippingAddressInfoMultiAddress">
         <value xml:lang="en">0</value>
         <screen>ShippingAddressInfo</screen>
-        <style>action</style>
+        <style>entry</style>
         <mandatory>NA</mandatory>
         <group>0</group>
         <description>Multi Address action</description>
@@ -4393,7 +4393,7 @@
         <description>Last Name</description>
     </property>
     <property key="shippingAddressInfoNickname">
-        <value xml:lang="en">10</value>
+        <value xml:lang="en">0</value>
         <screen>ShippingAddressInfo</screen>
         <style>entry</style>
         <mandatory>YES</mandatory>
@@ -4417,7 +4417,7 @@
         <description>Address Line 2</description>
     </property>
     <property key="shippingAddressInfoAddress3">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">40</value>
         <screen>ShippingAddressInfo</screen>
         <style>entry</style>
         <mandatory>NO</mandatory>
@@ -4425,7 +4425,7 @@
         <description>Address Line 3</description>
     </property>
     <property key="shippingAddressInfoCityTown">
-        <value xml:lang="en">40</value>
+        <value xml:lang="en">50</value>
         <screen>ShippingAddressInfo</screen>
         <style>entry</style>
         <mandatory>YES</mandatory>
@@ -4433,7 +4433,7 @@
         <description>City or Town</description>
     </property>
     <property key="shippingAddressInfoStateProvince">
-        <value xml:lang="en">50</value>
+        <value xml:lang="en">60</value>
         <screen>ShippingAddressInfo</screen>
         <style>entry</style>
         <mandatory>YES</mandatory>
@@ -4441,7 +4441,7 @@
         <description>State or Province</description>
     </property>
     <property key="shippingAddressInfoZipPostcode">
-        <value xml:lang="en">60</value>
+        <value xml:lang="en">70</value>
         <screen>ShippingAddressInfo</screen>
         <style>entry</style>
         <mandatory>YES</mandatory>
@@ -4737,7 +4737,7 @@
         <description>Last Name</description>
     </property>
     <property key="myAccountAddressBookNickname">
-        <value xml:lang="en">10</value>
+        <value xml:lang="en">20</value>
         <screen>MyAccountAddressBook</screen>
         <style>entry</style>
         <mandatory>YES</mandatory>
@@ -4745,7 +4745,7 @@
         <description>Address Nickname</description>
     </property>
     <property key="myAccountAddressBookAddress1">
-        <value xml:lang="en">20</value>
+        <value xml:lang="en">10</value>
         <screen>MyAccountAddressBook</screen>
         <style>entry</style>
         <mandatory>YES</mandatory>
@@ -4756,7 +4756,7 @@
         <value xml:lang="en">30</value>
         <screen>MyAccountAddressBook</screen>
         <style>entry</style>
-        <mandatory>NO</mandatory>
+        <mandatory>YES</mandatory>
         <group>0</group>
         <description>Address Line 2</description>
     </property>
@@ -4844,7 +4844,7 @@
         <screen>WriteReviewProduct</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>1</group>
         <description>Product Name</description>
     </property>
     <property key="writeReviewProductInternalName">
@@ -4868,7 +4868,7 @@
         <screen>WriteReviewProduct</screen>
         <style>image</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>Main Image</description>
     </property>
     <property key="writeReviewProductReviewStars">
@@ -4884,15 +4884,15 @@
         <screen>WriteReviewProduct</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>Long Description. The primary description for the Product. </description>
     </property>
     <property key="writeReviewProductDistinguishingFeature">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">40</value>
         <screen>WriteReviewProduct</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>Distinguishing Feature. Secondary description for the Product.</description>
     </property>
     <property key="writeReviewProductSalesPitch">
@@ -4956,7 +4956,7 @@
     <!-- WriteReviewDetail -->
     <!-- *************************************** -->
     <property key="writeReviewDetailOverallStars">
-        <value xml:lang="en">10</value>
+        <value xml:lang="en">20</value>
         <screen>WriteReviewDetail</screen>
         <style>image</style>
         <mandatory>SYS_YES</mandatory>
@@ -4988,7 +4988,7 @@
         <description>The satisfaction rating star selection</description>
     </property>
     <property key="writeReviewDetailReviewerNickname">
-        <value xml:lang="en">20</value>
+        <value xml:lang="en">10</value>
         <screen>WriteReviewDetail</screen>
         <style>entry</style>
         <mandatory>YES</mandatory>
@@ -5012,15 +5012,15 @@
         <description>The Text of the review</description>
     </property>
     <property key="writeReviewDetailReviewerTip">
-        <value xml:lang="en">50</value>
+        <value xml:lang="en">0</value>
         <screen>WriteReviewDetail</screen>
-        <style>container</style>
+        <style>string</style>
         <mandatory>NA</mandatory>
         <group>0</group>
         <description>Tips for writing a review, from Label file</description>
     </property>
     <property key="writeReviewDetailReviewerLocation">
-        <value xml:lang="en">60</value>
+        <value xml:lang="en">0</value>
         <screen>WriteReviewDetail</screen>
         <style>entry</style>
         <mandatory>YES</mandatory>
@@ -5028,7 +5028,7 @@
         <description>Location of reviewer</description>
     </property>
     <property key="writeReviewDetailReviewerAge">
-        <value xml:lang="en">70</value>
+        <value xml:lang="en">50</value>
         <screen>WriteReviewDetail</screen>
         <style>entry</style>
         <mandatory>NO</mandatory>
@@ -5036,7 +5036,7 @@
         <description>Age of reviewer</description>
     </property>
     <property key="writeReviewDetailReviewerGender">
-        <value xml:lang="en">80</value>
+        <value xml:lang="en">60</value>
         <screen>WriteReviewDetail</screen>
         <style>entry</style>
         <mandatory>NO</mandatory>
@@ -5068,7 +5068,7 @@
         <description>Tip for Private Note</description>
     </property>
     <property key="writeReviewDetailReviewTermsCondLink">
-        <value xml:lang="en">90</value>
+        <value xml:lang="en">70</value>
         <screen>WriteReviewDetail</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
@@ -5076,7 +5076,7 @@
         <description>The Terms and Conditions helper link .</description>
     </property>
     <property key="writeReviewDetailReviewGuidelinesLink">
-        <value xml:lang="en">100</value>
+        <value xml:lang="en">80</value>
         <screen>WriteReviewDetail</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
@@ -5088,7 +5088,7 @@
 <!-- ShowWishList -->
 <!-- *************************************** -->
     <property key="showWishlistOrderItems">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">10</value>
         <screen>ShowWishList</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -5096,7 +5096,7 @@
         <description>All the items that have been added to the Wish List, excluding the summary</description>
     </property>
     <property key="showWishlistOrderItemsSummary">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">20</value>
         <screen>ShowWishList</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -5104,7 +5104,7 @@
         <description>The cart summary totals</description>
     </property>
     <property key="showWishlistPreviousButton">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">40</value>
         <screen>ShowWishList</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
@@ -5112,7 +5112,7 @@
         <description>The PREVIOUS  button that will return the customer to the previous step.</description>
     </property>
     <property key="showWishlistContinueButton">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">30</value>
         <screen>ShowWishList</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
@@ -5123,59 +5123,59 @@
 <!-- ShowWishlistOrderItems -->
 <!-- *************************************** -->
     <property key="showWishlistOrderItemsItemImage">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">20</value>
         <screen>ShowWishlistOrderItems</screen>
         <style>image</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>1</group>
         <description>The item image</description>
     </property>
     <property key="showWishlistOrderItemsItemName">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">30</value>
         <screen>ShowWishlistOrderItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The item Name</description>
     </property>
     <property key="showWishlistOrderItemsItemDescription">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">40</value>
         <screen>ShowWishlistOrderItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The item Description (Selected Features)</description>
     </property>
     <property key="showWishlistOrderItemsItemQty">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">50</value>
         <screen>ShowWishlistOrderItems</screen>
         <style>entry</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The item quantity (entry field)</description>
     </property>
     <property key="showWishlistOrderItemsItemCheckbox">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">10</value>
         <screen>ShowWishlistOrderItems</screen>
         <style>entry</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>1</group>
         <description>The button that will add the checked items to the shopping cart.</description>
     </property>
     <property key="showWishlistOrderItemsItemUpdateButton">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">60</value>
         <screen>ShowWishlistOrderItems</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The button that will update the quantity of the item.</description>
     </property>
     <property key="showWishlistOrderItemsItemPrice">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">80</value>
         <screen>ShowWishlistOrderItems</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The unit price of the item</description>
     </property>
     <property key="showWishlistOrderItemsItemAvailability">
@@ -5187,27 +5187,27 @@
         <description>The items stock level (In Stock, Out of Stock , Low Stock)</description>
     </property>
     <property key="showWishlistOrderItemsItemTotal">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">90</value>
         <screen>ShowWishlistOrderItems</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>The total (quantity * price) of the item.</description>
     </property>
     <property key="showWishlistOrderItemsItemRemoveButton">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">70</value>
         <screen>ShowWishlistOrderItems</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The button that will remove the item from the cart</description>
     </property>
     <property key="showWishlistOrderItemsItemAddToCartButton">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">100</value>
         <screen>ShowWishlistOrderItems</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>The button that will add the item to the shopping cart.</description>
     </property>
 
@@ -5215,7 +5215,7 @@
 <!-- ShowWishlistOrderItemsSummary -->
 <!-- *************************************** -->
     <property key="showWishlistOrderItemsSummaryTotalNumberItems">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">10</value>
         <screen>ShowWishlistOrderItemsSummary</screen>
         <style>number</style>
         <mandatory>NA</mandatory>
@@ -5223,7 +5223,7 @@
         <description>Total number of items</description>
     </property>
     <property key="showWishlistOrderItemsSummaryTotalSubAmount">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">20</value>
         <screen>ShowWishlistOrderItemsSummary</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
@@ -5235,7 +5235,7 @@
 <!-- LightBox -->
 <!-- *************************************** -->
     <property key="lightBoxOrderItems">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">10</value>
         <screen>LightBox</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -5243,7 +5243,7 @@
         <description>All the items that have been added to the shopping cart</description>
     </property>
     <property key="lightBoxOrderItemsSummary">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">20</value>
         <screen>LightBox</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -5251,7 +5251,7 @@
         <description>The cart summary totals</description>
     </property>
     <property key="lightBoxContinueButton">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">30</value>
         <screen>LightBox</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
@@ -5259,7 +5259,7 @@
         <description>The CONTINUE button that will return the customer to the next step.</description>
     </property>
     <property key="lightBoxShowCartButton">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">40</value>
         <screen>LightBox</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
@@ -5270,43 +5270,43 @@
 <!-- LightBoxOrderItems -->
 <!-- *************************************** -->
     <property key="lightBoxOrderItemsItemImage">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">10</value>
         <screen>LightBoxOrderItems</screen>
         <style>image</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>1</group>
         <description>The item image. </description>
     </property>
     <property key="lightBoxOrderItemsItemName">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">20</value>
         <screen>LightBoxOrderItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The item Name</description>
     </property>
     <property key="lightBoxOrderItemsItemDescription">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">30</value>
         <screen>LightBoxOrderItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The item Description (Selected Features)</description>
     </property>
     <property key="lightBoxOrderItemsItemQty">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">40</value>
         <screen>LightBoxOrderItems</screen>
         <style>number</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The item quantity (entry field)</description>
     </property>
     <property key="lightBoxOrderItemsItemPrice">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">50</value>
         <screen>LightBoxOrderItems</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>The unit price of the item</description>
     </property>
     <property key="lightBoxOrderItemsItemOfferPrice">
@@ -5318,11 +5318,11 @@
         <description>The offer price of the item</description>
     </property>
     <property key="lightBoxOrderItemsItemTotal">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">60</value>
         <screen>LightBoxOrderItems</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>The total (quantity * price) of the item.</description>
     </property>
     <property key="lightBoxOrderItemsItemPriceRecurrence">
@@ -5353,7 +5353,7 @@
 <!-- LightBoxOrderItemsSummary -->
 <!-- *************************************** -->
     <property key="lightBoxOrderItemsSummaryTotalNumberItems">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">10</value>
         <screen>LightBoxOrderItemsSummary</screen>
         <style>number</style>
         <mandatory>NA</mandatory>
@@ -5361,7 +5361,7 @@
         <description>Total number of items</description>
     </property>
     <property key="lightBoxOrderItemsSummaryTotalSubAmount">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">20</value>
         <screen>LightBoxOrderItemsSummary</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
@@ -5369,7 +5369,7 @@
         <description>Sub total amount</description>
     </property>
     <property key="lightBoxOrderItemsSummaryShippingMethod">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">30</value>
         <screen>LightBoxOrderItemsSummary</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
@@ -5377,7 +5377,7 @@
         <description>Shipping Method, if available</description>
     </property>
     <property key="lightBoxOrderItemsSummaryShippingAmount">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">40</value>
         <screen>LightBoxOrderItemsSummary</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
@@ -5385,7 +5385,7 @@
         <description>Shipping Amount, if available</description>
     </property>
     <property key="lightBoxOrderItemsSummaryTaxAmount">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">50</value>
         <screen>LightBoxOrderItemsSummary</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
@@ -5393,7 +5393,7 @@
         <description>Tax, if available</description>
     </property>
     <property key="lightBoxOrderItemsSummaryPromoDiscount">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">70</value>
         <screen>LightBoxOrderItemsSummary</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
@@ -5401,7 +5401,7 @@
         <description>Discount from coupon or promo</description>
     </property>
     <property key="lightBoxOrderItemsSummaryLoyaltyDiscount">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">90</value>
         <screen>LightBoxOrderItemsSummary</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
@@ -5409,7 +5409,7 @@
         <description>Discount from Loyalty redemption</description>
     </property>
     <property key="lightBoxOrderItemsSummaryTotalAmount">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">60</value>
         <screen>LightBoxOrderItemsSummary</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
@@ -5417,7 +5417,7 @@
         <description>Total amount</description>
     </property>
     <property key="lightBoxOrderItemsSummaryShippingInstructions">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">100</value>
         <screen>LightBoxOrderItemsSummary</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
@@ -5429,27 +5429,27 @@
 <!-- Manufacturer -->
 <!-- *************************************** -->
     <property key="manufacturerDescription">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">30</value>
         <screen>Manufacturer</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>Manufacturer Text, could be a description, bio, etc</description>
     </property>
     <property key="manufacturerHeading">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">10</value>
         <screen>Manufacturer</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>1</group>
         <description>Manufacturer Heading (could be Designer for example)</description>
     </property>
     <property key="manufacturerImage">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">20</value>
         <screen>Manufacturer</screen>
         <style>image</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>Manufacturer Image or Logo</description>
     </property>
     <property key="manufacturerName">
@@ -5461,11 +5461,11 @@
         <description>Manufacturer Name</description>
     </property>
     <property key="manufacturerProductList">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">40</value>
         <screen>Manufacturer</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>Manufacturer products</description>
     </property>
 <!-- *************************************** -->
@@ -5496,7 +5496,7 @@
         <description>Product Label</description>
     </property>
     <property key="manufacturerProductListDetailLink">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">30</value>
         <screen>ManufacturerProductList</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
@@ -5504,7 +5504,7 @@
         <description>Product Info Link (possibly replaced by manufacturerProductListSeeItemDetails)</description>
     </property>
     <property key="manufacturerProductListPriceList">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">50</value>
         <screen>ManufacturerProductList</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
@@ -5512,7 +5512,7 @@
         <description>List Price. May be used as a display or in calculations for Savings fields.</description>
     </property>
     <property key="manufacturerProductListPriceOnline">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">40</value>
         <screen>ManufacturerProductList</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
@@ -5520,7 +5520,7 @@
         <description>Online Price. The actual price the customer will pay for this item. Could be overridden with Volume Pricing depending on the configuration.</description>
     </property>
     <property key="manufacturerProductListPriceSavingPercent">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">60</value>
         <screen>ManufacturerProductList</screen>
         <style>percent</style>
         <mandatory>NA</mandatory>
@@ -5536,7 +5536,7 @@
         <description>Recurrence Price. The price the customer will pay for the item if added as a Recurring order. Compares RECURRING and ONLINE prices. This shows the percentage saved.</description>
     </property>
     <property key="manufacturerProductListSwatchImage">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">20</value>
         <screen>ManufacturerProductList</screen>
         <style>image</style>
         <mandatory>NA</mandatory>
@@ -5568,7 +5568,7 @@
         <description>Offers the Write-A-Review link. Only applicable if using BigFish Reviews.</description>
     </property>
     <property key="manufacturerProductListThumbImage">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">10</value>
         <screen>ManufacturerProductList</screen>
         <style>image</style>
         <mandatory>NA</mandatory>
@@ -5688,7 +5688,7 @@
         <description>Terms and Conditions. Secondary description for the Product.</description>
     </property> 
     <property key="manufacturerProductListSelectableFeature">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">70</value>
         <screen>ManufacturerProductList</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -5696,7 +5696,7 @@
         <description>Selectable Features. This element contains all the features that define the specific Variant for purchase. Typical examples are Color and Size.</description>
     </property> 
     <property key="manufacturerProductListQty">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">80</value>
         <screen>ManufacturerProductList</screen>
         <style>entry</style>
         <mandatory>NA</mandatory>
@@ -5704,7 +5704,7 @@
         <description>The Qty field that the customer uses for purchasing.</description>
     </property>
     <property key="manufacturerProductListAddToCart">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">90</value>
         <screen>ManufacturerProductList</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
@@ -5732,7 +5732,7 @@
         <description>The sorting options of the reviews list</description>
     </property>
     <property key="pdpReviewListItems">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">20</value>
         <screen>PDPReviewList</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -5740,7 +5740,7 @@
         <description>A CONTAINER for the list of items reviews</description>
     </property>
     <property key="pdpReviewListPagingOptions">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">10</value>
         <screen>PDPReviewList</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -5752,7 +5752,7 @@
 <!-- PDPReviewListItems -->
 <!-- *************************************** -->
     <property key="pdpReviewListItemsReviewDate">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">30</value>
         <screen>PDPReviewListItems</screen>
         <style>date</style>
         <mandatory>NA</mandatory>
@@ -5760,7 +5760,7 @@
         <description>The Date review was entered</description>
     </property>
     <property key="pdpReviewListItemsOverallStars">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">10</value>
         <screen>PDPReviewListItems</screen>
         <style>image</style>
         <mandatory>NA</mandatory>
@@ -5792,7 +5792,7 @@
         <description>The satisfaction rating star selection</description>
     </property>
     <property key="pdpReviewListItemsReviewerNickname">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">20</value>
         <screen>PDPReviewListItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
@@ -5800,7 +5800,7 @@
         <description>The Nickname of the reviewer</description>
     </property>
     <property key="pdpReviewListItemsReviewerTitle">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">40</value>
         <screen>PDPReviewListItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
@@ -5808,7 +5808,7 @@
         <description>The Title for the review</description>
     </property>
     <property key="pdpReviewListItemsReviewerText">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">50</value>
         <screen>PDPReviewListItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
@@ -5860,7 +5860,7 @@
 <!-- PDPTabsReviewList -->
 <!-- *************************************** -->
     <property key="pdpTabsReviewListSortOptions">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">10</value>
         <screen>PDPTabsReviewList</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -5868,7 +5868,7 @@
         <description>The sorting options of the reviews list</description>
     </property>
     <property key="pdpTabsReviewListItems">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">20</value>
         <screen>PDPTabsReviewList</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -5876,7 +5876,7 @@
         <description>A CONTAINER for the list of items reviews</description>
     </property>
     <property key="pdpTabsReviewListPagingOptions">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">30</value>
         <screen>PDPTabsReviewList</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -5888,7 +5888,7 @@
 <!-- PDPTabsReviewListItems -->
 <!-- *************************************** -->
     <property key="pdpTabsReviewListItemsReviewDate">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">40</value>
         <screen>PDPTabsReviewListItems</screen>
         <style>date</style>
         <mandatory>NA</mandatory>
@@ -5896,7 +5896,7 @@
         <description>The Date review was entered</description>
     </property>
     <property key="pdpTabsReviewListItemsOverallStars">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">10</value>
         <screen>PDPTabsReviewListItems</screen>
         <style>image</style>
         <mandatory>NA</mandatory>
@@ -5928,7 +5928,7 @@
         <description>The satisfaction rating star selection</description>
     </property>
     <property key="pdpTabsReviewListItemsReviewerNickname">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">30</value>
         <screen>PDPTabsReviewListItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
@@ -5936,7 +5936,7 @@
         <description>The Nickname of the reviewer</description>
     </property>
     <property key="pdpTabsReviewListItemsReviewerTitle">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">20</value>
         <screen>PDPTabsReviewListItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
@@ -5944,7 +5944,7 @@
         <description>The Title for the review</description>
     </property>
     <property key="pdpTabsReviewListItemsReviewerText">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">60</value>
         <screen>PDPTabsReviewListItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
@@ -5968,7 +5968,7 @@
         <description>Age of reviewer</description>
     </property>
     <property key="pdpTabsReviewListItemsReviewerGender">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">50</value>
         <screen>PDPTabsReviewListItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
@@ -5996,7 +5996,7 @@
 <!-- QuicklookReviewList -->
 <!-- *************************************** -->
     <property key="quicklookReviewListSortOptions">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">10</value>
         <screen>QuicklookReviewList</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -6004,7 +6004,7 @@
         <description>The sorting options of the reviews list</description>
     </property>
     <property key="quicklookReviewListItems">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">20</value>
         <screen>QuicklookReviewList</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -6012,7 +6012,7 @@
         <description>A CONTAINER for the list of items reviews</description>
     </property>
     <property key="quicklookReviewListPagingOptions">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">30</value>
         <screen>QuicklookReviewList</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -6024,7 +6024,7 @@
 <!-- QuicklookReviewListItems -->
 <!-- *************************************** -->
     <property key="quicklookReviewListItemsReviewDate">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">30</value>
         <screen>QuicklookReviewListItems</screen>
         <style>date</style>
         <mandatory>NA</mandatory>
@@ -6032,7 +6032,7 @@
         <description>The Date review was entered</description>
     </property>
     <property key="quicklookReviewListItemsOverallStars">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">40</value>
         <screen>QuicklookReviewListItems</screen>
         <style>image</style>
         <mandatory>NA</mandatory>
@@ -6040,7 +6040,7 @@
         <description>The overall rating star selection</description>
     </property>
     <property key="quicklookReviewListItemsQualityStars">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">20</value>
         <screen>QuicklookReviewListItems</screen>
         <style>image</style>
         <mandatory>NA</mandatory>
@@ -6048,7 +6048,7 @@
         <description>The quality rating star selection</description>
     </property>
     <property key="quicklookReviewListItemsEffectivenessStars">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">50</value>
         <screen>QuicklookReviewListItems</screen>
         <style>image</style>
         <mandatory>NA</mandatory>
@@ -6056,7 +6056,7 @@
         <description>The effectiveness rating star selection</description>
     </property>
     <property key="quicklookReviewListItemsSatisfactionStars">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">60</value>
         <screen>QuicklookReviewListItems</screen>
         <style>image</style>
         <mandatory>NA</mandatory>
@@ -6064,7 +6064,7 @@
         <description>The satisfaction rating star selection</description>
     </property>
     <property key="quicklookReviewListItemsReviewerNickname">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">70</value>
         <screen>QuicklookReviewListItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
@@ -6072,7 +6072,7 @@
         <description>The Nickname of the reviewer</description>
     </property>
     <property key="quicklookReviewListItemsReviewerTitle">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">10</value>
         <screen>QuicklookReviewListItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
@@ -6080,7 +6080,7 @@
         <description>The Title for the review</description>
     </property>
     <property key="quicklookReviewListItemsReviewerText">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">80</value>
         <screen>QuicklookReviewListItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
@@ -6088,7 +6088,7 @@
         <description>The Text of the review</description>
     </property>
     <property key="quicklookReviewListItemsReviewerLocation">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">90</value>
         <screen>QuicklookReviewListItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
@@ -6096,7 +6096,7 @@
         <description>Location of reviewer</description>
     </property>
     <property key="quicklookReviewListItemsReviewerAge">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">100</value>
         <screen>QuicklookReviewListItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
@@ -6104,7 +6104,7 @@
         <description>Age of reviewer</description>
     </property>
     <property key="quicklookReviewListItemsReviewerGender">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">110</value>
         <screen>QuicklookReviewListItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
@@ -6120,7 +6120,7 @@
         <description>Custom drop down prompt</description>
     </property>
     <property key="quicklookReviewListItemsReviewResponse">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">120</value>
         <screen>QuicklookReviewListItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
@@ -6163,7 +6163,7 @@
         <screen>OrderHistoryOrderDetails</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>1</group>
         <description>Order Number</description>
     </property>
     <property key="orderHistoryOrderDetailsOrderDate">
@@ -6171,7 +6171,7 @@
         <screen>OrderHistoryOrderDetails</screen>
         <style>date</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>Order Date</description>
     </property>
     <property key="orderHistoryOrderDetailsOrderStatus">
@@ -6179,7 +6179,7 @@
         <screen>OrderHistoryOrderDetails</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>Order Status</description>
     </property>
     <property key="orderHistoryOrderDetailsTrackingNumber">
@@ -6187,7 +6187,7 @@
         <screen>OrderHistoryOrderDetails</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>Tracking Number</description>
     </property>
     <property key="orderHistoryOrderDetailsOrderTotalAmount">
@@ -6195,7 +6195,7 @@
         <screen>OrderHistoryOrderDetails</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>Order Total Amount</description>
     </property>
     <property key="orderHistoryOrderDetailsReorderButton">
@@ -6203,7 +6203,7 @@
         <screen>OrderHistoryOrderDetails</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>The RE-ORDER button</description>
     </property>
     
@@ -6213,7 +6213,7 @@
     <property key="reorderItemsSummaryFilter">
         <value xml:lang="en">10</value>
         <screen>ReorderItemsSummary</screen>
-        <style>entry</style>
+        <style>container</style>
         <mandatory>NA</mandatory>
         <group>0</group>
         <description>The Filter by Order drop down component</description>
@@ -6251,7 +6251,7 @@
         <screen>ReorderItems</screen>
         <style>image</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>1</group>
         <description>The item Image</description>
     </property>
     <property key="reorderItemsItemName">
@@ -6259,7 +6259,7 @@
         <screen>ReorderItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The item Name</description>
     </property>
     <property key="reorderItemsItemDescription">
@@ -6267,31 +6267,31 @@
         <screen>ReorderItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The item Description (Selected Features)</description>
     </property>
     <property key="reorderItemsItemLastOrderDate">
-        <value xml:lang="en">40</value>
+        <value xml:lang="en">50</value>
         <screen>ReorderItems</screen>
         <style>date</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The last ordered date</description>
     </property>
     <property key="reorderItemsItemCheckbox">
-        <value xml:lang="en">50</value>
-        <screen>ReorderItems</screen>
-        <style>entry</style>
-        <mandatory>SYS_YES</mandatory>
-        <group>0</group>
-        <description>The Re-Order checkbox indicator</description>
-    </property>
-    <property key="reorderItemsItemQty">
         <value xml:lang="en">60</value>
         <screen>ReorderItems</screen>
         <style>entry</style>
         <mandatory>SYS_YES</mandatory>
-        <group>0</group>
+        <group>2</group>
+        <description>The Re-Order checkbox indicator</description>
+    </property>
+    <property key="reorderItemsItemQty">
+        <value xml:lang="en">40</value>
+        <screen>ReorderItems</screen>
+        <style>entry</style>
+        <mandatory>SYS_YES</mandatory>
+        <group>2</group>
         <description>The item quantity (entry field)</description>
     </property>    
     <property key="reorderItemsItemPrice">
@@ -6299,7 +6299,7 @@
         <screen>ReorderItems</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>The current unit price of the item</description>
     </property>    
   
@@ -6307,7 +6307,7 @@
 <!-- SiteHeader -->
 <!-- *************************************** -->
     <property key="siteHeaderLinks">
-        <value xml:lang="en">10</value>
+        <value xml:lang="en">20</value>
         <screen>SiteHeader</screen>
         <style>content</style>
         <mandatory>NA</mandatory>
@@ -6315,7 +6315,7 @@
         <description>Header Links</description>
     </property>
     <property key="siteHeaderLogo">
-        <value xml:lang="en">20</value>
+        <value xml:lang="en">30</value>
         <screen>SiteHeader</screen>
         <style>content</style>
         <mandatory>NA</mandatory>
@@ -6323,7 +6323,7 @@
         <description>Logo</description>
     </property>
     <property key="siteHeaderSearch">
-        <value xml:lang="en">30</value>
+        <value xml:lang="en">50</value>
         <screen>SiteHeader</screen>
         <style>content</style>
         <mandatory>NA</mandatory>
@@ -6467,7 +6467,7 @@
         <description>Address Line 2</description>
     </property>
     <property key="requestCatalogAddress3">
-        <value xml:lang="en">60</value>
+        <value xml:lang="en">0</value>
         <screen>RequestCatalog</screen>
         <style>entry</style>
         <mandatory>NO</mandatory>
@@ -6475,7 +6475,7 @@
         <description>Address Line 3</description>
     </property>
     <property key="requestCatalogCityTown">
-        <value xml:lang="en">70</value>
+        <value xml:lang="en">60</value>
         <screen>RequestCatalog</screen>
         <style>entry</style>
         <mandatory>NO</mandatory>
@@ -6483,7 +6483,7 @@
         <description>City or Town</description>
     </property>
     <property key="requestCatalogStateProvince">
-        <value xml:lang="en">80</value>
+        <value xml:lang="en">70</value>
         <screen>RequestCatalog</screen>
         <style>entry</style>
         <mandatory>NO</mandatory>
@@ -6491,7 +6491,7 @@
         <description>State or Province</description>
     </property>
     <property key="requestCatalogZipPostcode">
-        <value xml:lang="en">90</value>
+        <value xml:lang="en">80</value>
         <screen>RequestCatalog</screen>
         <style>entry</style>
         <mandatory>NO</mandatory>
@@ -6499,7 +6499,7 @@
         <description>Zip or Postcode</description>
     </property>
     <property key="requestCatalogEmailAddress">
-        <value xml:lang="en">100</value>
+        <value xml:lang="en">90</value>
         <screen>RequestCatalog</screen>
         <style>entry</style>
         <mandatory>SYS_YES</mandatory>
@@ -6507,7 +6507,7 @@
         <description>Customer Email Address</description>
     </property>
     <property key="requestCatalogPhoneContact">
-        <value xml:lang="en">110</value>
+        <value xml:lang="en">100</value>
         <screen>RequestCatalog</screen>
         <style>entry</style>
         <mandatory>NO</mandatory>
@@ -6515,15 +6515,15 @@
         <description>Customer Contact Phone Number</description>
     </property>
     <property key="requestCatalogUsComment">
-        <value xml:lang="en">120</value>
+        <value xml:lang="en">110</value>
         <screen>RequestCatalog</screen>
         <style>entry</style>
-        <mandatory>YES</mandatory>
+        <mandatory>NO</mandatory>
         <group>0</group>
         <description>Request Comment</description>
     </property>
     <property key="requestCatalogSubmitButton">
-        <value xml:lang="en">130</value>
+        <value xml:lang="en">120</value>
         <screen>RequestCatalog</screen>
         <style>action</style>
         <mandatory>SYS_YES</mandatory>
@@ -6542,7 +6542,7 @@
         <description>List of items, see PaymentMethodItems</description>
     </property>
     <property key="paymentMethodSummaryPreviousButton">
-        <value xml:lang="en">20</value>
+        <value xml:lang="en">30</value>
         <screen>PaymentMethodSummary</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
@@ -6550,7 +6550,7 @@
         <description>The PREVIOUS button that will return the customer to the previous step.</description>
     </property>
     <property key="paymentMethodSummaryContinueButton">
-        <value xml:lang="en">30</value>
+        <value xml:lang="en">20</value>
         <screen>PaymentMethodSummary</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
@@ -6726,7 +6726,7 @@
         <description>Store Location Search Criteria</description>
     </property>
     <property key="storeLocatorGoogleMap">
-        <value xml:lang="en">20</value>
+        <value xml:lang="en">30</value>
         <screen>StoreLocator</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -6734,7 +6734,7 @@
         <description>Google Map of location pins</description>
     </property>
     <property key="storeLocatorItems">
-        <value xml:lang="en">30</value>
+        <value xml:lang="en">20</value>
         <screen>StoreLocator</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -6742,7 +6742,7 @@
         <description>List of Store Location Details</description>
     </property>
     <property key="storeLocatorPreviousButton">
-        <value xml:lang="en">50</value>
+        <value xml:lang="en">40</value>
         <screen>StoreLocator</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
@@ -6758,7 +6758,7 @@
         <screen>StoreLocatorItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>1</group>
         <description>Store Distance</description>
     </property>
     <property key="storeLocatorItemsName">
@@ -6766,7 +6766,7 @@
         <screen>StoreLocatorItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>1</group>
         <description>Store Name</description>
     </property>
     <property key="storeLocatorItemsAddress">
@@ -6774,7 +6774,7 @@
         <screen>StoreLocatorItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>Store Address</description>
     </property>
     <property key="storeLocatorItemsHours">
@@ -6782,11 +6782,11 @@
         <screen>StoreLocatorItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>Store Hours</description>
     </property>
     <property key="storeLocatorItemsNotice">
-        <value xml:lang="en">50</value>
+        <value xml:lang="en">0</value>
         <screen>StoreLocatorItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
@@ -6794,51 +6794,51 @@
         <description>Store Notice</description>
     </property>
     <property key="storeLocatorItemsPhone">
-        <value xml:lang="en">60</value>
+        <value xml:lang="en">50</value>
         <screen>StoreLocatorItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>Store Phone</description>
     </property>
     <property key="storeLocatorItemsDrivingIcon">
+        <value xml:lang="en">60</value>
+        <screen>StoreLocatorItems</screen>
+        <style>action</style>
+        <mandatory>NA</mandatory>
+        <group>3</group>
+        <description>Store Directions Icon</description>
+    </property>
+    <property key="storeLocatorItemsCyclingIcon">
         <value xml:lang="en">70</value>
         <screen>StoreLocatorItems</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
-        <description>Store Directions Icon</description>
+        <group>3</group>
+        <description>Store Cycling Icon</description>
     </property>
-    <property key="storeLocatorItemsCyclingIcon">
+    <property key="storeLocatorItemsWalkingIcon">
         <value xml:lang="en">80</value>
         <screen>StoreLocatorItems</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
-        <description>Store Cycling Icon</description>
-    </property>
-    <property key="storeLocatorItemsWalkingIcon">
-        <value xml:lang="en">90</value>
-        <screen>StoreLocatorItems</screen>
-        <style>action</style>
-        <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>Store Walking Icon</description>
     </property>
     <property key="storeLocatorItemsContentSpot">
-        <value xml:lang="en">100</value>
+        <value xml:lang="en">0</value>
         <screen>StoreLocatorItems</screen>
-        <style>content</style>
+        <style>action</style>
         <mandatory>NA</mandatory>
         <group>0</group>
         <description>Store Content Spot</description>
     </property>
     <property key="storeLocatorItemsSelectStoreButton">
-        <value xml:lang="en">120</value>
+        <value xml:lang="en">90</value>
         <screen>StoreLocatorItems</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>Button to Select store for pickup in checkout process</description>
     </property>
 <!-- *************************************** -->
@@ -6853,7 +6853,7 @@
         <description>New Customer Sign In</description>
     </property>
     <property key="signInExistingCustomer">
-        <value xml:lang="en">20</value>
+        <value xml:lang="en">30</value>
         <screen>SignIn</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -6861,7 +6861,7 @@
         <description>Existing Customer Sign In</description>
     </property>
     <property key="signInGuestCustomer">
-        <value xml:lang="en">30</value>
+        <value xml:lang="en">20</value>
         <screen>SignIn</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -6998,7 +6998,7 @@
         <description>The form to enter message for order items</description>
     </property>
     <property key="giftMessagePreviousButton">
-        <value xml:lang="en">30</value>
+        <value xml:lang="en">40</value>
         <screen>GiftMessage</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
@@ -7006,7 +7006,7 @@
         <description>The PREVIOUS button that will return the customer to the previous step.</description>
     </property>
     <property key="giftMessageContinueButton">
-        <value xml:lang="en">40</value>
+        <value xml:lang="en">30</value>
         <screen>GiftMessage</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
@@ -7023,7 +7023,7 @@
         <screen>GiftMessageOrderItems</screen>
         <style>image</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>1</group>
         <description>The item image</description>
     </property>
     <property key="giftMessageOrderItemsItemName">
@@ -7031,7 +7031,7 @@
         <screen>GiftMessageOrderItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The item Name</description>
     </property>
     <property key="giftMessageOrderItemsItemDescription">
@@ -7039,7 +7039,7 @@
         <screen>GiftMessageOrderItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The item Description (Selected Features)</description>
     </property>
     <property key="giftMessageOrderItemsItemQty">
@@ -7047,7 +7047,7 @@
         <screen>GiftMessageOrderItems</screen>
         <style>number</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The item quantity</description>
     </property>
     <property key="giftMessageOrderItemsItemPrice">
@@ -7055,15 +7055,15 @@
         <screen>GiftMessageOrderItems</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The unit price of the item</description>
     </property>
     <property key="giftMessageOrderItemsItemOfferPrice">
-        <value xml:lang="en">0</value>
+        <value xml:lang="en">60</value>
         <screen>GiftMessageOrderItems</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The offer price of the item</description>
     </property>
     <property key="giftMessageOrderItemsItemPriceRecurrence">
@@ -7083,11 +7083,11 @@
         <description>The items stock level (In Stock, Out of Stock , Low Stock)</description>
     </property>
     <property key="giftMessageOrderItemsItemTotal">
-        <value xml:lang="en">60</value>
+        <value xml:lang="en">70</value>
         <screen>GiftMessageOrderItems</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>The total (quantity * price) of the item.</description>
     </property>
     <property key="giftMessageOrderItemsItemRecurrenceFreq">
@@ -7257,7 +7257,7 @@
         <description>A container for the store details if order was delivered at store </description>
     </property>
     <property key="orderDetailBillingAddress">
-        <value xml:lang="en">50</value>
+        <value xml:lang="en">60</value>
         <screen>OrderDetail</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -7265,7 +7265,7 @@
         <description>A container for the order billing address</description>
     </property>
     <property key="orderDetailPaymentInformation">
-        <value xml:lang="en">60</value>
+        <value xml:lang="en">70</value>
         <screen>OrderDetail</screen>
         <style>container</style>
         <mandatory>NA</mandatory>
@@ -7273,7 +7273,7 @@
         <description>A container for the order payment information</description>
     </property>
     <property key="orderDetailPreviousButton">
-        <value xml:lang="en">70</value>
+        <value xml:lang="en">80</value>
         <screen>OrderDetail</screen>
         <style>action</style>
         <mandatory>NA</mandatory>
@@ -7309,7 +7309,7 @@
         <screen>OrderDetailShippingGroupOrderItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>1</group>
         <description>The item image</description>
     </property>
     <property key="orderDetailShippingGroupOrderItemsItemName">
@@ -7317,7 +7317,7 @@
         <screen>OrderDetailShippingGroupOrderItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The item Name</description>
     </property>
     <property key="orderDetailShippingGroupOrderItemsItemStatus">
@@ -7325,7 +7325,7 @@
         <screen>OrderDetailShippingGroupOrderItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The item status</description>
     </property>
     <property key="orderDetailShippingGroupOrderItemsItemShipDate">
@@ -7333,7 +7333,7 @@
         <screen>OrderDetailShippingGroupOrderItems</screen>
         <style>date</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The date shipped </description>
     </property>
     <property key="orderDetailShippingGroupOrderItemsItemCarrier">
@@ -7341,7 +7341,7 @@
         <screen>OrderDetailShippingGroupOrderItems</screen>
         <style>string</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The item carrier</description>
     </property>
     <property key="orderDetailShippingGroupOrderItemsItemTrackingNumber">
@@ -7349,7 +7349,7 @@
         <screen>OrderDetailShippingGroupOrderItems</screen>
         <style>number</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The item tracking number</description>
     </property>
     <property key="orderDetailShippingGroupOrderItemsItemQty">
@@ -7357,11 +7357,11 @@
         <screen>OrderDetailShippingGroupOrderItems</screen>
         <style>number</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>2</group>
         <description>The item quantity</description>
     </property>
     <property key="orderDetailShippingGroupOrderItemsItemPrice">
-        <value xml:lang="en">80</value>
+        <value xml:lang="en">0</value>
         <screen>OrderDetailShippingGroupOrderItems</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
@@ -7369,11 +7369,11 @@
         <description>The unit price of the item</description>
     </property>
     <property key="orderDetailShippingGroupOrderItemsItemTotal">
-        <value xml:lang="en">90</value>
+        <value xml:lang="en">80</value>
         <screen>OrderDetailShippingGroupOrderItems</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
-        <group>0</group>
+        <group>3</group>
         <description>The total (quantity * price) of the item.</description>
     </property>
     <property key="orderDetailShippingGroupOrderItemsItemOfferPrice">
@@ -7422,7 +7422,7 @@
         <description>Shipping Instructions, if available</description>
     </property>
     <property key="orderDetailOrderItemsSummaryShippingAmount">
-        <value xml:lang="en">40</value>
+        <value xml:lang="en">70</value>
         <screen>OrderDetailOrderItemsSummary</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
@@ -7438,7 +7438,7 @@
         <description>Tax, if available</description>
     </property>
     <property key="orderDetailOrderItemsSummaryPromoDiscount">
-        <value xml:lang="en">70</value>
+        <value xml:lang="en">40</value>
         <screen>OrderDetailOrderItemsSummary</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
@@ -7446,7 +7446,7 @@
         <description>Discount from coupon or promo</description>
     </property>
     <property key="orderDetailOrderItemsSummaryLoyaltyDiscount">
-        <value xml:lang="en">80</value>
+        <value xml:lang="en">60</value>
         <screen>OrderDetailOrderItemsSummary</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>
@@ -7454,7 +7454,7 @@
         <description>Discount from Loyalty redemption</description>
     </property>
     <property key="orderDetailOrderItemsSummaryTotalAmount">
-        <value xml:lang="en">90</value>
+        <value xml:lang="en">80</value>
         <screen>OrderDetailOrderItemsSummary</screen>
         <style>currency</style>
         <mandatory>NA</mandatory>

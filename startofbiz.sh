@@ -25,7 +25,7 @@ ADMIN_KEY=so3du5kasd5dn
 # console log file
 OFBIZ_LOG=runtime/logs/console.log
 #TITLE
-TITLE="OfBiz Big Fish"
+TITLE="OfBiz Runway"
 
 # delete the last log
 rm -f $OFBIZ_LOG

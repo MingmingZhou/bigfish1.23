@@ -1,6 +1,1505 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <property key="eCommerceMapUrl">
-        <value xml:lang="en">friendlyUrl</value>
+<?xml version="1.0" encoding="UTF-8"?><resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <property key="eCommerceCategoryList?productCategoryId^^10110">
+        <value xml:lang="en">boxes</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^10120">
+        <value xml:lang="en">boxes/standard-boxes</value>
+    </property>
+    <property key="eCommerceCategoryList?productCategoryId^^APPAREL">
+        <value xml:lang="en">apparel</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^ACTIVE">
+        <value xml:lang="en">apparel/active</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100017~productCategoryId^^ACTIVE">
+        <value xml:lang="en">active/reversible-hooded-shearling-vest</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100017~productCategoryId^^ACTIVE~productFeatureType^^COLOR:Brown">
+        <value xml:lang="en">active/reversible-hooded-shearling-vest-brown</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100018~productCategoryId^^ACTIVE">
+        <value xml:lang="en">active/asymmetrical-tank</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100018~productCategoryId^^ACTIVE~productFeatureType^^COLOR:Pink">
+        <value xml:lang="en">active/asymmetrical-tank-pink</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100019~productCategoryId^^ACTIVE">
+        <value xml:lang="en">active/bow-tee</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100019~productCategoryId^^ACTIVE~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">active/bow-tee-black</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100077~productCategoryId^^ACTIVE">
+        <value xml:lang="en">active/long-sleeve-fleece-hoodie</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100077~productCategoryId^^ACTIVE~productFeatureType^^COLOR:Yellow">
+        <value xml:lang="en">active/long-sleeve-fleece-hoodie-yellow</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100078~productCategoryId^^ACTIVE">
+        <value xml:lang="en">active/zoe-pants</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100078~productCategoryId^^ACTIVE~productFeatureType^^COLOR:Grey">
+        <value xml:lang="en">active/zoe-pants-grey</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100093~productCategoryId^^ACTIVE">
+        <value xml:lang="en">active/twist-buckle-wedge-sneakers</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100093~productCategoryId^^ACTIVE~productFeatureType^^COLOR:Grey">
+        <value xml:lang="en">active/twist-buckle-wedge-sneakers-grey</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^BLOUSES">
+        <value xml:lang="en">apparel/blouses</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100006~productCategoryId^^BLOUSES">
+        <value xml:lang="en">blouses/34-sleeve-and-button-down-</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100006~productCategoryId^^BLOUSES~productFeatureType^^COLOR:Pink">
+        <value xml:lang="en">blouses/34-sleeve-and-button-down--pink</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100006~productCategoryId^^BLOUSES~productFeatureType^^COLOR:White">
+        <value xml:lang="en">blouses/34-sleeve-and-button-down--white</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100016~productCategoryId^^BLOUSES">
+        <value xml:lang="en">blouses/short-sleeve-tunic</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100016~productCategoryId^^BLOUSES~productFeatureType^^COLOR:Red">
+        <value xml:lang="en">blouses/short-sleeve-tunic-red</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100065~productCategoryId^^BLOUSES">
+        <value xml:lang="en">blouses/bow-trench-coat</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100065~productCategoryId^^BLOUSES~productFeatureType^^COLOR:Beige-Tan">
+        <value xml:lang="en">blouses/bow-trench-coat-beigetan</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100065~productCategoryId^^BLOUSES~productFeatureType^^COLOR:Pink">
+        <value xml:lang="en">blouses/bow-trench-coat-pink</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^51256~productCategoryId^^BLOUSES">
+        <value xml:lang="en">blouses/test_only_descp</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^DENIM">
+        <value xml:lang="en">apparel/denim</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100045~productCategoryId^^DENIM">
+        <value xml:lang="en">denim/boot-cut-jeans</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100045~productCategoryId^^DENIM~productFeatureType^^COLOR:Navy">
+        <value xml:lang="en">denim/boot-cut-jeans-navy</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100046~productCategoryId^^DENIM">
+        <value xml:lang="en">denim/exboyfriend-crop-jeans</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100046~productCategoryId^^DENIM~productFeatureType^^COLOR:Blue">
+        <value xml:lang="en">denim/exboyfriend-crop-jeans-blue</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100047~productCategoryId^^DENIM">
+        <value xml:lang="en">denim/gigi-cropped-flare-jeans</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100047~productCategoryId^^DENIM~productFeatureType^^COLOR:Blue">
+        <value xml:lang="en">denim/gigi-cropped-flare-jeans-blue</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100048~productCategoryId^^DENIM">
+        <value xml:lang="en">denim/legging-jeans</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100048~productCategoryId^^DENIM~productFeatureType^^COLOR:Navy">
+        <value xml:lang="en">denim/legging-jeans-navy</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100049~productCategoryId^^DENIM">
+        <value xml:lang="en">denim/low-slung-flare-jeans</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100049~productCategoryId^^DENIM~productFeatureType^^COLOR:Blue">
+        <value xml:lang="en">denim/low-slung-flare-jeans-blue</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100050~productCategoryId^^DENIM">
+        <value xml:lang="en">denim/stilletto-skinny-jeans</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100050~productCategoryId^^DENIM~productFeatureType^^COLOR:Red">
+        <value xml:lang="en">denim/stilletto-skinny-jeans-red</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100051~productCategoryId^^DENIM">
+        <value xml:lang="en">denim/straight-leg-jeans</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100051~productCategoryId^^DENIM~productFeatureType^^COLOR:White">
+        <value xml:lang="en">denim/straight-leg-jeans-white</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100052~productCategoryId^^DENIM">
+        <value xml:lang="en">denim/burke-trouser-jeans</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100052~productCategoryId^^DENIM~productFeatureType^^COLOR:Blue">
+        <value xml:lang="en">denim/burke-trouser-jeans-blue</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100053~productCategoryId^^DENIM">
+        <value xml:lang="en">denim/high-rise-wide-leg-jeans</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100053~productCategoryId^^DENIM~productFeatureType^^COLOR:Blue">
+        <value xml:lang="en">denim/high-rise-wide-leg-jeans-blue</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100122~productCategoryId^^DENIM">
+        <value xml:lang="en">denim/highwaisted-wide-leg-jeans</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100122~productCategoryId^^DENIM~productFeatureType^^COLOR:Animal Print">
+        <value xml:lang="en">denim/highwaisted-wide-leg-jeans-animal-print</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100122~productCategoryId^^DENIM~productFeatureType^^COLOR:Blue">
+        <value xml:lang="en">denim/highwaisted-wide-leg-jeans-blue</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^51253~productCategoryId^^DENIM">
+        <value xml:lang="en">denim/test_virtual_no_sel</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^51255~productCategoryId^^DENIM">
+        <value xml:lang="en">denim/test_product_fin</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^51272~productCategoryId^^DENIM">
+        <value xml:lang="en">denim/test</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^DRESSES">
+        <value xml:lang="en">apparel/dresses</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100020~productCategoryId^^DRESSES">
+        <value xml:lang="en">dresses/draped-dress</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100020~productCategoryId^^DRESSES~productFeatureType^^COLOR:White">
+        <value xml:lang="en">dresses/draped-dress-white</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100021~productCategoryId^^DRESSES">
+        <value xml:lang="en">dresses/falling-drape-dress</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100021~productCategoryId^^DRESSES~productFeatureType^^COLOR:White">
+        <value xml:lang="en">dresses/falling-drape-dress-white</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100022~productCategoryId^^DRESSES">
+        <value xml:lang="en">dresses/ruffle-gown</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100022~productCategoryId^^DRESSES~productFeatureType^^COLOR:Cream">
+        <value xml:lang="en">dresses/ruffle-gown-cream</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100023~productCategoryId^^DRESSES">
+        <value xml:lang="en">dresses/cable-knit-sweater-dress</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100023~productCategoryId^^DRESSES~productFeatureType^^COLOR:Grey">
+        <value xml:lang="en">dresses/cable-knit-sweater-dress-grey</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100024~productCategoryId^^DRESSES">
+        <value xml:lang="en">dresses/glen-plaid-dress</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100024~productCategoryId^^DRESSES~productFeatureType^^COLOR:Olive">
+        <value xml:lang="en">dresses/glen-plaid-dress-olive</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100115~productCategoryId^^DRESSES">
+        <value xml:lang="en">dresses/long-sleeve-goddess-dress</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100115~productCategoryId^^DRESSES~productFeatureType^^COLOR:Burgundy">
+        <value xml:lang="en">dresses/long-sleeve-goddess-dress-burgundy</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100116~productCategoryId^^DRESSES">
+        <value xml:lang="en">dresses/doublesleeve-dress</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100116~productCategoryId^^DRESSES~productFeatureType^^COLOR:Animal Print">
+        <value xml:lang="en">dresses/doublesleeve-dress-animal-print</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100116~productCategoryId^^DRESSES~productFeatureType^^COLOR:Snake Print">
+        <value xml:lang="en">dresses/doublesleeve-dress-snake-print</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100118~productCategoryId^^DRESSES">
+        <value xml:lang="en">dresses/haydee-wrap-maxi-dress</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100118~productCategoryId^^DRESSES~productFeatureType^^COLOR:Purple">
+        <value xml:lang="en">dresses/haydee-wrap-maxi-dress-purple</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100120~productCategoryId^^DRESSES">
+        <value xml:lang="en">dresses/ruffle-front-peplum-dress</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100120~productCategoryId^^DRESSES~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">dresses/ruffle-front-peplum-dress-black</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^INTIMATESSLEEPWEAR">
+        <value xml:lang="en">apparel/intimates-/-sleepwear</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100079~productCategoryId^^INTIMATESSLEEPWEAR">
+        <value xml:lang="en">intimates-/-sleepwear/sweetie-soft-bra</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100079~productCategoryId^^INTIMATESSLEEPWEAR~productFeatureType^^COLOR:Pink">
+        <value xml:lang="en">intimates-/-sleepwear/sweetie-soft-bra-pink</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100080~productCategoryId^^INTIMATESSLEEPWEAR">
+        <value xml:lang="en">intimates-/-sleepwear/sophia-hooded-robe</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100080~productCategoryId^^INTIMATESSLEEPWEAR~productFeatureType^^COLOR:Multi">
+        <value xml:lang="en">intimates-/-sleepwear/sophia-hooded-robe-multi</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100081~productCategoryId^^INTIMATESSLEEPWEAR">
+        <value xml:lang="en">intimates-/-sleepwear/cropped-cami-and-bikini-set</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100081~productCategoryId^^INTIMATESSLEEPWEAR~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">intimates-/-sleepwear/cropped-cami-and-bikini-set-black</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^LEGGINGS">
+        <value xml:lang="en">apparel/leggings</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100082~productCategoryId^^LEGGINGS">
+        <value xml:lang="en">leggings/lace-net-tights</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100082~productCategoryId^^LEGGINGS~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">leggings/lace-net-tights-black</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^51011~productCategoryId^^LEGGINGS">
+        <value xml:lang="en">leggings/knee-patch-matte-leatherette-liquid-leggings</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^OUTERWEARANDJACKETS">
+        <value xml:lang="en">apparel/outerwear-/-jackets</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100060~productCategoryId^^OUTERWEARANDJACKETS">
+        <value xml:lang="en">outerwear-/-jackets/blazer-with-leather-trim</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100060~productCategoryId^^OUTERWEARANDJACKETS~productFeatureType^^COLOR:Blue">
+        <value xml:lang="en">outerwear-/-jackets/blazer-with-leather-trim-blue</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100061~productCategoryId^^OUTERWEARANDJACKETS">
+        <value xml:lang="en">outerwear-/-jackets/bergen-coat</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100061~productCategoryId^^OUTERWEARANDJACKETS~productFeatureType^^COLOR:Beige-Tan">
+        <value xml:lang="en">outerwear-/-jackets/bergen-coat-beigetan</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100062~productCategoryId^^OUTERWEARANDJACKETS">
+        <value xml:lang="en">outerwear-/-jackets/fur-collar-coat</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100062~productCategoryId^^OUTERWEARANDJACKETS~productFeatureType^^COLOR:Beige-Tan">
+        <value xml:lang="en">outerwear-/-jackets/fur-collar-coat-beigetan</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100063~productCategoryId^^OUTERWEARANDJACKETS">
+        <value xml:lang="en">outerwear-/-jackets/moto-jacket</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100063~productCategoryId^^OUTERWEARANDJACKETS~productFeatureType^^COLOR:Brown">
+        <value xml:lang="en">outerwear-/-jackets/moto-jacket-brown</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100064~productCategoryId^^OUTERWEARANDJACKETS">
+        <value xml:lang="en">outerwear-/-jackets/leather-military-jacket</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100064~productCategoryId^^OUTERWEARANDJACKETS~productFeatureType^^COLOR:Brown">
+        <value xml:lang="en">outerwear-/-jackets/leather-military-jacket-brown</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100073~productCategoryId^^OUTERWEARANDJACKETS">
+        <value xml:lang="en">outerwear-/-jackets/fur-vest</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100073~productCategoryId^^OUTERWEARANDJACKETS~productFeatureType^^COLOR:Beige-Tan">
+        <value xml:lang="en">outerwear-/-jackets/fur-vest-beigetan</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100108~productCategoryId^^OUTERWEARANDJACKETS">
+        <value xml:lang="en">outerwear-/-jackets/wallis-feather-vest</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100108~productCategoryId^^OUTERWEARANDJACKETS~productFeatureType^^COLOR:White">
+        <value xml:lang="en">outerwear-/-jackets/wallis-feather-vest-white</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100119~productCategoryId^^OUTERWEARANDJACKETS">
+        <value xml:lang="en">outerwear-/-jackets/fur-jacket</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100119~productCategoryId^^OUTERWEARANDJACKETS~productFeatureType^^COLOR:Beige-Tan">
+        <value xml:lang="en">outerwear-/-jackets/fur-jacket-beigetan</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100121~productCategoryId^^OUTERWEARANDJACKETS">
+        <value xml:lang="en">outerwear-/-jackets/leather-bolero-with-ruched-panels</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100121~productCategoryId^^OUTERWEARANDJACKETS~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">outerwear-/-jackets/leather-bolero-with-ruched-panels-black</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^PANTS">
+        <value xml:lang="en">apparel/pants</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100025~productCategoryId^^PANTS">
+        <value xml:lang="en">pants/wide-waistband-boot-cut-pants</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100025~productCategoryId^^PANTS~productFeatureType^^COLOR:Grey">
+        <value xml:lang="en">pants/wide-waistband-boot-cut-pants-grey</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100026~productCategoryId^^PANTS">
+        <value xml:lang="en">pants/pleated-pants</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100026~productCategoryId^^PANTS~productFeatureType^^COLOR:Grey">
+        <value xml:lang="en">pants/pleated-pants-grey</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100027~productCategoryId^^PANTS">
+        <value xml:lang="en">pants/lace-flare-pants</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100027~productCategoryId^^PANTS~productFeatureType^^COLOR:White">
+        <value xml:lang="en">pants/lace-flare-pants-white</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100028~productCategoryId^^PANTS">
+        <value xml:lang="en">pants/razor-pants</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100028~productCategoryId^^PANTS~productFeatureType^^COLOR:Red">
+        <value xml:lang="en">pants/razor-pants-red</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100029~productCategoryId^^PANTS">
+        <value xml:lang="en">pants/straight-leg-pants</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100029~productCategoryId^^PANTS~productFeatureType^^COLOR:Orange">
+        <value xml:lang="en">pants/straight-leg-pants-orange</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100030~productCategoryId^^PANTS">
+        <value xml:lang="en">pants/lizzie-trouser-pants</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100030~productCategoryId^^PANTS~productFeatureType^^COLOR:Grey">
+        <value xml:lang="en">pants/lizzie-trouser-pants-grey</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100031~productCategoryId^^PANTS">
+        <value xml:lang="en">pants/high-waisted-corduroy-pants</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100031~productCategoryId^^PANTS~productFeatureType^^COLOR:Red">
+        <value xml:lang="en">pants/high-waisted-corduroy-pants-red</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100044~productCategoryId^^PANTS">
+        <value xml:lang="en">pants/leather-leggings</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100044~productCategoryId^^PANTS~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">pants/leather-leggings-black</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^51207~productCategoryId^^PANTS">
+        <value xml:lang="en">pants/test_product</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^ROMPERS">
+        <value xml:lang="en">apparel/rompers</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100043~productCategoryId^^ROMPERS">
+        <value xml:lang="en">rompers/embroidered-romper</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100043~productCategoryId^^ROMPERS~productFeatureType^^COLOR:Blue">
+        <value xml:lang="en">rompers/embroidered-romper-blue</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^51064~productCategoryId^^ROMPERS">
+        <value xml:lang="en">rompers/miriame-romper</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^51192~productCategoryId^^ROMPERS">
+        <value xml:lang="en">rompers/test</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^51192~productCategoryId^^ROMPERS~productFeatureType^^COLOR:Animal Print">
+        <value xml:lang="en">rompers/test-animal-print</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^SHORTS">
+        <value xml:lang="en">apparel/shorts</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100032~productCategoryId^^SHORTS">
+        <value xml:lang="en">shorts/side-buckle-bermuda-shorts</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100032~productCategoryId^^SHORTS~productFeatureType^^COLOR:Grey">
+        <value xml:lang="en">shorts/side-buckle-bermuda-shorts-grey</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100032~productCategoryId^^SHORTS~productFeatureType^^COLOR:White">
+        <value xml:lang="en">shorts/side-buckle-bermuda-shorts-white</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100042~productCategoryId^^SHORTS">
+        <value xml:lang="en">shorts/cuffed-leather-shorts</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100042~productCategoryId^^SHORTS~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">shorts/cuffed-leather-shorts-black</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^51248~productCategoryId^^SHORTS">
+        <value xml:lang="en">shorts/white-shorts</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^51248~productCategoryId^^SHORTS~productFeatureType^^COLOR:Orange">
+        <value xml:lang="en">shorts/white-shorts-orange</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^51321~productCategoryId^^SHORTS">
+        <value xml:lang="en">shorts/virtual_product_name_short</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^51321~productCategoryId^^SHORTS~productFeatureType^^COLOR:Navy">
+        <value xml:lang="en">shorts/virtual_product_name_short-navy</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^SKIRTS">
+        <value xml:lang="en">apparel/skirts</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100054~productCategoryId^^SKIRTS">
+        <value xml:lang="en">skirts/double-swing-skirt</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100054~productCategoryId^^SKIRTS~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">skirts/double-swing-skirt-black</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100055~productCategoryId^^SKIRTS">
+        <value xml:lang="en">skirts/flannel-patchwork-skirt</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100055~productCategoryId^^SKIRTS~productFeatureType^^COLOR:Multi">
+        <value xml:lang="en">skirts/flannel-patchwork-skirt-multi</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100055~productCategoryId^^SKIRTS~productFeatureType^^COLOR:Olive">
+        <value xml:lang="en">skirts/flannel-patchwork-skirt-olive</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100056~productCategoryId^^SKIRTS">
+        <value xml:lang="en">skirts/draped-skirt-with-leather-trim</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100056~productCategoryId^^SKIRTS~productFeatureType^^COLOR:Grey">
+        <value xml:lang="en">skirts/draped-skirt-with-leather-trim-grey</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100057~productCategoryId^^SKIRTS">
+        <value xml:lang="en">skirts/dropped-peplum-skirt</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100057~productCategoryId^^SKIRTS~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">skirts/dropped-peplum-skirt-black</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100058~productCategoryId^^SKIRTS">
+        <value xml:lang="en">skirts/drama-fringe-skirt</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100058~productCategoryId^^SKIRTS~productFeatureType^^COLOR:Yellow">
+        <value xml:lang="en">skirts/drama-fringe-skirt-yellow</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100059~productCategoryId^^SKIRTS">
+        <value xml:lang="en">skirts/signature-striped-skirt</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100059~productCategoryId^^SKIRTS~productFeatureType^^COLOR:Multi">
+        <value xml:lang="en">skirts/signature-striped-skirt-multi</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100059~productCategoryId^^SKIRTS~productFeatureType^^COLOR:Striped">
+        <value xml:lang="en">skirts/signature-striped-skirt-striped</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^SWEATERS">
+        <value xml:lang="en">apparel/sweaters</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100007~productCategoryId^^SWEATERS">
+        <value xml:lang="en">sweaters/animal-print-cardigan</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100007~productCategoryId^^SWEATERS~productFeatureType^^COLOR:Beige-Tan">
+        <value xml:lang="en">sweaters/animal-print-cardigan-beigetan</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100008~productCategoryId^^SWEATERS">
+        <value xml:lang="en">sweaters/cashmere-cocoon-sweater</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100008~productCategoryId^^SWEATERS~productFeatureType^^COLOR:Multi">
+        <value xml:lang="en">sweaters/cashmere-cocoon-sweater-multi</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100009~productCategoryId^^SWEATERS">
+        <value xml:lang="en">sweaters/sleeveless-turtleneck-sweater</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100009~productCategoryId^^SWEATERS~productFeatureType^^COLOR:Multi">
+        <value xml:lang="en">sweaters/sleeveless-turtleneck-sweater-multi</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^51330~productCategoryId^^SWEATERS">
+        <value xml:lang="en">sweaters/test_fp_name</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^SWIM">
+        <value xml:lang="en">apparel/swim</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100074~productCategoryId^^SWIM">
+        <value xml:lang="en">swim/corsica-string-bikini</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100074~productCategoryId^^SWIM~productFeatureType^^COLOR:Red">
+        <value xml:lang="en">swim/corsica-string-bikini-red</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100075~productCategoryId^^SWIM">
+        <value xml:lang="en">swim/crochet-cover-up</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100075~productCategoryId^^SWIM~productFeatureType^^COLOR:Beige-Tan">
+        <value xml:lang="en">swim/crochet-cover-up-beigetan</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100076~productCategoryId^^SWIM">
+        <value xml:lang="en">swim/fishnet-one-piece</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100076~productCategoryId^^SWIM~productFeatureType^^COLOR:White">
+        <value xml:lang="en">swim/fishnet-one-piece-white</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^HANDBAGSANDSHOES">
+        <value xml:lang="en">browse-root/handbags-/-shoes</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^HANDBAGS">
+        <value xml:lang="en">handbags-/-shoes/handbags</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100083~productCategoryId^^HANDBAGS">
+        <value xml:lang="en">handbags/raffia-leather-clutch</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100083~productCategoryId^^HANDBAGS~productFeatureType^^COLOR:Metallic">
+        <value xml:lang="en">handbags/raffia-leather-clutch-metallic</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100085~productCategoryId^^HANDBAGS">
+        <value xml:lang="en">handbags/classic-q-metallic-hillier-hobo</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100085~productCategoryId^^HANDBAGS~productFeatureType^^COLOR:Metallic">
+        <value xml:lang="en">handbags/classic-q-metallic-hillier-hobo-metallic</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100086~productCategoryId^^HANDBAGS">
+        <value xml:lang="en">handbags/casanova-satchel</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100086~productCategoryId^^HANDBAGS~productFeatureType^^COLOR:Burgundy">
+        <value xml:lang="en">handbags/casanova-satchel-burgundy</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100087~productCategoryId^^HANDBAGS">
+        <value xml:lang="en">handbags/baby-belle-bag</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100087~productCategoryId^^HANDBAGS~productFeatureType^^COLOR:Beige-Tan">
+        <value xml:lang="en">handbags/baby-belle-bag-beigetan</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100088~productCategoryId^^HANDBAGS">
+        <value xml:lang="en">handbags/amaca-bag</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100088~productCategoryId^^HANDBAGS~productFeatureType^^COLOR:Beige-Tan">
+        <value xml:lang="en">handbags/amaca-bag-beigetan</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100089~productCategoryId^^HANDBAGS">
+        <value xml:lang="en">handbags/nicole-weekender-bag</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100089~productCategoryId^^HANDBAGS~productFeatureType^^COLOR:Multi">
+        <value xml:lang="en">handbags/nicole-weekender-bag-multi</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^51208~productCategoryId^^HANDBAGS">
+        <value xml:lang="en">handbags/testingie</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^51208~productCategoryId^^HANDBAGS~productFeatureType^^COLOR:Animal Print">
+        <value xml:lang="en">handbags/testingie-animal-print</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^SHOES">
+        <value xml:lang="en">handbags-/-shoes/shoes</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100094~productCategoryId^^SHOES">
+        <value xml:lang="en">shoes/suede-platform-boots</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100094~productCategoryId^^SHOES~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">shoes/suede-platform-boots-black</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100095~productCategoryId^^SHOES">
+        <value xml:lang="en">shoes/vanity-ankle-tie-sandals</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100095~productCategoryId^^SHOES~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">shoes/vanity-ankle-tie-sandals-black</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100096~productCategoryId^^SHOES">
+        <value xml:lang="en">shoes/julietta-elastic-flat-oxfords</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100096~productCategoryId^^SHOES~productFeatureType^^COLOR:Red">
+        <value xml:lang="en">shoes/julietta-elastic-flat-oxfords-red</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100097~productCategoryId^^SHOES">
+        <value xml:lang="en">shoes/suede-platform-pumps</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100097~productCategoryId^^SHOES~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">shoes/suede-platform-pumps-black</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100098~productCategoryId^^SHOES">
+        <value xml:lang="en">shoes/overlay-platform-sandals</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100098~productCategoryId^^SHOES~productFeatureType^^COLOR:Cream">
+        <value xml:lang="en">shoes/overlay-platform-sandals-cream</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100099~productCategoryId^^SHOES">
+        <value xml:lang="en">shoes/smoking-slipper-flats</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100099~productCategoryId^^SHOES~productFeatureType^^COLOR:Blue">
+        <value xml:lang="en">shoes/smoking-slipper-flats-blue</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100100~productCategoryId^^SHOES">
+        <value xml:lang="en">shoes/suede-wedge-espadrilles</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100100~productCategoryId^^SHOES~productFeatureType^^COLOR:Red">
+        <value xml:lang="en">shoes/suede-wedge-espadrilles-red</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100114~productCategoryId^^SHOES">
+        <value xml:lang="en">shoes/leopard-juliet-platform-sandal</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100114~productCategoryId^^SHOES~productFeatureType^^COLOR:Animal Print">
+        <value xml:lang="en">shoes/leopard-juliet-platform-sandal-animal-print</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^50628~productCategoryId^^SHOES">
+        <value xml:lang="en">shoes/dolly</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^50628~productCategoryId^^SHOES">
+        <value xml:lang="en">shoes/dolly</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^SMALLACCESSORIES">
+        <value xml:lang="en">handbags-/-shoes/small-accessories</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100090~productCategoryId^^SMALLACCESSORIES">
+        <value xml:lang="en">small-accessories/le-mouse-pave-bag-charm</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100090~productCategoryId^^SMALLACCESSORIES~productFeatureType^^COLOR:Brown">
+        <value xml:lang="en">small-accessories/le-mouse-pave-bag-charm-brown</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100092~productCategoryId^^SMALLACCESSORIES">
+        <value xml:lang="en">small-accessories/luxe-wallet</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100092~productCategoryId^^SMALLACCESSORIES~productFeatureType^^COLOR:Grey">
+        <value xml:lang="en">small-accessories/luxe-wallet-grey</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^TECHPHONEACCESSORIES">
+        <value xml:lang="en">handbags-/-shoes/tech-/-phone-accessories</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100091~productCategoryId^^TECHPHONEACCESSORIES">
+        <value xml:lang="en">tech-/-phone-accessories/suede-fringe-ipad-case</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100091~productCategoryId^^TECHPHONEACCESSORIES~productFeatureType^^COLOR:Beige-Tan">
+        <value xml:lang="en">tech-/-phone-accessories/suede-fringe-ipad-case-beigetan</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^WALLETS">
+        <value xml:lang="en">handbags-/-shoes/wallets</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^50924~productCategoryId^^WALLETS">
+        <value xml:lang="en">wallets/kristen-wallet</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^50928~productCategoryId^^WALLETS">
+        <value xml:lang="en">wallets/zoe-clara-wallet</value>
+    </property>
+    <property key="eCommerceCategoryList?productCategoryId^^JEWELRYACCESSORIES">
+        <value xml:lang="en">jewelry-/-accessories</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^ACCESSORIES">
+        <value xml:lang="en">jewelry-/-accessories/accessories</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100107~productCategoryId^^ACCESSORIES">
+        <value xml:lang="en">accessories/linked-double-d-ring-hip-belt</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100107~productCategoryId^^ACCESSORIES~productFeatureType^^COLOR:Brown">
+        <value xml:lang="en">accessories/linked-double-d-ring-hip-belt-brown</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100109~productCategoryId^^ACCESSORIES">
+        <value xml:lang="en">accessories/carla-sunglasses</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100109~productCategoryId^^ACCESSORIES~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">accessories/carla-sunglasses-black</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100110~productCategoryId^^ACCESSORIES">
+        <value xml:lang="en">accessories/large-lily-hair-clip</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100110~productCategoryId^^ACCESSORIES~productFeatureType^^COLOR:White">
+        <value xml:lang="en">accessories/large-lily-hair-clip-white</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100111~productCategoryId^^ACCESSORIES">
+        <value xml:lang="en">accessories/violet-hat</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100111~productCategoryId^^ACCESSORIES~productFeatureType^^COLOR:Animal Print">
+        <value xml:lang="en">accessories/violet-hat-animal-print</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100112~productCategoryId^^ACCESSORIES">
+        <value xml:lang="en">accessories/whirlpool-leopard-scarf</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100112~productCategoryId^^ACCESSORIES~productFeatureType^^COLOR:Animal Print">
+        <value xml:lang="en">accessories/whirlpool-leopard-scarf-animal-print</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100112~productCategoryId^^ACCESSORIES~productFeatureType^^COLOR:Multi">
+        <value xml:lang="en">accessories/whirlpool-leopard-scarf-multi</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100113~productCategoryId^^ACCESSORIES">
+        <value xml:lang="en">accessories/jungle-umbrella</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100113~productCategoryId^^ACCESSORIES~productFeatureType^^COLOR:Animal Print">
+        <value xml:lang="en">accessories/jungle-umbrella-animal-print</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100117~productCategoryId^^ACCESSORIES">
+        <value xml:lang="en">accessories/cable-knit-poncho</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100117~productCategoryId^^ACCESSORIES~productFeatureType^^COLOR:White">
+        <value xml:lang="en">accessories/cable-knit-poncho-white</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^JEWELRY">
+        <value xml:lang="en">jewelry-/-accessories/jewelry</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100101~productCategoryId^^JEWELRY">
+        <value xml:lang="en">jewelry/toscana-bracelet</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100101~productCategoryId^^JEWELRY~productFeatureType^^COLOR:Gold">
+        <value xml:lang="en">jewelry/toscana-bracelet-gold</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100102~productCategoryId^^JEWELRY">
+        <value xml:lang="en">jewelry/beaded-earrings</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100102~productCategoryId^^JEWELRY~productFeatureType^^COLOR:Silver">
+        <value xml:lang="en">jewelry/beaded-earrings-silver</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100103~productCategoryId^^JEWELRY">
+        <value xml:lang="en">jewelry/laurier-headband</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100103~productCategoryId^^JEWELRY~productFeatureType^^COLOR:Gold">
+        <value xml:lang="en">jewelry/laurier-headband-gold</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100104~productCategoryId^^JEWELRY">
+        <value xml:lang="en">jewelry/fringe-necklace</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100104~productCategoryId^^JEWELRY~productFeatureType^^COLOR:Multi">
+        <value xml:lang="en">jewelry/fringe-necklace-multi</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100104~productCategoryId^^JEWELRY">
+        <value xml:lang="en">jewelry/fringe-necklace</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100104~productCategoryId^^JEWELRY~productFeatureType^^COLOR:Multi">
+        <value xml:lang="en">jewelry/fringe-necklace-multi</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100105~productCategoryId^^JEWELRY">
+        <value xml:lang="en">jewelry/st-germain-de-pres-double-ring</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100105~productCategoryId^^JEWELRY~productFeatureType^^COLOR:Bronze">
+        <value xml:lang="en">jewelry/st-germain-de-pres-double-ring-bronze</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100106~productCategoryId^^JEWELRY">
+        <value xml:lang="en">jewelry/big-apple-slap-watch</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100106~productCategoryId^^JEWELRY~productFeatureType^^COLOR:Red">
+        <value xml:lang="en">jewelry/big-apple-slap-watch-red</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^SAMPLESALE">
+        <value xml:lang="en">sample-sale</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^50300~productCategoryId^^SAMPLESALE">
+        <value xml:lang="en">sample-sale/test</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^50922~productCategoryId^^SAMPLESALE">
+        <value xml:lang="en">sample-sale/flowers-heart-sweater</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^50929~productCategoryId^^SAMPLESALE">
+        <value xml:lang="en">sample-sale/burnout-cascade-halter-top</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^51048~productCategoryId^^SAMPLESALE">
+        <value xml:lang="en">sample-sale/test_product_ng</value>
+    </property>
+    <property key="eCommerceCategoryList?productCategoryId^^TOPTRENDS">
+        <value xml:lang="en">top-trends</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^ANIMALEXOTICS">
+        <value xml:lang="en">top-trends/animal-/-exotics</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100084~productCategoryId^^ANIMALEXOTICS">
+        <value xml:lang="en">animal-/-exotics/crocodile-ruched-tote</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100084~productCategoryId^^ANIMALEXOTICS~productFeatureType^^COLOR:Brown">
+        <value xml:lang="en">animal-/-exotics/crocodile-ruched-tote-brown</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^51204~productCategoryId^^ANIMALEXOTICS">
+        <value xml:lang="en">animal-/-exotics/rock-diva-gwen-studded-boot</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^BOHO">
+        <value xml:lang="en">top-trends/boho</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^50984~productCategoryId^^BOHO">
+        <value xml:lang="en">boho/lilly-pulitzer-lottie-dress</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^BORDEAUX">
+        <value xml:lang="en">top-trends/bordeaux</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^CAPESPONCHOS">
+        <value xml:lang="en">top-trends/capes-/-ponchos</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^COLORBLOCKING">
+        <value xml:lang="en">top-trends/color-blocking</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^51202~productCategoryId^^COLORBLOCKING">
+        <value xml:lang="en">color-blocking/robert-rodriguez-color-blocked-handkerchief-dress</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^FUR">
+        <value xml:lang="en">top-trends/fur</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^51005~productCategoryId^^FUR">
+        <value xml:lang="en">fur/knit-russian-sable-cape-with-pocket</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^51006~productCategoryId^^FUR">
+        <value xml:lang="en">fur/white-lh-mink-(tcut)-knit-vest/ruffle-all-around-silk-lined</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^LADYLIKE">
+        <value xml:lang="en">top-trends/lady-like</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^50985~productCategoryId^^LADYLIKE">
+        <value xml:lang="en">lady-like/z-spoke-zac-posen-dress</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^LEATHER">
+        <value xml:lang="en">top-trends/leather</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^51007~productCategoryId^^LEATHER">
+        <value xml:lang="en">leather/catherine-malandrino-123pl05</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^51204~productCategoryId^^LEATHER">
+        <value xml:lang="en">leather/rock-diva-gwen-studded-boot</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^WIDELEGFLARE">
+        <value xml:lang="en">top-trends/wide-leg</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^51008~productCategoryId^^WIDELEGFLARE">
+        <value xml:lang="en">wide-leg/elie-tahari-sabrina-pant</value>
+    </property>
+    <property key="eCommerceCategoryList?productCategoryId^^WHATSNEW">
+        <value xml:lang="en">whatsnew</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^50986~productCategoryId^^WHATSNEW">
+        <value xml:lang="en">whatsnew/z-spoke-zac-posen-bondage-l/s-gown</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^51040~productCategoryId^^WHATSNEW">
+        <value xml:lang="en">whatsnew/love-quotes-linen-hand-knotted-tassel</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^51048~productCategoryId^^WHATSNEW">
+        <value xml:lang="en">whatsnew/test_product_ng</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^ACCESSORIES-WN">
+        <value xml:lang="en">whatsnew/accessories</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^51041~productCategoryId^^ACCESSORIES-WN">
+        <value xml:lang="en">accessories/spirithoods-grey-wolf</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^APPAREL-WN">
+        <value xml:lang="en">whatsnew/apparel</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^51003~productCategoryId^^APPAREL-WN">
+        <value xml:lang="en">apparel/lace-for-days-ivory-lace-dress</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^DESIGNERS">
+        <value xml:lang="en">whatsnew/designers</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^HANDBAGS-WN">
+        <value xml:lang="en">whatsnew/handbags</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100087~productCategoryId^^HANDBAGS-WN">
+        <value xml:lang="en">handbags/baby-belle-bag</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100087~productCategoryId^^HANDBAGS-WN~productFeatureType^^COLOR:Beige-Tan">
+        <value xml:lang="en">handbags/baby-belle-bag-beigetan</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^JEWELRY-WN">
+        <value xml:lang="en">whatsnew/jewelry</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^SHOES-WN">
+        <value xml:lang="en">whatsnew/shoes</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100088~productCategoryId^^SHOES-WN">
+        <value xml:lang="en">shoes/amaca-bag</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100088~productCategoryId^^SHOES-WN~productFeatureType^^COLOR:Beige-Tan">
+        <value xml:lang="en">shoes/amaca-bag-beigetan</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^51004~productCategoryId^^SHOES-WN">
+        <value xml:lang="en">shoes/truth-or-dare-by-madonna-oliana</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^51204~productCategoryId^^SHOES-WN">
+        <value xml:lang="en">shoes/rock-diva-gwen-studded-boot</value>
+    </property>
+    <property key="eCommerceCategoryList?productCategoryId^^OURDESIGNERS">
+        <value xml:lang="en">our-designers</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^DONATELLI">
+        <value xml:lang="en">our-designers/donatelli</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100008~productCategoryId^^DONATELLI">
+        <value xml:lang="en">donatelli/cashmere-cocoon-sweater</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100008~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Multi">
+        <value xml:lang="en">donatelli/cashmere-cocoon-sweater-multi</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100017~productCategoryId^^DONATELLI">
+        <value xml:lang="en">donatelli/reversible-hooded-shearling-vest</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100017~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Brown">
+        <value xml:lang="en">donatelli/reversible-hooded-shearling-vest-brown</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100020~productCategoryId^^DONATELLI">
+        <value xml:lang="en">donatelli/draped-dress</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100020~productCategoryId^^DONATELLI~productFeatureType^^COLOR:White">
+        <value xml:lang="en">donatelli/draped-dress-white</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100023~productCategoryId^^DONATELLI">
+        <value xml:lang="en">donatelli/cable-knit-sweater-dress</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100023~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Grey">
+        <value xml:lang="en">donatelli/cable-knit-sweater-dress-grey</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100029~productCategoryId^^DONATELLI">
+        <value xml:lang="en">donatelli/straight-leg-pants</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100029~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Orange">
+        <value xml:lang="en">donatelli/straight-leg-pants-orange</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100032~productCategoryId^^DONATELLI">
+        <value xml:lang="en">donatelli/side-buckle-bermuda-shorts</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100032~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Grey">
+        <value xml:lang="en">donatelli/side-buckle-bermuda-shorts-grey</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100032~productCategoryId^^DONATELLI~productFeatureType^^COLOR:White">
+        <value xml:lang="en">donatelli/side-buckle-bermuda-shorts-white</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100044~productCategoryId^^DONATELLI">
+        <value xml:lang="en">donatelli/leather-leggings</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100044~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">donatelli/leather-leggings-black</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100047~productCategoryId^^DONATELLI">
+        <value xml:lang="en">donatelli/gigi-cropped-flare-jeans</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100047~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Blue">
+        <value xml:lang="en">donatelli/gigi-cropped-flare-jeans-blue</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100050~productCategoryId^^DONATELLI">
+        <value xml:lang="en">donatelli/stilletto-skinny-jeans</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100050~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Red">
+        <value xml:lang="en">donatelli/stilletto-skinny-jeans-red</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100053~productCategoryId^^DONATELLI">
+        <value xml:lang="en">donatelli/high-rise-wide-leg-jeans</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100053~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Blue">
+        <value xml:lang="en">donatelli/high-rise-wide-leg-jeans-blue</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100054~productCategoryId^^DONATELLI">
+        <value xml:lang="en">donatelli/double-swing-skirt</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100054~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">donatelli/double-swing-skirt-black</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100056~productCategoryId^^DONATELLI">
+        <value xml:lang="en">donatelli/draped-skirt-with-leather-trim</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100056~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Grey">
+        <value xml:lang="en">donatelli/draped-skirt-with-leather-trim-grey</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100059~productCategoryId^^DONATELLI">
+        <value xml:lang="en">donatelli/signature-striped-skirt</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100059~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Multi">
+        <value xml:lang="en">donatelli/signature-striped-skirt-multi</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100059~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Striped">
+        <value xml:lang="en">donatelli/signature-striped-skirt-striped</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100062~productCategoryId^^DONATELLI">
+        <value xml:lang="en">donatelli/fur-collar-coat</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100062~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Beige-Tan">
+        <value xml:lang="en">donatelli/fur-collar-coat-beigetan</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100065~productCategoryId^^DONATELLI">
+        <value xml:lang="en">donatelli/bow-trench-coat</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100065~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Beige-Tan">
+        <value xml:lang="en">donatelli/bow-trench-coat-beigetan</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100065~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Pink">
+        <value xml:lang="en">donatelli/bow-trench-coat-pink</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100075~productCategoryId^^DONATELLI">
+        <value xml:lang="en">donatelli/crochet-cover-up</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100075~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Beige-Tan">
+        <value xml:lang="en">donatelli/crochet-cover-up-beigetan</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100078~productCategoryId^^DONATELLI">
+        <value xml:lang="en">donatelli/zoe-pants</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100078~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Grey">
+        <value xml:lang="en">donatelli/zoe-pants-grey</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100081~productCategoryId^^DONATELLI">
+        <value xml:lang="en">donatelli/cropped-cami-and-bikini-set</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100081~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">donatelli/cropped-cami-and-bikini-set-black</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100084~productCategoryId^^DONATELLI">
+        <value xml:lang="en">donatelli/crocodile-ruched-tote</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100084~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Brown">
+        <value xml:lang="en">donatelli/crocodile-ruched-tote-brown</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100087~productCategoryId^^DONATELLI">
+        <value xml:lang="en">donatelli/baby-belle-bag</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100087~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Beige-Tan">
+        <value xml:lang="en">donatelli/baby-belle-bag-beigetan</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100090~productCategoryId^^DONATELLI">
+        <value xml:lang="en">donatelli/le-mouse-pave-bag-charm</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100090~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Brown">
+        <value xml:lang="en">donatelli/le-mouse-pave-bag-charm-brown</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100093~productCategoryId^^DONATELLI">
+        <value xml:lang="en">donatelli/twist-buckle-wedge-sneakers</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100093~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Grey">
+        <value xml:lang="en">donatelli/twist-buckle-wedge-sneakers-grey</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100096~productCategoryId^^DONATELLI">
+        <value xml:lang="en">donatelli/julietta-elastic-flat-oxfords</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100096~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Red">
+        <value xml:lang="en">donatelli/julietta-elastic-flat-oxfords-red</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100097~productCategoryId^^DONATELLI">
+        <value xml:lang="en">donatelli/suede-platform-pumps</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100097~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">donatelli/suede-platform-pumps-black</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100099~productCategoryId^^DONATELLI">
+        <value xml:lang="en">donatelli/smoking-slipper-flats</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100099~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Blue">
+        <value xml:lang="en">donatelli/smoking-slipper-flats-blue</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100102~productCategoryId^^DONATELLI">
+        <value xml:lang="en">donatelli/beaded-earrings</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100102~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Silver">
+        <value xml:lang="en">donatelli/beaded-earrings-silver</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100105~productCategoryId^^DONATELLI">
+        <value xml:lang="en">donatelli/st-germain-de-pres-double-ring</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100105~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Bronze">
+        <value xml:lang="en">donatelli/st-germain-de-pres-double-ring-bronze</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100108~productCategoryId^^DONATELLI">
+        <value xml:lang="en">donatelli/wallis-feather-vest</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100108~productCategoryId^^DONATELLI~productFeatureType^^COLOR:White">
+        <value xml:lang="en">donatelli/wallis-feather-vest-white</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100112~productCategoryId^^DONATELLI">
+        <value xml:lang="en">donatelli/whirlpool-leopard-scarf</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100112~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Animal Print">
+        <value xml:lang="en">donatelli/whirlpool-leopard-scarf-animal-print</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100112~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Multi">
+        <value xml:lang="en">donatelli/whirlpool-leopard-scarf-multi</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100115~productCategoryId^^DONATELLI">
+        <value xml:lang="en">donatelli/long-sleeve-goddess-dress</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100115~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Burgundy">
+        <value xml:lang="en">donatelli/long-sleeve-goddess-dress-burgundy</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100118~productCategoryId^^DONATELLI">
+        <value xml:lang="en">donatelli/haydee-wrap-maxi-dress</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100118~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Purple">
+        <value xml:lang="en">donatelli/haydee-wrap-maxi-dress-purple</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100121~productCategoryId^^DONATELLI">
+        <value xml:lang="en">donatelli/leather-bolero-with-ruched-panels</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100121~productCategoryId^^DONATELLI~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">donatelli/leather-bolero-with-ruched-panels-black</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^STELLA">
+        <value xml:lang="en">our-designers/stella</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100006~productCategoryId^^STELLA">
+        <value xml:lang="en">stella/34-sleeve-and-button-down-</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100006~productCategoryId^^STELLA~productFeatureType^^COLOR:Pink">
+        <value xml:lang="en">stella/34-sleeve-and-button-down--pink</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100006~productCategoryId^^STELLA~productFeatureType^^COLOR:White">
+        <value xml:lang="en">stella/34-sleeve-and-button-down--white</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100009~productCategoryId^^STELLA">
+        <value xml:lang="en">stella/sleeveless-turtleneck-sweater</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100009~productCategoryId^^STELLA~productFeatureType^^COLOR:Multi">
+        <value xml:lang="en">stella/sleeveless-turtleneck-sweater-multi</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100017~productCategoryId^^STELLA">
+        <value xml:lang="en">stella/reversible-hooded-shearling-vest</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100017~productCategoryId^^STELLA~productFeatureType^^COLOR:Brown">
+        <value xml:lang="en">stella/reversible-hooded-shearling-vest-brown</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100018~productCategoryId^^STELLA">
+        <value xml:lang="en">stella/asymmetrical-tank</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100018~productCategoryId^^STELLA~productFeatureType^^COLOR:Pink">
+        <value xml:lang="en">stella/asymmetrical-tank-pink</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100021~productCategoryId^^STELLA">
+        <value xml:lang="en">stella/falling-drape-dress</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100021~productCategoryId^^STELLA~productFeatureType^^COLOR:White">
+        <value xml:lang="en">stella/falling-drape-dress-white</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100024~productCategoryId^^STELLA">
+        <value xml:lang="en">stella/glen-plaid-dress</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100024~productCategoryId^^STELLA~productFeatureType^^COLOR:Olive">
+        <value xml:lang="en">stella/glen-plaid-dress-olive</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100026~productCategoryId^^STELLA">
+        <value xml:lang="en">stella/pleated-pants</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100026~productCategoryId^^STELLA~productFeatureType^^COLOR:Grey">
+        <value xml:lang="en">stella/pleated-pants-grey</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100027~productCategoryId^^STELLA">
+        <value xml:lang="en">stella/lace-flare-pants</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100027~productCategoryId^^STELLA~productFeatureType^^COLOR:White">
+        <value xml:lang="en">stella/lace-flare-pants-white</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100030~productCategoryId^^STELLA">
+        <value xml:lang="en">stella/lizzie-trouser-pants</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100030~productCategoryId^^STELLA~productFeatureType^^COLOR:Grey">
+        <value xml:lang="en">stella/lizzie-trouser-pants-grey</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100042~productCategoryId^^STELLA">
+        <value xml:lang="en">stella/cuffed-leather-shorts</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100042~productCategoryId^^STELLA~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">stella/cuffed-leather-shorts-black</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100045~productCategoryId^^STELLA">
+        <value xml:lang="en">stella/boot-cut-jeans</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100045~productCategoryId^^STELLA~productFeatureType^^COLOR:Navy">
+        <value xml:lang="en">stella/boot-cut-jeans-navy</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100048~productCategoryId^^STELLA">
+        <value xml:lang="en">stella/legging-jeans</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100048~productCategoryId^^STELLA~productFeatureType^^COLOR:Navy">
+        <value xml:lang="en">stella/legging-jeans-navy</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100051~productCategoryId^^STELLA">
+        <value xml:lang="en">stella/straight-leg-jeans</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100051~productCategoryId^^STELLA~productFeatureType^^COLOR:White">
+        <value xml:lang="en">stella/straight-leg-jeans-white</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100057~productCategoryId^^STELLA">
+        <value xml:lang="en">stella/dropped-peplum-skirt</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100057~productCategoryId^^STELLA~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">stella/dropped-peplum-skirt-black</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100063~productCategoryId^^STELLA">
+        <value xml:lang="en">stella/moto-jacket</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100063~productCategoryId^^STELLA~productFeatureType^^COLOR:Brown">
+        <value xml:lang="en">stella/moto-jacket-brown</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100073~productCategoryId^^STELLA">
+        <value xml:lang="en">stella/fur-vest</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100073~productCategoryId^^STELLA~productFeatureType^^COLOR:Beige-Tan">
+        <value xml:lang="en">stella/fur-vest-beigetan</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100076~productCategoryId^^STELLA">
+        <value xml:lang="en">stella/fishnet-one-piece</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100076~productCategoryId^^STELLA~productFeatureType^^COLOR:White">
+        <value xml:lang="en">stella/fishnet-one-piece-white</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100079~productCategoryId^^STELLA">
+        <value xml:lang="en">stella/sweetie-soft-bra</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100079~productCategoryId^^STELLA~productFeatureType^^COLOR:Pink">
+        <value xml:lang="en">stella/sweetie-soft-bra-pink</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100082~productCategoryId^^STELLA">
+        <value xml:lang="en">stella/lace-net-tights</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100082~productCategoryId^^STELLA~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">stella/lace-net-tights-black</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100085~productCategoryId^^STELLA">
+        <value xml:lang="en">stella/classic-q-metallic-hillier-hobo</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100085~productCategoryId^^STELLA~productFeatureType^^COLOR:Metallic">
+        <value xml:lang="en">stella/classic-q-metallic-hillier-hobo-metallic</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100088~productCategoryId^^STELLA">
+        <value xml:lang="en">stella/amaca-bag</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100088~productCategoryId^^STELLA~productFeatureType^^COLOR:Beige-Tan">
+        <value xml:lang="en">stella/amaca-bag-beigetan</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100091~productCategoryId^^STELLA">
+        <value xml:lang="en">stella/suede-fringe-ipad-case</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100091~productCategoryId^^STELLA~productFeatureType^^COLOR:Beige-Tan">
+        <value xml:lang="en">stella/suede-fringe-ipad-case-beigetan</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100094~productCategoryId^^STELLA">
+        <value xml:lang="en">stella/suede-platform-boots</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100094~productCategoryId^^STELLA~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">stella/suede-platform-boots-black</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100100~productCategoryId^^STELLA">
+        <value xml:lang="en">stella/suede-wedge-espadrilles</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100100~productCategoryId^^STELLA~productFeatureType^^COLOR:Red">
+        <value xml:lang="en">stella/suede-wedge-espadrilles-red</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100103~productCategoryId^^STELLA">
+        <value xml:lang="en">stella/laurier-headband</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100103~productCategoryId^^STELLA~productFeatureType^^COLOR:Gold">
+        <value xml:lang="en">stella/laurier-headband-gold</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100106~productCategoryId^^STELLA">
+        <value xml:lang="en">stella/big-apple-slap-watch</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100106~productCategoryId^^STELLA~productFeatureType^^COLOR:Red">
+        <value xml:lang="en">stella/big-apple-slap-watch-red</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100109~productCategoryId^^STELLA">
+        <value xml:lang="en">stella/carla-sunglasses</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100109~productCategoryId^^STELLA~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">stella/carla-sunglasses-black</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100110~productCategoryId^^STELLA">
+        <value xml:lang="en">stella/large-lily-hair-clip</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100110~productCategoryId^^STELLA~productFeatureType^^COLOR:White">
+        <value xml:lang="en">stella/large-lily-hair-clip-white</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100113~productCategoryId^^STELLA">
+        <value xml:lang="en">stella/jungle-umbrella</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100113~productCategoryId^^STELLA~productFeatureType^^COLOR:Animal Print">
+        <value xml:lang="en">stella/jungle-umbrella-animal-print</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100116~productCategoryId^^STELLA">
+        <value xml:lang="en">stella/doublesleeve-dress</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100116~productCategoryId^^STELLA~productFeatureType^^COLOR:Animal Print">
+        <value xml:lang="en">stella/doublesleeve-dress-animal-print</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100116~productCategoryId^^STELLA~productFeatureType^^COLOR:Snake Print">
+        <value xml:lang="en">stella/doublesleeve-dress-snake-print</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100119~productCategoryId^^STELLA">
+        <value xml:lang="en">stella/fur-jacket</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100119~productCategoryId^^STELLA~productFeatureType^^COLOR:Beige-Tan">
+        <value xml:lang="en">stella/fur-jacket-beigetan</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100122~productCategoryId^^STELLA">
+        <value xml:lang="en">stella/highwaisted-wide-leg-jeans</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100122~productCategoryId^^STELLA~productFeatureType^^COLOR:Animal Print">
+        <value xml:lang="en">stella/highwaisted-wide-leg-jeans-animal-print</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100122~productCategoryId^^STELLA~productFeatureType^^COLOR:Blue">
+        <value xml:lang="en">stella/highwaisted-wide-leg-jeans-blue</value>
+    </property>
+    <property key="eCommerceProductList?productCategoryId^^VERA">
+        <value xml:lang="en">our-designers/vera</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100007~productCategoryId^^VERA">
+        <value xml:lang="en">vera/animal-print-cardigan</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100007~productCategoryId^^VERA~productFeatureType^^COLOR:Beige-Tan">
+        <value xml:lang="en">vera/animal-print-cardigan-beigetan</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100016~productCategoryId^^VERA">
+        <value xml:lang="en">vera/short-sleeve-tunic</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100016~productCategoryId^^VERA~productFeatureType^^COLOR:Red">
+        <value xml:lang="en">vera/short-sleeve-tunic-red</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100019~productCategoryId^^VERA">
+        <value xml:lang="en">vera/bow-tee</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100019~productCategoryId^^VERA~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">vera/bow-tee-black</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100022~productCategoryId^^VERA">
+        <value xml:lang="en">vera/ruffle-gown</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100022~productCategoryId^^VERA~productFeatureType^^COLOR:Cream">
+        <value xml:lang="en">vera/ruffle-gown-cream</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100025~productCategoryId^^VERA">
+        <value xml:lang="en">vera/wide-waistband-boot-cut-pants</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100025~productCategoryId^^VERA~productFeatureType^^COLOR:Grey">
+        <value xml:lang="en">vera/wide-waistband-boot-cut-pants-grey</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100028~productCategoryId^^VERA">
+        <value xml:lang="en">vera/razor-pants</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100028~productCategoryId^^VERA~productFeatureType^^COLOR:Red">
+        <value xml:lang="en">vera/razor-pants-red</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100031~productCategoryId^^VERA">
+        <value xml:lang="en">vera/high-waisted-corduroy-pants</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100031~productCategoryId^^VERA~productFeatureType^^COLOR:Red">
+        <value xml:lang="en">vera/high-waisted-corduroy-pants-red</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100043~productCategoryId^^VERA">
+        <value xml:lang="en">vera/embroidered-romper</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100043~productCategoryId^^VERA~productFeatureType^^COLOR:Blue">
+        <value xml:lang="en">vera/embroidered-romper-blue</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100046~productCategoryId^^VERA">
+        <value xml:lang="en">vera/exboyfriend-crop-jeans</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100046~productCategoryId^^VERA~productFeatureType^^COLOR:Blue">
+        <value xml:lang="en">vera/exboyfriend-crop-jeans-blue</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100049~productCategoryId^^VERA">
+        <value xml:lang="en">vera/low-slung-flare-jeans</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100049~productCategoryId^^VERA~productFeatureType^^COLOR:Blue">
+        <value xml:lang="en">vera/low-slung-flare-jeans-blue</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100052~productCategoryId^^VERA">
+        <value xml:lang="en">vera/burke-trouser-jeans</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100052~productCategoryId^^VERA~productFeatureType^^COLOR:Blue">
+        <value xml:lang="en">vera/burke-trouser-jeans-blue</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100055~productCategoryId^^VERA">
+        <value xml:lang="en">vera/flannel-patchwork-skirt</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100055~productCategoryId^^VERA~productFeatureType^^COLOR:Multi">
+        <value xml:lang="en">vera/flannel-patchwork-skirt-multi</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100055~productCategoryId^^VERA~productFeatureType^^COLOR:Olive">
+        <value xml:lang="en">vera/flannel-patchwork-skirt-olive</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100058~productCategoryId^^VERA">
+        <value xml:lang="en">vera/drama-fringe-skirt</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100058~productCategoryId^^VERA~productFeatureType^^COLOR:Yellow">
+        <value xml:lang="en">vera/drama-fringe-skirt-yellow</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100060~productCategoryId^^VERA">
+        <value xml:lang="en">vera/blazer-with-leather-trim</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100060~productCategoryId^^VERA~productFeatureType^^COLOR:Blue">
+        <value xml:lang="en">vera/blazer-with-leather-trim-blue</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100061~productCategoryId^^VERA">
+        <value xml:lang="en">vera/bergen-coat</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100061~productCategoryId^^VERA~productFeatureType^^COLOR:Beige-Tan">
+        <value xml:lang="en">vera/bergen-coat-beigetan</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100064~productCategoryId^^VERA">
+        <value xml:lang="en">vera/leather-military-jacket</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100064~productCategoryId^^VERA~productFeatureType^^COLOR:Brown">
+        <value xml:lang="en">vera/leather-military-jacket-brown</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100074~productCategoryId^^VERA">
+        <value xml:lang="en">vera/corsica-string-bikini</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100074~productCategoryId^^VERA~productFeatureType^^COLOR:Red">
+        <value xml:lang="en">vera/corsica-string-bikini-red</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100077~productCategoryId^^VERA">
+        <value xml:lang="en">vera/long-sleeve-fleece-hoodie</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100077~productCategoryId^^VERA~productFeatureType^^COLOR:Yellow">
+        <value xml:lang="en">vera/long-sleeve-fleece-hoodie-yellow</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100080~productCategoryId^^VERA">
+        <value xml:lang="en">vera/sophia-hooded-robe</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100080~productCategoryId^^VERA~productFeatureType^^COLOR:Multi">
+        <value xml:lang="en">vera/sophia-hooded-robe-multi</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100083~productCategoryId^^VERA">
+        <value xml:lang="en">vera/raffia-leather-clutch</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100083~productCategoryId^^VERA~productFeatureType^^COLOR:Metallic">
+        <value xml:lang="en">vera/raffia-leather-clutch-metallic</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100086~productCategoryId^^VERA">
+        <value xml:lang="en">vera/casanova-satchel</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100086~productCategoryId^^VERA~productFeatureType^^COLOR:Burgundy">
+        <value xml:lang="en">vera/casanova-satchel-burgundy</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100089~productCategoryId^^VERA">
+        <value xml:lang="en">vera/nicole-weekender-bag</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100089~productCategoryId^^VERA~productFeatureType^^COLOR:Multi">
+        <value xml:lang="en">vera/nicole-weekender-bag-multi</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100092~productCategoryId^^VERA">
+        <value xml:lang="en">vera/luxe-wallet</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100092~productCategoryId^^VERA~productFeatureType^^COLOR:Grey">
+        <value xml:lang="en">vera/luxe-wallet-grey</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100095~productCategoryId^^VERA">
+        <value xml:lang="en">vera/vanity-ankle-tie-sandals</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100095~productCategoryId^^VERA~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">vera/vanity-ankle-tie-sandals-black</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100098~productCategoryId^^VERA">
+        <value xml:lang="en">vera/overlay-platform-sandals</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100098~productCategoryId^^VERA~productFeatureType^^COLOR:Cream">
+        <value xml:lang="en">vera/overlay-platform-sandals-cream</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100101~productCategoryId^^VERA">
+        <value xml:lang="en">vera/toscana-bracelet</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100101~productCategoryId^^VERA~productFeatureType^^COLOR:Gold">
+        <value xml:lang="en">vera/toscana-bracelet-gold</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100104~productCategoryId^^VERA">
+        <value xml:lang="en">vera/fringe-necklace</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100104~productCategoryId^^VERA~productFeatureType^^COLOR:Multi">
+        <value xml:lang="en">vera/fringe-necklace-multi</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100104~productCategoryId^^VERA">
+        <value xml:lang="en">vera/fringe-necklace</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100104~productCategoryId^^VERA~productFeatureType^^COLOR:Multi">
+        <value xml:lang="en">vera/fringe-necklace-multi</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100107~productCategoryId^^VERA">
+        <value xml:lang="en">vera/linked-double-d-ring-hip-belt</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100107~productCategoryId^^VERA~productFeatureType^^COLOR:Brown">
+        <value xml:lang="en">vera/linked-double-d-ring-hip-belt-brown</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100111~productCategoryId^^VERA">
+        <value xml:lang="en">vera/violet-hat</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100111~productCategoryId^^VERA~productFeatureType^^COLOR:Animal Print">
+        <value xml:lang="en">vera/violet-hat-animal-print</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100114~productCategoryId^^VERA">
+        <value xml:lang="en">vera/leopard-juliet-platform-sandal</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100114~productCategoryId^^VERA~productFeatureType^^COLOR:Animal Print">
+        <value xml:lang="en">vera/leopard-juliet-platform-sandal-animal-print</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100117~productCategoryId^^VERA">
+        <value xml:lang="en">vera/cable-knit-poncho</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100117~productCategoryId^^VERA~productFeatureType^^COLOR:White">
+        <value xml:lang="en">vera/cable-knit-poncho-white</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100120~productCategoryId^^VERA">
+        <value xml:lang="en">vera/ruffle-front-peplum-dress</value>
+    </property>
+    <property key="eCommerceProductDetail?productId^^100120~productCategoryId^^VERA~productFeatureType^^COLOR:Black">
+        <value xml:lang="en">vera/ruffle-front-peplum-dress-black</value>
+    </property>
+    <property key="eCommerceContent?contentId^^10000">
+        <value xml:lang="en">benetton</value>
+    </property>
+    <property key="eCommerceContent?contentId^^SP_ABOUT_US">
+        <value xml:lang="en">aboutus</value>
+    </property>
+    <property key="eCommerceContent?contentId^^SP_ERROR_PAGE">
+        <value xml:lang="en">errorpage</value>
+    </property>
+    <property key="eCommerceContent?contentId^^SP_PRIVACY_POLICY">
+        <value xml:lang="en">privacypolicy</value>
+    </property>
+    <property key="eCommerceContent?contentId^^SP_RETURN_POLICY">
+        <value xml:lang="en">returnpolicy</value>
+    </property>
+    <property key="eCommerceContent?contentId^^SP_REVIEW_GUIDELINES">
+        <value xml:lang="en">reviewgudlines</value>
+    </property>
+    <property key="eCommerceContent?contentId^^SP_REVIEW_TERMS_COND">
+        <value xml:lang="en">reviewtermsandconditions</value>
+    </property>
+    <property key="eCommerceContent?contentId^^STATICTEST">
+        <value xml:lang="en">teststaticpage</value>
     </property>
 </resource>

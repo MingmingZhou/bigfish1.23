@@ -30,16 +30,16 @@
 <!-- Store Settings -->
 <!-- *************************************** -->
     <property key="storeStorePrefix">
-        <value xml:lang="en">BF</value>
+        <value xml:lang="en">RNY</value>
     </property>
     <property key="storeWebSiteId">
-        <value xml:lang="en">BF_Website</value>
+        <value xml:lang="en">RNY_WEBSITE</value>
     </property>
     <property key="storeProductStoreId">
-        <value xml:lang="en">BF_STORE</value>
+        <value xml:lang="en">RNY_STORE</value>
     </property>
     <property key="storeProductCategoryRootId">
-        <value xml:lang="en">BF_CATEGORY_ROOT</value>
+        <value xml:lang="en">RNY_CATEGORY_ROOT</value>
     </property>
 <!-- *************************************** -->
 <!-- PDP -->

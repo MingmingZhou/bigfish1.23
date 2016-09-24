@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+<GoodIdentification productId="100078" goodIdentificationTypeId="SKU" idValue="12345" />
+<GoodIdentification productId="100001" goodIdentificationTypeId="SKU" idValue="sample" />
+<GoodIdentification productId="100006" goodIdentificationTypeId="SKU" idValue="sample" />
+<GoodIdentification productId="100047" goodIdentificationTypeId="SKU" idValue="GRANGE" />
+<GoodIdentification productId="100051" goodIdentificationTypeId="SKU" idValue="GRANGE" />
+<GoodIdentification productId="51064" goodIdentificationTypeId="SKU" idValue="SKU552" />
+<GoodIdentification productId="100032" goodIdentificationTypeId="SKU" idValue="sample" />
+<GoodIdentification productId="50924" goodIdentificationTypeId="SKU" idValue="8027206" />
+<GoodIdentification productId="50928" goodIdentificationTypeId="SKU" idValue="7999535" />
+<GoodIdentification productId="50922" goodIdentificationTypeId="SKU" idValue="3352498" />
+<GoodIdentification productId="50929" goodIdentificationTypeId="SKU" idValue="7996822" />
+<GoodIdentification productId="51204" goodIdentificationTypeId="SKU" idValue="51204" />
+<GoodIdentification productId="50984" goodIdentificationTypeId="SKU" idValue="7987820" />
+<GoodIdentification productId="51005" goodIdentificationTypeId="SKU" idValue="51005" />
+<GoodIdentification productId="650650" goodIdentificationTypeId="SKU" idValue="650650" />
+<GoodIdentification productId="650650R" goodIdentificationTypeId="SKU" idValue="650650" />
+<GoodIdentification productId="51006" goodIdentificationTypeId="SKU" idValue="51006" />
+<GoodIdentification productId="50985" goodIdentificationTypeId="SKU" idValue="7955632" />
+<GoodIdentification productId="51007" goodIdentificationTypeId="SKU" idValue="8022338" />
+<GoodIdentification productId="51008" goodIdentificationTypeId="SKU" idValue="8087080" />
+<GoodIdentification productId="50986" goodIdentificationTypeId="SKU" idValue="8033963" />
+<GoodIdentification productId="51040" goodIdentificationTypeId="SKU" idValue="7596875" />
+<GoodIdentification productId="51041" goodIdentificationTypeId="SKU" idValue="7921239" />
+<GoodIdentification productId="51003" goodIdentificationTypeId="SKU" idValue="51003" />
+<GoodIdentification productId="51004" goodIdentificationTypeId="SKU" idValue="8104727" />
+</entity-engine-xml>

@@ -1,3 +1,7 @@
+startofbiz.bat
+startofbiz.sh
+JavaService/Install_Osafe_Service.bat
+hot-deploy/osafeadmin/src/com/osafe/feeds/osafefeeds/*
 applications/*/build
 framework/*/build
 framework/base/lib/cobertura-*.jar

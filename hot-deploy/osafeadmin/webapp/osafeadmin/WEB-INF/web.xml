@@ -11,7 +11,7 @@
     </context-param>
     <context-param>
         <param-name>adminModuleName</param-name>
-        <param-value>Fashion House</param-value>
+        <param-value>BF</param-value>
         <description>Admin Module Name</description>
     </context-param>
     <context-param>

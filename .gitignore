@@ -1,7 +1,8 @@
 startofbiz.bat
 startofbiz.sh
 JavaService/Install_Osafe_Service.bat
-hot-deploy/osafeadmin/src/com/osafe/feeds/osafefeeds/*
+framework/start/src/org/ofbiz/base/start/start.properties
+hot-deploy/osafeadmin/src/com/osafe/feeds/osafefeeds/*.java
 applications/*/build
 framework/*/build
 framework/base/lib/cobertura-*.jar
